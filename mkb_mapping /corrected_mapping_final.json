@@ -1,0 +1,1547 @@
+{
+  "A03": {
+    "Россия": {
+      "title": "Шигеллез",
+      "pdf_path": "/home/anastasia/PycharmProjects/medguides/parser/ru-parser/pdf/Шигеллез_869_1.pdf"
+    },
+    "США": {
+      "title": "Shigellosis due to Shigella dysenteriae",
+      "pdf_path": "https://www.cdc.gov/shigella/pdf/Shigella-prevention-and-control-toolkit-508.pdf"
+    },
+    "ВОЗ": {
+      "title": "Histoplasmosis due to Histoplasma duboisii",
+      "code": "1F2A.1",
+      "pdf_path": "/home/anastasia/PycharmProjects/medguides/parser/who-parser/pdf/1F2A.1.pdf"
+    }
+  },
+  "A19": {
+    "Россия": {
+      "title": "Туберкулез у взрослых",
+      "pdf_path": "/home/anastasia/PycharmProjects/medguides/parser/ru-parser/pdf/Туберкулез_у_взрослых_16_3.pdf"
+    },
+    "США": {
+      "title": "Acute miliary tuberculosis of a single specified site",
+      "pdf_path": "https://www.cdc.gov/tb/publications/guidelines/pdf/clin-infect-dis.-2016-nahid-cid_ciw376.pdf"
+    },
+    "ВОЗ": {
+      "title": "Acute miliary tuberculosis of a single specified site",
+      "code": "1B13.0",
+      "pdf_path": "/home/anastasia/PycharmProjects/medguides/parser/who-parser/pdf/1B13.0.pdf"
+    }
+  },
+  "A23": {
+    "Россия": {
+      "title": "Воспалительные поражения позвоночника",
+      "pdf_path": "/home/anastasia/PycharmProjects/medguides/parser/ru-parser/pdf/Воспалительные_поражения_позвоночника_831_1.pdf"
+    },
+    "США": {
+      "title": "Brucellosis due to Brucella melitensis",
+      "pdf_path": "https://www.cdc.gov/brucellosis/media/pdfs/2025/02/brucellosi-reference-guide.pdf"
+    },
+    "ВОЗ": {
+      "title": "Filariasis due to Brugia species",
+      "code": "1F66.2",
+      "pdf_path": "/home/anastasia/PycharmProjects/medguides/parser/who-parser/pdf/1F66.2.pdf"
+    }
+  },
+  "A39": {
+    "Россия": {
+      "title": "Менингококковая инфекция у детей",
+      "pdf_path": "/home/anastasia/PycharmProjects/medguides/parser/ru-parser/pdf/Менингококковая_инфекция_у_детей_58_2.pdf"
+    },
+    "США": {
+      "title": "Meningococcal meningitis",
+      "pdf_path": "https://www.cdc.gov/meningococcal/downloads/meningococcal-outbreak-guidance.pdf"
+    },
+    "ВОЗ": {
+      "title": "Meningococcal meningitis",
+      "code": "1C1C.0",
+      "pdf_path": "/home/anastasia/PycharmProjects/medguides/parser/who-parser/pdf/1C1C.0.pdf"
+    }
+  },
+  "A51": {
+    "Россия": {
+      "title": "Сифилис",
+      "pdf_path": "/home/anastasia/PycharmProjects/medguides/parser/ru-parser/pdf/Сифилис_197_2.pdf"
+    },
+    "США": {
+      "title": "Primary genital syphilis",
+      "pdf_path": "https://stacks.cdc.gov/view/cdc/150253/cdc_150253_DS1.pdf"
+    },
+    "ВОЗ": {
+      "title": "Primary genital syphilis",
+      "code": "1A61.0",
+      "pdf_path": "/home/anastasia/PycharmProjects/medguides/parser/who-parser/pdf/1A61.0.pdf"
+    }
+  },
+  "A52": {
+    "Россия": {
+      "title": "Сифилис",
+      "pdf_path": "/home/anastasia/PycharmProjects/medguides/parser/ru-parser/pdf/Сифилис_197_2.pdf"
+    },
+    "США": {
+      "title": "Cardiovascular syphilis, unspecified",
+      "pdf_path": "https://www.cdc.gov/mmwr/volumes/73/rr/pdfs/rr7301a1-H.pdf"
+    },
+    "ВОЗ": {
+      "title": "Early syphilis, unspecified",
+      "code": "1A61.Z",
+      "pdf_path": "/home/anastasia/PycharmProjects/medguides/parser/who-parser/pdf/1A61.Z.pdf"
+    }
+  },
+  "A54": {
+    "Россия": {
+      "title": "Гонококковая инфекция",
+      "pdf_path": "/home/anastasia/PycharmProjects/medguides/parser/ru-parser/pdf/Гонококковая_инфекция_218_2.pdf"
+    },
+    "США": {
+      "title": "Gonococcal infection of lower genitourinary tract, unspecified",
+      "pdf_path": "https://stacks.cdc.gov/view/cdc/100101/cdc_100101_DS1.pdf"
+    },
+    "ВОЗ": {
+      "title": "Chlamydial infection of lower genitourinary tract",
+      "code": "1A81.0",
+      "pdf_path": "/home/anastasia/PycharmProjects/medguides/parser/who-parser/pdf/1A81.0.pdf"
+    }
+  },
+  "A56": {
+    "Россия": {
+      "title": "Хламидийная инфекция",
+      "pdf_path": "/home/anastasia/PycharmProjects/medguides/parser/ru-parser/pdf/Хламидийная_инфекция_194_2.pdf"
+    },
+    "США": {
+      "title": "Chlamydial infection of lower genitourinary tract, unspecified",
+      "pdf_path": "https://www.aafp.org/pubs/afp/issues/2006/0415/p1411.pdf"
+    },
+    "ВОЗ": {
+      "title": "Chlamydial infection of lower genitourinary tract",
+      "code": "1A81.0",
+      "pdf_path": "/home/anastasia/PycharmProjects/medguides/parser/who-parser/pdf/1A81.0.pdf"
+    }
+  },
+  "A59": {
+    "Россия": {
+      "title": "Урогенитальный трихомониаз",
+      "pdf_path": "/home/anastasia/PycharmProjects/medguides/parser/ru-parser/pdf/Урогенитальный_трихомониаз_241_3.pdf"
+    },
+    "США": {
+      "title": "Urogenital trichomoniasis, unspecified",
+      "pdf_path": "https://www.cdc.gov/std/treatment-guidelines/pocket-guide.pdf"
+    },
+    "ВОЗ": {
+      "title": "Sporotrichosis, unspecified",
+      "code": "1F2J.Z",
+      "pdf_path": "/home/anastasia/PycharmProjects/medguides/parser/who-parser/pdf/1F2J.Z.pdf"
+    }
+  },
+  "B20": {
+    "Россия": {
+      "title": "ВИЧ-инфекция у беременных",
+      "pdf_path": "/home/anastasia/PycharmProjects/medguides/parser/ru-parser/pdf/ВИЧ-инфекция_у_беременных_717_1.pdf"
+    },
+    "США": {
+      "title": "Human immunodeficiency virus [HIV] disease",
+      "pdf_path": "https://www.cdc.gov/hicpac/media/pdfs/2023-August-HIV-508.pdf"
+    },
+    "ВОЗ": {
+      "title": "Combined immunodeficiencies",
+      "code": "4A01.1",
+      "pdf_path": "/home/anastasia/PycharmProjects/medguides/parser/who-parser/pdf/4A01.1.pdf"
+    }
+  },
+  "C00": {
+    "Россия": {
+      "title": "Меланома кожи и слизистых оболочек",
+      "pdf_path": "/home/anastasia/PycharmProjects/medguides/parser/ru-parser/pdf/Меланома_кожи_и_слизистых_оболочек_73_3.pdf"
+    },
+    "США": {
+      "title": "Malignant neoplasm of external upper lip",
+      "pdf_path": "https://qualityindicators.ahrq.gov/Downloads/Modules/PSI/V2020/TechSpecs/PSI_Appendix_H.pdf"
+    },
+    "ВОЗ": {
+      "title": "Malignant neoplasm of retina, unspecified",
+      "code": "2D02.Z",
+      "pdf_path": "/home/anastasia/PycharmProjects/medguides/parser/who-parser/pdf/2D02.Z.pdf"
+    }
+  },
+  "C01": {
+    "Россия": {
+      "title": "Меланома кожи и слизистых оболочек",
+      "pdf_path": "/home/anastasia/PycharmProjects/medguides/parser/ru-parser/pdf/Меланома_кожи_и_слизистых_оболочек_73_3.pdf"
+    },
+    "США": {
+      "title": "Malignant neoplasm of base of tongue",
+      "pdf_path": "https://www.nccn.org/patients/guidelines/content/PDF/hn-oral-patient.pdf"
+    },
+    "ВОЗ": {
+      "title": "Malignant neoplasms of base of tongue, unspecified",
+      "code": "2B61.Z",
+      "pdf_path": "/home/anastasia/PycharmProjects/medguides/parser/who-parser/pdf/2B61.Z.pdf"
+    }
+  },
+  "C04": {
+    "Россия": {
+      "title": "Меланома кожи и слизистых оболочек",
+      "pdf_path": "/home/anastasia/PycharmProjects/medguides/parser/ru-parser/pdf/Меланома_кожи_и_слизистых_оболочек_73_3.pdf"
+    },
+    "США": {
+      "title": "Malignant neoplasm of anterior floor of mouth",
+      "pdf_path": "https://qualityindicators.ahrq.gov/Downloads/Modules/PQE/V2024/TechSpecs/PQE_Appendix_A.pdf"
+    },
+    "ВОЗ": {
+      "title": "Benign neoplasm of floor of mouth",
+      "code": "2E90.2",
+      "pdf_path": "/home/anastasia/PycharmProjects/medguides/parser/who-parser/pdf/2E90.2.pdf"
+    }
+  },
+  "C10": {
+    "Россия": {
+      "title": "Меланома кожи и слизистых оболочек",
+      "pdf_path": "/home/anastasia/PycharmProjects/medguides/parser/ru-parser/pdf/Меланома_кожи_и_слизистых_оболочек_73_3.pdf"
+    },
+    "США": {
+      "title": "Malignant neoplasm of vallecula",
+      "pdf_path": "https://jnccn.org/downloadpdf/view/journals/jnccn/21/5.5/article-p583.pdf"
+    },
+    "ВОЗ": {
+      "title": "Malignant neoplasm of liver",
+      "code": "2C12.0",
+      "pdf_path": "/home/anastasia/PycharmProjects/medguides/parser/who-parser/pdf/2C12.0.pdf"
+    }
+  },
+  "C11": {
+    "Россия": {
+      "title": "Меланома кожи и слизистых оболочек",
+      "pdf_path": "/home/anastasia/PycharmProjects/medguides/parser/ru-parser/pdf/Меланома_кожи_и_слизистых_оболочек_73_3.pdf"
+    },
+    "США": {
+      "title": "Malignant neoplasm of superior wall of nasopharynx",
+      "pdf_path": "https://www.nccn.org/patients/guidelines/content/PDF/hn-nasopharynx-patient.pdf"
+    },
+    "ВОЗ": {
+      "title": "Malignant neoplasms of supraglottis of larynx",
+      "code": "2C23.2",
+      "pdf_path": "/home/anastasia/PycharmProjects/medguides/parser/who-parser/pdf/2C23.2.pdf"
+    }
+  },
+  "C15": {
+    "Россия": {
+      "title": "Меланома кожи и слизистых оболочек",
+      "pdf_path": "/home/anastasia/PycharmProjects/medguides/parser/ru-parser/pdf/Меланома_кожи_и_слизистых_оболочек_73_3.pdf"
+    },
+    "США": {
+      "title": "Malignant neoplasm of upper third of esophagus",
+      "pdf_path": "https://www.nccn.org/patients/guidelines/content/PDF/esophageal-patient.pdf"
+    },
+    "ВОЗ": {
+      "title": "Malignant neoplasms of supraglottis of larynx",
+      "code": "2C23.2",
+      "pdf_path": "/home/anastasia/PycharmProjects/medguides/parser/who-parser/pdf/2C23.2.pdf"
+    }
+  },
+  "C20": {
+    "Россия": {
+      "title": "Меланома кожи и слизистых оболочек",
+      "pdf_path": "/home/anastasia/PycharmProjects/medguides/parser/ru-parser/pdf/Меланома_кожи_и_слизистых_оболочек_73_3.pdf"
+    },
+    "США": {
+      "title": "Malignant neoplasm of rectum",
+      "pdf_path": "https://www.nccn.org/patients/guidelines/content/PDF/rectal-patient.pdf"
+    },
+    "ВОЗ": {
+      "title": "Malignant neoplasm of liver",
+      "code": "2C12.0",
+      "pdf_path": "/home/anastasia/PycharmProjects/medguides/parser/who-parser/pdf/2C12.0.pdf"
+    }
+  },
+  "C22": {
+    "Россия": {
+      "title": "Меланома кожи и слизистых оболочек",
+      "pdf_path": "/home/anastasia/PycharmProjects/medguides/parser/ru-parser/pdf/Меланома_кожи_и_слизистых_оболочек_73_3.pdf"
+    },
+    "США": {
+      "title": "Liver cell carcinoma",
+      "pdf_path": "https://www.nccn.org/patients/guidelines/content/PDF/liver-hp-patient.pdf"
+    },
+    "ВОЗ": {
+      "title": "Langerhans cell sarcoma",
+      "code": "2B31.3",
+      "pdf_path": "/home/anastasia/PycharmProjects/medguides/parser/who-parser/pdf/2B31.3.pdf"
+    }
+  },
+  "C23": {
+    "Россия": {
+      "title": "Меланома кожи и слизистых оболочек",
+      "pdf_path": "/home/anastasia/PycharmProjects/medguides/parser/ru-parser/pdf/Меланома_кожи_и_слизистых_оболочек_73_3.pdf"
+    },
+    "США": {
+      "title": "Malignant neoplasm of gallbladder",
+      "pdf_path": "https://www.nccn.org/patients/guidelines/content/PDF/gallandbile-hp-patient.pdf"
+    },
+    "ВОЗ": {
+      "title": "Malignant neoplasm of liver",
+      "code": "2C12.0",
+      "pdf_path": "/home/anastasia/PycharmProjects/medguides/parser/who-parser/pdf/2C12.0.pdf"
+    }
+  },
+  "C33": {
+    "Россия": {
+      "title": "Рак трахеи",
+      "pdf_path": "/home/anastasia/PycharmProjects/medguides/parser/ru-parser/pdf/Рак_трахеи_330_2.pdf"
+    },
+    "США": {
+      "title": "Malignant neoplasm of trachea",
+      "pdf_path": "https://www.cdc.gov/nchs/data/hus/2010/033.pdf"
+    },
+    "ВОЗ": {
+      "title": "Malignant neoplasm of caruncle",
+      "code": "2D00.1",
+      "pdf_path": "/home/anastasia/PycharmProjects/medguides/parser/who-parser/pdf/2D00.1.pdf"
+    }
+  },
+  "C40": {
+    "Россия": {
+      "title": "Саркомы костей",
+      "pdf_path": "/home/anastasia/PycharmProjects/medguides/parser/ru-parser/pdf/Саркомы_костей_532_4.pdf"
+    },
+    "США": {
+      "title": "Malignant neoplasm of scapula and long bones of unspecified upper limb",
+      "pdf_path": "https://www.aafp.org/pubs/afp/issues/2018/0815/p205.pdf"
+    },
+    "ВОЗ": {
+      "title": "Malignant neoplasm of pancreas, unspecified",
+      "code": "2C10.Z",
+      "pdf_path": "/home/anastasia/PycharmProjects/medguides/parser/who-parser/pdf/2C10.Z.pdf"
+    }
+  },
+  "C41": {
+    "Россия": {
+      "title": "Саркомы костей",
+      "pdf_path": "/home/anastasia/PycharmProjects/medguides/parser/ru-parser/pdf/Саркомы_костей_532_4.pdf"
+    },
+    "США": {
+      "title": "Malignant neoplasm of bones of skull and face",
+      "pdf_path": "https://jnccn.org/downloadpdf/view/journals/jnccn/11/6/article-p688.pdf"
+    },
+    "ВОЗ": {
+      "title": "Malignant neoplasm of laryngeal cartilage",
+      "code": "2C23.4",
+      "pdf_path": "/home/anastasia/PycharmProjects/medguides/parser/who-parser/pdf/2C23.4.pdf"
+    }
+  },
+  "C43": {
+    "Россия": {
+      "title": "Меланома кожи и слизистых оболочек",
+      "pdf_path": "/home/anastasia/PycharmProjects/medguides/parser/ru-parser/pdf/Меланома_кожи_и_слизистых_оболочек_73_3.pdf"
+    },
+    "США": {
+      "title": "Malignant melanoma of lip",
+      "pdf_path": "https://jnccn.org/downloadpdf/view/journals/jnccn/22/Supplement/article-e245015.pdf"
+    },
+    "ВОЗ": {
+      "title": "Malignant neoplasm of liver",
+      "code": "2C12.0",
+      "pdf_path": "/home/anastasia/PycharmProjects/medguides/parser/who-parser/pdf/2C12.0.pdf"
+    }
+  },
+  "C45": {
+    "Россия": {
+      "title": "Мезотелиома плевры, брюшины  и других локализаций",
+      "pdf_path": "/home/anastasia/PycharmProjects/medguides/parser/ru-parser/pdf/Мезотелиома_плевры__брюшины__и_других_локализаций_497_2.pdf"
+    },
+    "США": {
+      "title": "Mesothelioma of pleura",
+      "pdf_path": "https://jnccn.org/downloadpdf/view/journals/jnccn/10/1/article-p26.pdf"
+    },
+    "ВОЗ": {
+      "title": "Mesothelioma of pleura",
+      "code": "2C26.0",
+      "pdf_path": "/home/anastasia/PycharmProjects/medguides/parser/who-parser/pdf/2C26.0.pdf"
+    }
+  },
+  "C49": {
+    "Россия": {
+      "title": "Саркомы мягких тканей",
+      "pdf_path": "/home/anastasia/PycharmProjects/medguides/parser/ru-parser/pdf/Саркомы_мягких_тканей_515_3.pdf"
+    },
+    "США": {
+      "title": "Malignant neoplasm of connective and soft tissue of head, face and neck",
+      "pdf_path": "https://jnccn.org/downloadpdf/view/journals/jnccn/16/5/article-p536.pdf"
+    },
+    "ВОЗ": {
+      "title": "Malignant neoplasm metastasis in lymph nodes of head, face or neck",
+      "code": "2D60.0",
+      "pdf_path": "/home/anastasia/PycharmProjects/medguides/parser/who-parser/pdf/2D60.0.pdf"
+    }
+  },
+  "C54": {
+    "Россия": {
+      "title": "Рак тела матки и саркомы матки",
+      "pdf_path": "/home/anastasia/PycharmProjects/medguides/parser/ru-parser/pdf/Рак_тела_матки_и_саркомы_матки_460_4.pdf"
+    },
+    "США": {
+      "title": "Malignant neoplasm of isthmus uteri",
+      "pdf_path": "https://www.cdc.gov/wtc/pdfs/policies/EndometrialCancer_MCD_20220117_PublishedCopy.pdf"
+    },
+    "ВОЗ": {
+      "title": "Malignant neoplasm of liver",
+      "code": "2C12.0",
+      "pdf_path": "/home/anastasia/PycharmProjects/medguides/parser/who-parser/pdf/2C12.0.pdf"
+    }
+  },
+  "C55": {
+    "Россия": {
+      "title": "Рак тела матки и саркомы матки",
+      "pdf_path": "/home/anastasia/PycharmProjects/medguides/parser/ru-parser/pdf/Рак_тела_матки_и_саркомы_матки_460_4.pdf"
+    },
+    "США": {
+      "title": "Malignant neoplasm of uterus, part unspecified",
+      "pdf_path": "https://jnccn.org/downloadpdf/view/journals/jnccn/21/2/article-p181.pdf"
+    },
+    "ВОЗ": {
+      "title": "Malignant neoplasms of ureter, unspecified",
+      "code": "2C92.Z",
+      "pdf_path": "/home/anastasia/PycharmProjects/medguides/parser/who-parser/pdf/2C92.Z.pdf"
+    }
+  },
+  "C56": {
+    "Россия": {
+      "title": "Рак яичников / рак маточной трубы / первичный рак брюшины",
+      "pdf_path": "/home/anastasia/PycharmProjects/medguides/parser/ru-parser/pdf/Рак_яичников___рак_маточной_трубы___первичный_рак_брюшины_547_3.pdf"
+    },
+    "США": {
+      "title": "Malignant neoplasm of right ovary",
+      "pdf_path": "https://www.nccn.org/patients/guidelines/content/PDF/ovarian-patient.pdf"
+    },
+    "ВОЗ": {
+      "title": "Malignant neoplasms of glottis of larynx",
+      "code": "2C23.1",
+      "pdf_path": "/home/anastasia/PycharmProjects/medguides/parser/who-parser/pdf/2C23.1.pdf"
+    }
+  },
+  "C58": {
+    "Россия": {
+      "title": "Трофобластические опухоли",
+      "pdf_path": "/home/anastasia/PycharmProjects/medguides/parser/ru-parser/pdf/Трофобластические_опухоли_80_1.pdf"
+    },
+    "США": {
+      "title": "Malignant neoplasm of placenta",
+      "pdf_path": "https://jnccn.org/downloadpdf/view/journals/jnccn/17/11/article-p1374.pdf"
+    },
+    "ВОЗ": {
+      "title": "Malignant neoplasm of liver",
+      "code": "2C12.0",
+      "pdf_path": "/home/anastasia/PycharmProjects/medguides/parser/who-parser/pdf/2C12.0.pdf"
+    }
+  },
+  "C64": {
+    "Россия": {
+      "title": "Рак паренхимы почки",
+      "pdf_path": "/home/anastasia/PycharmProjects/medguides/parser/ru-parser/pdf/Рак_паренхимы_почки_10_4.pdf"
+    },
+    "США": {
+      "title": "Malignant neoplasm of right kidney, except renal pelvis",
+      "pdf_path": "https://www.niddk.nih.gov/-/media/Files/Strategic-Plans/urologic/Trackstar-Urologic-Diseases-Chap-08.pdf"
+    },
+    "ВОЗ": {
+      "title": "Malignant neoplasms of kidney, except renal pelvis, unspecified",
+      "code": "2C90.Z",
+      "pdf_path": "/home/anastasia/PycharmProjects/medguides/parser/who-parser/pdf/2C90.Z.pdf"
+    }
+  },
+  "C66": {
+    "Россия": {
+      "title": "Уротелиальный рак верхних мочевыводящих путей",
+      "pdf_path": "/home/anastasia/PycharmProjects/medguides/parser/ru-parser/pdf/Уротелиальный_рак_верхних_мочевыводящих_путей_526_2.pdf"
+    },
+    "США": {
+      "title": "Malignant neoplasm of right ureter",
+      "pdf_path": "https://jnccn.org/downloadpdf/view/journals/jnccn/15/10/article-p1240.pdf"
+    },
+    "ВОЗ": {
+      "title": "Malignant neoplasm of liver",
+      "code": "2C12.0",
+      "pdf_path": "/home/anastasia/PycharmProjects/medguides/parser/who-parser/pdf/2C12.0.pdf"
+    }
+  },
+  "C73": {
+    "Россия": {
+      "title": "Дифференцированный рак щитовидной железы",
+      "pdf_path": "/home/anastasia/PycharmProjects/medguides/parser/ru-parser/pdf/Дифференцированный_рак_щитовидной_железы_329_2.pdf"
+    },
+    "США": {
+      "title": "Malignant neoplasm of thyroid gland",
+      "pdf_path": "https://www.ncbi.nlm.nih.gov/books/NBK589389/bin/methods-pdf-11314082557.pdf"
+    },
+    "ВОЗ": {
+      "title": "Malignant neoplasms of thyroid gland, unspecified",
+      "code": "2D10.Z",
+      "pdf_path": "/home/anastasia/PycharmProjects/medguides/parser/who-parser/pdf/2D10.Z.pdf"
+    }
+  },
+  "C76": {
+    "Россия": {
+      "title": "Опухоли невыявленной первичной локализации",
+      "pdf_path": "/home/anastasia/PycharmProjects/medguides/parser/ru-parser/pdf/Опухоли_невыявленной_первичной_локализации_893_1.pdf"
+    },
+    "США": {
+      "title": "Malignant neoplasm of head, face and neck",
+      "pdf_path": "https://jnccn.org/downloadpdf/view/journals/jnccn/15/6/article-p761.pdf"
+    },
+    "ВОЗ": {
+      "title": "Malignant neoplasms of trachea, unspecified",
+      "code": "2C24.Z",
+      "pdf_path": "/home/anastasia/PycharmProjects/medguides/parser/who-parser/pdf/2C24.Z.pdf"
+    }
+  },
+  "C78": {
+    "Россия": {
+      "title": "Меланома кожи и слизистых оболочек",
+      "pdf_path": "/home/anastasia/PycharmProjects/medguides/parser/ru-parser/pdf/Меланома_кожи_и_слизистых_оболочек_73_3.pdf"
+    },
+    "США": {
+      "title": "Secondary malignant neoplasm of unspecified lung",
+      "pdf_path": "https://qualityindicators.ahrq.gov/Downloads/Modules/PDI/V2023/TechSpecs/PDI_Appendix_M.pdf"
+    },
+    "ВОЗ": {
+      "title": "Malignant neoplasms of lip, unspecified",
+      "code": "2B60.Z",
+      "pdf_path": "/home/anastasia/PycharmProjects/medguides/parser/who-parser/pdf/2B60.Z.pdf"
+    }
+  },
+  "C79": {
+    "Россия": {
+      "title": "Меланома кожи и слизистых оболочек",
+      "pdf_path": "/home/anastasia/PycharmProjects/medguides/parser/ru-parser/pdf/Меланома_кожи_и_слизистых_оболочек_73_3.pdf"
+    },
+    "США": {
+      "title": "Secondary malignant neoplasm of unspecified kidney and renal pelvis",
+      "pdf_path": "https://qualityindicators.ahrq.gov/Downloads/Modules/PDI/V2024/TechSpecs/PDI_Appendix_M.pdf"
+    },
+    "ВОЗ": {
+      "title": "Other specified malignant neoplasms of kidney, except renal pelvis",
+      "code": "2C90.Y",
+      "pdf_path": "/home/anastasia/PycharmProjects/medguides/parser/who-parser/pdf/2C90.Y.pdf"
+    }
+  },
+  "C80": {
+    "Россия": {
+      "title": "Опухоли невыявленной первичной локализации",
+      "pdf_path": "/home/anastasia/PycharmProjects/medguides/parser/ru-parser/pdf/Опухоли_невыявленной_первичной_локализации_893_1.pdf"
+    },
+    "США": {
+      "title": "Disseminated malignant neoplasm, unspecified",
+      "pdf_path": "https://www.cdc.gov/nchs/data/icd/10cmguidelines2012.pdf"
+    },
+    "ВОЗ": {
+      "title": "Malignant neoplasms of lip, unspecified",
+      "code": "2B60.Z",
+      "pdf_path": "/home/anastasia/PycharmProjects/medguides/parser/who-parser/pdf/2B60.Z.pdf"
+    }
+  },
+  "C81": {
+    "Россия": {
+      "title": "Лимфома Ходжкина",
+      "pdf_path": "/home/anastasia/PycharmProjects/medguides/parser/ru-parser/pdf/Лимфома_Ходжкина_139_2.pdf"
+    },
+    "США": {
+      "title": "Nodular lymphocyte predominant Hodgkin lymphoma, unspecified site",
+      "pdf_path": "https://jnccn.org/downloadpdf/view/journals/jnccn/9/9/article-p1020.pdf"
+    },
+    "ВОЗ": {
+      "title": "Nodular lymphocyte predominant Hodgkin lymphoma",
+      "code": "2B30.0",
+      "pdf_path": "/home/anastasia/PycharmProjects/medguides/parser/who-parser/pdf/2B30.0.pdf"
+    }
+  },
+  "C90": {
+    "Россия": {
+      "title": "Другие плазмоклеточные новообразования",
+      "pdf_path": "/home/anastasia/PycharmProjects/medguides/parser/ru-parser/pdf/Другие_плазмоклеточные_новообразования_883_1.pdf"
+    },
+    "США": {
+      "title": "Multiple myeloma not having achieved remission",
+      "pdf_path": "https://jnccn.org/downloadpdf/view/journals/jnccn/21/12/article-p1281.pdf"
+    },
+    "ВОЗ": {
+      "title": "Juvenile myelomonocytic leukaemia in complete remission",
+      "code": "2A42.0",
+      "pdf_path": "/home/anastasia/PycharmProjects/medguides/parser/who-parser/pdf/2A42.0.pdf"
+    }
+  },
+  "D04": {
+    "Россия": {
+      "title": "Плоскоклеточный рак кожи",
+      "pdf_path": "/home/anastasia/PycharmProjects/medguides/parser/ru-parser/pdf/Плоскоклеточный_рак_кожи_476_3.pdf"
+    },
+    "США": {
+      "title": "Carcinoma in situ of skin of lip",
+      "pdf_path": "https://www.nccn.org/patients/guidelines/content/PDF/squamous_cell-patient.pdf"
+    },
+    "ВОЗ": {
+      "title": "Carcinoma in situ of skin, unspecified",
+      "code": "2E64.Z",
+      "pdf_path": "/home/anastasia/PycharmProjects/medguides/parser/who-parser/pdf/2E64.Z.pdf"
+    }
+  },
+  "D18": {
+    "Россия": {
+      "title": "Мальформация кровеносных сосудов головы и шеи",
+      "pdf_path": "/home/anastasia/PycharmProjects/medguides/parser/ru-parser/pdf/Мальформация_кровеносных_сосудов_головы_и_шеи_848_1.pdf"
+    },
+    "США": {
+      "title": "Hemangioma unspecified site",
+      "pdf_path": "https://www.aafp.org/pubs/afp/issues/2016/0315/p526.pdf"
+    },
+    "ВОЗ": {
+      "title": "Angiosarcoma, unspecified primary site",
+      "code": "2B56.Z",
+      "pdf_path": "/home/anastasia/PycharmProjects/medguides/parser/who-parser/pdf/2B56.Z.pdf"
+    }
+  },
+  "D21": {
+    "Россия": {
+      "title": "Экстракраниальные герминогенные опухоли",
+      "pdf_path": "/home/anastasia/PycharmProjects/medguides/parser/ru-parser/pdf/Экстракраниальные_герминогенные_опухоли_69_2.pdf"
+    },
+    "США": {
+      "title": "Benign neoplasm of connective and other soft tissue of head, face and neck",
+      "pdf_path": "https://www.aafp.org/pubs/afp/issues/2022/0600/p602.pdf"
+    },
+    "ВОЗ": {
+      "title": "Malignant neoplasm metastasis in lymph nodes of head, face or neck",
+      "code": "2D60.0",
+      "pdf_path": "/home/anastasia/PycharmProjects/medguides/parser/who-parser/pdf/2D60.0.pdf"
+    }
+  },
+  "D36": {
+    "Россия": {
+      "title": "Экстракраниальные герминогенные опухоли",
+      "pdf_path": "/home/anastasia/PycharmProjects/medguides/parser/ru-parser/pdf/Экстракраниальные_герминогенные_опухоли_69_2.pdf"
+    },
+    "США": {
+      "title": "Benign neoplasm of lymph nodes",
+      "pdf_path": "https://www.aafp.org/pubs/afp/issues/2016/1201/p896.pdf"
+    },
+    "ВОЗ": {
+      "title": "Benign neoplasm of lip",
+      "code": "2E90.0",
+      "pdf_path": "/home/anastasia/PycharmProjects/medguides/parser/who-parser/pdf/2E90.0.pdf"
+    }
+  },
+  "D40": {
+    "Россия": {
+      "title": "Опухоли невыявленной первичной локализации",
+      "pdf_path": "/home/anastasia/PycharmProjects/medguides/parser/ru-parser/pdf/Опухоли_невыявленной_первичной_локализации_893_1.pdf"
+    },
+    "США": {
+      "title": "Neoplasm of uncertain behavior of prostate",
+      "pdf_path": "https://www.niddk.nih.gov/-/media/Files/Strategic-Plans/urologic/Trackstar-Urologic-Diseases-Chap-03.pdf"
+    },
+    "ВОЗ": {
+      "title": "Neoplasms of uncertain behaviour of pleura",
+      "code": "2F71.2",
+      "pdf_path": "/home/anastasia/PycharmProjects/medguides/parser/who-parser/pdf/2F71.2.pdf"
+    }
+  },
+  "D44": {
+    "Россия": {
+      "title": "Опухоли невыявленной первичной локализации",
+      "pdf_path": "/home/anastasia/PycharmProjects/medguides/parser/ru-parser/pdf/Опухоли_невыявленной_первичной_локализации_893_1.pdf"
+    },
+    "США": {
+      "title": "Neoplasm of uncertain behavior of thyroid gland",
+      "pdf_path": "https://www.ncbi.nlm.nih.gov/books/NBK589398/pdf/Bookshelf_NBK589398.pdf"
+    },
+    "ВОЗ": {
+      "title": "Neoplasms of uncertain behaviour of colon",
+      "code": "2F70.3",
+      "pdf_path": "/home/anastasia/PycharmProjects/medguides/parser/who-parser/pdf/2F70.3.pdf"
+    }
+  },
+  "D47": {
+    "Россия": {
+      "title": "Опухоли невыявленной первичной локализации",
+      "pdf_path": "/home/anastasia/PycharmProjects/medguides/parser/ru-parser/pdf/Опухоли_невыявленной_первичной_локализации_893_1.pdf"
+    },
+    "США": {
+      "title": "Cutaneous mastocytosis",
+      "pdf_path": "https://jnccn.org/downloadpdf/view/journals/jnccn/16/12/article-p1500.pdf"
+    },
+    "ВОЗ": {
+      "title": "Cutaneous mastocytosis",
+      "code": "2A21.1",
+      "pdf_path": "/home/anastasia/PycharmProjects/medguides/parser/who-parser/pdf/2A21.1.pdf"
+    }
+  },
+  "D52": {
+    "Россия": {
+      "title": "Фолиеводефицитная анемия",
+      "pdf_path": "/home/anastasia/PycharmProjects/medguides/parser/ru-parser/pdf/Фолиеводефицитная_анемия_540_3.pdf"
+    },
+    "США": {
+      "title": "Dietary folate deficiency anemia",
+      "pdf_path": "https://ods.od.nih.gov/pdf/factsheets/folate-consumer.pdf"
+    },
+    "ВОЗ": {
+      "title": "Hereditary folate deficiency anaemia",
+      "code": "3A02.0",
+      "pdf_path": "/home/anastasia/PycharmProjects/medguides/parser/who-parser/pdf/3A02.0.pdf"
+    }
+  },
+  "D57": {
+    "Россия": {
+      "title": "Серповидно-клеточные нарушения",
+      "pdf_path": "/home/anastasia/PycharmProjects/medguides/parser/ru-parser/pdf/Серповидно-клеточные_нарушения_543_3.pdf"
+    },
+    "США": {
+      "title": "Hb-SS disease with crisis, unspecified",
+      "pdf_path": "https://stacks.cdc.gov/view/cdc/120746/cdc_120746_DS1.pdf"
+    },
+    "ВОЗ": {
+      "title": "Chagas disease, unspecified",
+      "code": "1F53.Z",
+      "pdf_path": "/home/anastasia/PycharmProjects/medguides/parser/who-parser/pdf/1F53.Z.pdf"
+    }
+  },
+  "F33": {
+    "Россия": {
+      "title": "Депрессивный эпизод, Рекуррентное депрессивное расстройство",
+      "pdf_path": "/home/anastasia/PycharmProjects/medguides/parser/ru-parser/pdf/Депрессивный_эпизод__Рекуррентное_депрессивное_расстройство_301_3.pdf"
+    },
+    "США": {
+      "title": "Major depressive disorder, recurrent, mild",
+      "pdf_path": "https://www.aafp.org/pubs/afp/issues/2011/0515/p1219.pdf"
+    },
+    "ВОЗ": {
+      "title": "Recurrent depressive disorder, current episode mild",
+      "code": "6A71.0",
+      "pdf_path": "/home/anastasia/PycharmProjects/medguides/parser/who-parser/pdf/6A71.0.pdf"
+    }
+  },
+  "F79": {
+    "Россия": {
+      "title": "Умственная отсталость",
+      "pdf_path": "/home/anastasia/PycharmProjects/medguides/parser/ru-parser/pdf/Умственная_отсталость_676_2.pdf"
+    },
+    "США": {
+      "title": "Unspecified intellectual disabilities",
+      "pdf_path": "https://www.cdc.gov/ncbddd/actearly/pdf/parents_pdfs/intellectualdisability.pdf"
+    },
+    "ВОЗ": {
+      "title": "Unspecified mineral excess",
+      "code": "5B91.Z",
+      "pdf_path": "/home/anastasia/PycharmProjects/medguides/parser/who-parser/pdf/5B91.Z.pdf"
+    }
+  },
+  "G35": {
+    "Россия": {
+      "title": "Рассеянный склероз",
+      "pdf_path": "/home/anastasia/PycharmProjects/medguides/parser/ru-parser/pdf/Рассеянный_склероз_739_1.pdf"
+    },
+    "США": {
+      "title": "Multiple sclerosis",
+      "pdf_path": "https://www.ncbi.nlm.nih.gov/books/NBK585278/bin/committee-discussion-for-diagnostic-criteria-for-multiple-sclerosis.pdf"
+    },
+    "ВОЗ": {
+      "title": "Limited systemic sclerosis",
+      "code": "4A42.2",
+      "pdf_path": "/home/anastasia/PycharmProjects/medguides/parser/who-parser/pdf/4A42.2.pdf"
+    }
+  },
+  "H10": {
+    "Россия": {
+      "title": "Конъюнктивиты",
+      "pdf_path": "/home/anastasia/PycharmProjects/medguides/parser/ru-parser/pdf/Конъюнктивиты_629_2.pdf"
+    },
+    "США": {
+      "title": "Acute follicular conjunctivitis, right eye",
+      "pdf_path": "https://www.aafp.org/pubs/afp/issues/2024/0800/conjunctivitis.pdf"
+    },
+    "ВОЗ": {
+      "title": "Acute epidemic haemorrhagic conjunctivitis",
+      "code": "1D84.1",
+      "pdf_path": "/home/anastasia/PycharmProjects/medguides/parser/who-parser/pdf/1D84.1.pdf"
+    }
+  },
+  "H35": {
+    "Россия": {
+      "title": "Наследственные дистрофии сетчатки",
+      "pdf_path": "/home/anastasia/PycharmProjects/medguides/parser/ru-parser/pdf/Наследственные_дистрофии_сетчатки_798_1.pdf"
+    },
+    "США": {
+      "title": "Unspecified background retinopathy",
+      "pdf_path": "https://www.ncbi.nlm.nih.gov/books/NBK607471/bin/NG242-Methods.pdf"
+    },
+    "ВОЗ": {
+      "title": "Совпадение не найдено",
+      "code": "",
+      "pdf_path": ""
+    }
+  },
+  "I39": {
+    "Россия": {
+      "title": "Инфекционный эндокардит и инфекция внутрисердечных устройств",
+      "pdf_path": "/home/anastasia/PycharmProjects/medguides/parser/ru-parser/pdf/Инфекционный_эндокардит_и_инфекция_внутрисердечных_устройств_54_2.pdf"
+    },
+    "США": {
+      "title": "Endocarditis and heart valve disorders in diseases classified elsewhere",
+      "pdf_path": "https://stacks.cdc.gov/view/cdc/114228/cdc_114228_DS11.pdf"
+    },
+    "ВОЗ": {
+      "title": "Совпадение не найдено",
+      "code": "",
+      "pdf_path": ""
+    }
+  },
+  "I46": {
+    "Россия": {
+      "title": "Брадиаритмии и нарушения проводимости",
+      "pdf_path": "/home/anastasia/PycharmProjects/medguides/parser/ru-parser/pdf/Брадиаритмии_и_нарушения_проводимости_160_1.pdf"
+    },
+    "США": {
+      "title": "Cardiac arrest due to underlying cardiac condition",
+      "pdf_path": "https://international.heart.org/en/-/media/International/Files/Cardiac-Arrest/EnglishAHAInternationalCardiacArrest.pdf"
+    },
+    "ВОЗ": {
+      "title": "Совпадение не найдено",
+      "code": "",
+      "pdf_path": ""
+    }
+  },
+  "I60": {
+    "Россия": {
+      "title": "Геморрагический инсульт",
+      "pdf_path": "/home/anastasia/PycharmProjects/medguides/parser/ru-parser/pdf/Геморрагический_инсульт_523_2.pdf"
+    },
+    "США": {
+      "title": "Nontraumatic subarachnoid hemorrhage from unspecified carotid siphon and bifurcation",
+      "pdf_path": "https://www.aafp.org/pubs/afp/issues/2013/1001/p451.pdf"
+    },
+    "ВОЗ": {
+      "title": "Совпадение не найдено",
+      "code": "",
+      "pdf_path": ""
+    }
+  },
+  "I61": {
+    "Россия": {
+      "title": "Геморрагический инсульт",
+      "pdf_path": "/home/anastasia/PycharmProjects/medguides/parser/ru-parser/pdf/Геморрагический_инсульт_523_2.pdf"
+    },
+    "США": {
+      "title": "Nontraumatic intracerebral hemorrhage in hemisphere, subcortical",
+      "pdf_path": "https://www.heart.org/-/media/Files/Professional/Quality-Improvement/Hemorrhagic--Stroke/Hemorrhagic-Stroke-Toolkit-Page/DS17667-Guidance-for-Management-of-Acute-ICH.pdf"
+    },
+    "ВОЗ": {
+      "title": "Совпадение не найдено",
+      "code": "",
+      "pdf_path": ""
+    }
+  },
+  "I62": {
+    "Россия": {
+      "title": "Геморрагический инсульт",
+      "pdf_path": "/home/anastasia/PycharmProjects/medguides/parser/ru-parser/pdf/Геморрагический_инсульт_523_2.pdf"
+    },
+    "США": {
+      "title": "Nontraumatic subdural hemorrhage, unspecified",
+      "pdf_path": "https://sisterstudy.niehs.nih.gov/english/images/SIS-Stroke-DR9-508.pdf"
+    },
+    "ВОЗ": {
+      "title": "Aplastic anaemia, unspecified",
+      "code": "3A70.Z",
+      "pdf_path": "/home/anastasia/PycharmProjects/medguides/parser/who-parser/pdf/3A70.Z.pdf"
+    }
+  },
+  "I69": {
+    "Россия": {
+      "title": "Когнитивные расстройства у лиц пожилого и старческого возраста",
+      "pdf_path": "/home/anastasia/PycharmProjects/medguides/parser/ru-parser/pdf/Когнитивные_расстройства_у_лиц_пожилого_и_старческого_возраста_617_5.pdf"
+    },
+    "США": {
+      "title": "Unspecified sequelae of nontraumatic subarachnoid hemorrhage",
+      "pdf_path": "https://www.aafp.org/pubs/afp/issues/2023/1000/nontraumatic-sah-ruptured-intracranial-aneurysm.pdf"
+    },
+    "ВОЗ": {
+      "title": "Совпадение не найдено",
+      "code": "",
+      "pdf_path": ""
+    }
+  },
+  "I83": {
+    "Россия": {
+      "title": "Варикозное расширение вен нижних конечностей",
+      "pdf_path": "/home/anastasia/PycharmProjects/medguides/parser/ru-parser/pdf/Варикозное_расширение_вен_нижних_конечностей_680_2.pdf"
+    },
+    "США": {
+      "title": "Varicose veins of unspecified lower extremity with ulcer of thigh",
+      "pdf_path": "https://www.aafp.org/pubs/afp/issues/2019/0901/p298.pdf"
+    },
+    "ВОЗ": {
+      "title": "Совпадение не найдено",
+      "code": "",
+      "pdf_path": ""
+    }
+  },
+  "J00": {
+    "Россия": {
+      "title": "Острые респираторные вирусные инфекции (ОРВИ) у взрослых",
+      "pdf_path": "/home/anastasia/PycharmProjects/medguides/parser/ru-parser/pdf/Острые_респираторные_вирусные_инфекции__ОРВИ__у_взрослых_724_1.pdf"
+    },
+    "США": {
+      "title": "Acute nasopharyngitis [common cold]",
+      "pdf_path": "https://www.aafp.org/pubs/afp/issues/2019/0901/p281.pdf"
+    },
+    "ВОЗ": {
+      "title": "Совпадение не найдено",
+      "code": "",
+      "pdf_path": ""
+    }
+  },
+  "J02": {
+    "Россия": {
+      "title": "Острые респираторные вирусные инфекции (ОРВИ) у взрослых",
+      "pdf_path": "/home/anastasia/PycharmProjects/medguides/parser/ru-parser/pdf/Острые_респираторные_вирусные_инфекции__ОРВИ__у_взрослых_724_1.pdf"
+    },
+    "США": {
+      "title": "Streptococcal pharyngitis",
+      "pdf_path": "https://www.aafp.org/pubs/afp/issues/2013/0901/p338.pdf"
+    },
+    "ВОЗ": {
+      "title": "Gonococcal pharyngitis",
+      "code": "1A72.3",
+      "pdf_path": "/home/anastasia/PycharmProjects/medguides/parser/who-parser/pdf/1A72.3.pdf"
+    }
+  },
+  "J03": {
+    "Россия": {
+      "title": "Острые респираторные вирусные инфекции (ОРВИ) у взрослых",
+      "pdf_path": "/home/anastasia/PycharmProjects/medguides/parser/ru-parser/pdf/Острые_респираторные_вирусные_инфекции__ОРВИ__у_взрослых_724_1.pdf"
+    },
+    "США": {
+      "title": "Acute streptococcal tonsillitis, unspecified",
+      "pdf_path": "https://www.aafp.org/pubs/afp/issues/2023/0100/tonsillitis-tonsilloliths.pdf"
+    },
+    "ВОЗ": {
+      "title": "Cryptococcosis, unspecified",
+      "code": "1F27.Z",
+      "pdf_path": "/home/anastasia/PycharmProjects/medguides/parser/who-parser/pdf/1F27.Z.pdf"
+    }
+  },
+  "J09": {
+    "Россия": {
+      "title": "Грипп у взрослых",
+      "pdf_path": "/home/anastasia/PycharmProjects/medguides/parser/ru-parser/pdf/Грипп_у_взрослых_749_1.pdf"
+    },
+    "США": {
+      "title": "Influenza due to identified novel influenza A virus with pneumonia",
+      "pdf_path": "https://stacks.cdc.gov/view/cdc/157530/cdc_157530_DS1.pdf"
+    },
+    "ВОЗ": {
+      "title": "Совпадение не найдено",
+      "code": "",
+      "pdf_path": ""
+    }
+  },
+  "J10": {
+    "Россия": {
+      "title": "Грипп у взрослых",
+      "pdf_path": "/home/anastasia/PycharmProjects/medguides/parser/ru-parser/pdf/Грипп_у_взрослых_749_1.pdf"
+    },
+    "США": {
+      "title": "Influenza due to other identified influenza virus with unspecified type of pneumonia",
+      "pdf_path": "https://stacks.cdc.gov/view/cdc/153460/cdc_153460_DS8.pdf"
+    },
+    "ВОЗ": {
+      "title": "Совпадение не найдено",
+      "code": "",
+      "pdf_path": ""
+    }
+  },
+  "J11": {
+    "Россия": {
+      "title": "Грипп у взрослых",
+      "pdf_path": "/home/anastasia/PycharmProjects/medguides/parser/ru-parser/pdf/Грипп_у_взрослых_749_1.pdf"
+    },
+    "США": {
+      "title": "Influenza due to unidentified influenza virus with unspecified type of pneumonia",
+      "pdf_path": "https://stacks.cdc.gov/view/cdc/83482/cdc_83482_DS1.pdf"
+    },
+    "ВОЗ": {
+      "title": "Совпадение не найдено",
+      "code": "",
+      "pdf_path": ""
+    }
+  },
+  "J12": {
+    "Россия": {
+      "title": "Пневмония (внебольничная)",
+      "pdf_path": "/home/anastasia/PycharmProjects/medguides/parser/ru-parser/pdf/Пневмония__внебольничная__714_1.pdf"
+    },
+    "США": {
+      "title": "Adenoviral pneumonia",
+      "pdf_path": "https://www.cdc.gov/nhsn/pdfs/pscmanual/6pscvapcurrent.pdf"
+    },
+    "ВОЗ": {
+      "title": "Enteroviral meningitis",
+      "code": "1C8E.1",
+      "pdf_path": "/home/anastasia/PycharmProjects/medguides/parser/who-parser/pdf/1C8E.1.pdf"
+    }
+  },
+  "J14": {
+    "Россия": {
+      "title": "Пневмония (внебольничная)",
+      "pdf_path": "/home/anastasia/PycharmProjects/medguides/parser/ru-parser/pdf/Пневмония__внебольничная__714_1.pdf"
+    },
+    "США": {
+      "title": "Pneumonia due to Hemophilus influenzae",
+      "pdf_path": "https://wwwnc.cdc.gov/eid/article/9/11/pdfs/03-0176.pdf"
+    },
+    "ВОЗ": {
+      "title": "Совпадение не найдено",
+      "code": "",
+      "pdf_path": ""
+    }
+  },
+  "J15": {
+    "Россия": {
+      "title": "Пневмония (внебольничная)",
+      "pdf_path": "/home/anastasia/PycharmProjects/medguides/parser/ru-parser/pdf/Пневмония__внебольничная__714_1.pdf"
+    },
+    "США": {
+      "title": "Pneumonia due to Klebsiella pneumoniae",
+      "pdf_path": "https://wwwnc.cdc.gov/eid/article/8/2/pdfs/01-0025.pdf"
+    },
+    "ВОЗ": {
+      "title": "Совпадение не найдено",
+      "code": "",
+      "pdf_path": ""
+    }
+  },
+  "J20": {
+    "Россия": {
+      "title": "Острые респираторные вирусные инфекции (ОРВИ) у взрослых",
+      "pdf_path": "/home/anastasia/PycharmProjects/medguides/parser/ru-parser/pdf/Острые_респираторные_вирусные_инфекции__ОРВИ__у_взрослых_724_1.pdf"
+    },
+    "США": {
+      "title": "Acute bronchitis due to Mycoplasma pneumoniae",
+      "pdf_path": "https://www.aafp.org/pubs/afp/issues/2025/0300/acute-bronchitis.pdf"
+    },
+    "ВОЗ": {
+      "title": "Hepatitis due to Toxoplasma gondii",
+      "code": "1F57.0",
+      "pdf_path": "/home/anastasia/PycharmProjects/medguides/parser/who-parser/pdf/1F57.0.pdf"
+    }
+  },
+  "J21": {
+    "Россия": {
+      "title": "Острые респираторные вирусные инфекции (ОРВИ) у взрослых",
+      "pdf_path": "/home/anastasia/PycharmProjects/medguides/parser/ru-parser/pdf/Острые_респираторные_вирусные_инфекции__ОРВИ__у_взрослых_724_1.pdf"
+    },
+    "США": {
+      "title": "Acute bronchiolitis due to respiratory syncytial virus",
+      "pdf_path": "https://www.aafp.org/pubs/afp/issues/2017/0115/p94.pdf"
+    },
+    "ВОЗ": {
+      "title": "Encephalitis due to mumps virus",
+      "code": "1D80.3",
+      "pdf_path": "/home/anastasia/PycharmProjects/medguides/parser/who-parser/pdf/1D80.3.pdf"
+    }
+  },
+  "J36": {
+    "Россия": {
+      "title": "Паратонзиллярный абсцесс",
+      "pdf_path": "/home/anastasia/PycharmProjects/medguides/parser/ru-parser/pdf/Паратонзиллярный_абсцесс_664_2.pdf"
+    },
+    "США": {
+      "title": "Peritonsillar abscess",
+      "pdf_path": "https://www.aafp.org/pubs/afp/issues/2017/0415/p501.pdf"
+    },
+    "ВОЗ": {
+      "title": "Совпадение не найдено",
+      "code": "",
+      "pdf_path": ""
+    }
+  },
+  "J40": {
+    "Россия": {
+      "title": "Бронхит",
+      "pdf_path": "/home/anastasia/PycharmProjects/medguides/parser/ru-parser/pdf/Бронхит_381_3.pdf"
+    },
+    "США": {
+      "title": "Bronchitis, not specified as acute or chronic",
+      "pdf_path": "https://www.cdc.gov/acute-bronchitis/media/pdfs/Bronchitis-508.pdf"
+    },
+    "ВОЗ": {
+      "title": "Other specified acute viral hepatitis",
+      "code": "1E50.Y",
+      "pdf_path": "/home/anastasia/PycharmProjects/medguides/parser/who-parser/pdf/1E50.Y.pdf"
+    }
+  },
+  "J42": {
+    "Россия": {
+      "title": "Бронхит",
+      "pdf_path": "/home/anastasia/PycharmProjects/medguides/parser/ru-parser/pdf/Бронхит_381_3.pdf"
+    },
+    "США": {
+      "title": "Unspecified chronic bronchitis",
+      "pdf_path": "https://www.aafp.org/pubs/afp/issues/2017/1101/p575.pdf"
+    },
+    "ВОЗ": {
+      "title": "Other specified chronic viral hepatitis",
+      "code": "1E51.Y",
+      "pdf_path": "/home/anastasia/PycharmProjects/medguides/parser/who-parser/pdf/1E51.Y.pdf"
+    }
+  },
+  "J45": {
+    "Россия": {
+      "title": "Бронхиальная астма",
+      "pdf_path": "/home/anastasia/PycharmProjects/medguides/parser/ru-parser/pdf/Бронхиальная_астма_359_3.pdf"
+    },
+    "США": {
+      "title": "Mild intermittent asthma, uncomplicated",
+      "pdf_path": "https://www.nhlbi.nih.gov/sites/default/files/publications/Asthma%20Clinicians%20Guide%20508_02-03-21.pdf"
+    },
+    "ВОЗ": {
+      "title": "Совпадение не найдено",
+      "code": "",
+      "pdf_path": ""
+    }
+  },
+  "J67": {
+    "Россия": {
+      "title": "Гиперчувствительный пневмонит",
+      "pdf_path": "/home/anastasia/PycharmProjects/medguides/parser/ru-parser/pdf/Гиперчувствительный_пневмонит_783_1.pdf"
+    },
+    "США": {
+      "title": "Farmer's lung",
+      "pdf_path": "https://ftp.cdc.gov/pub/Documents/OEL/06.%20Dotson/References/Zacharisen_2011.pdf"
+    },
+    "ВОЗ": {
+      "title": "Совпадение не найдено",
+      "code": "",
+      "pdf_path": ""
+    }
+  },
+  "K51": {
+    "Россия": {
+      "title": "Язвенный колит",
+      "pdf_path": "/home/anastasia/PycharmProjects/medguides/parser/ru-parser/pdf/Язвенный_колит_193_2.pdf"
+    },
+    "США": {
+      "title": "Ulcerative (chronic) pancolitis without complications",
+      "pdf_path": "https://www.aafp.org/pubs/afp/issues/2007/1101/p1323.pdf"
+    },
+    "ВОЗ": {
+      "title": "Mumps without complication",
+      "code": "1D80.0",
+      "pdf_path": "/home/anastasia/PycharmProjects/medguides/parser/who-parser/pdf/1D80.0.pdf"
+    }
+  },
+  "K64": {
+    "Россия": {
+      "title": "Геморрой",
+      "pdf_path": "/home/anastasia/PycharmProjects/medguides/parser/ru-parser/pdf/Геморрой_178_2.pdf"
+    },
+    "США": {
+      "title": "First degree hemorrhoids",
+      "pdf_path": "https://www.aafp.org/pubs/afp/issues/2018/0201/p172.pdf"
+    },
+    "ВОЗ": {
+      "title": "Совпадение не найдено",
+      "code": "",
+      "pdf_path": ""
+    }
+  },
+  "K80": {
+    "Россия": {
+      "title": "Желчнокаменная болезнь",
+      "pdf_path": "/home/anastasia/PycharmProjects/medguides/parser/ru-parser/pdf/Желчнокаменная_болезнь_580_3.pdf"
+    },
+    "США": {
+      "title": "Calculus of gallbladder with acute cholecystitis without obstruction",
+      "pdf_path": "https://www.aafp.org/pubs/afp/issues/2014/0515/p795.pdf"
+    },
+    "ВОЗ": {
+      "title": "Совпадение не найдено",
+      "code": "",
+      "pdf_path": ""
+    }
+  },
+  "L21": {
+    "Россия": {
+      "title": "Себорейный дерматит",
+      "pdf_path": "/home/anastasia/PycharmProjects/medguides/parser/ru-parser/pdf/Себорейный_дерматит_215_2.pdf"
+    },
+    "США": {
+      "title": "Seborrhea capitis",
+      "pdf_path": "https://www.aafp.org/pubs/afp/issues/2015/0201/p185.pdf"
+    },
+    "ВОЗ": {
+      "title": "Seborrhoeic keratosis",
+      "code": "2F21.0",
+      "pdf_path": "/home/anastasia/PycharmProjects/medguides/parser/who-parser/pdf/2F21.0.pdf"
+    }
+  },
+  "L25": {
+    "Россия": {
+      "title": "Дерматит контактный",
+      "pdf_path": "/home/anastasia/PycharmProjects/medguides/parser/ru-parser/pdf/Дерматит_контактный_213_3.pdf"
+    },
+    "США": {
+      "title": "Unspecified contact dermatitis due to cosmetics",
+      "pdf_path": "https://www.aafp.org/pubs/afp/issues/2010/0801/p249.pdf"
+    },
+    "ВОЗ": {
+      "title": "Other specified non-dermatophyte superficial dermatomycoses",
+      "code": "1F2D.Y",
+      "pdf_path": "/home/anastasia/PycharmProjects/medguides/parser/who-parser/pdf/1F2D.Y.pdf"
+    }
+  },
+  "L63": {
+    "Россия": {
+      "title": "Гнездная алопеция",
+      "pdf_path": "/home/anastasia/PycharmProjects/medguides/parser/ru-parser/pdf/Гнездная_алопеция_196_2.pdf"
+    },
+    "США": {
+      "title": "Alopecia (capitis) totalis",
+      "pdf_path": "https://www.aafp.org/pubs/afp/issues/2017/0915/p371.pdf"
+    },
+    "ВОЗ": {
+      "title": "Совпадение не найдено",
+      "code": "",
+      "pdf_path": ""
+    }
+  },
+  "M16": {
+    "Россия": {
+      "title": "Коксартроз",
+      "pdf_path": "/home/anastasia/PycharmProjects/medguides/parser/ru-parser/pdf/Коксартроз_870_1.pdf"
+    },
+    "США": {
+      "title": "Bilateral primary osteoarthritis of hip",
+      "pdf_path": "https://www.aafp.org/pubs/afp/issues/2025/0100/practice-guidelines-hip-osteoarthritis.pdf"
+    },
+    "ВОЗ": {
+      "title": "Совпадение не найдено",
+      "code": "",
+      "pdf_path": ""
+    }
+  },
+  "M17": {
+    "Россия": {
+      "title": "Гонартроз",
+      "pdf_path": "/home/anastasia/PycharmProjects/medguides/parser/ru-parser/pdf/Гонартроз_868_1.pdf"
+    },
+    "США": {
+      "title": "Bilateral primary osteoarthritis of knee",
+      "pdf_path": "https://www.aafp.org/pubs/afp/issues/2014/0601/p918.pdf"
+    },
+    "ВОЗ": {
+      "title": "Совпадение не найдено",
+      "code": "",
+      "pdf_path": ""
+    }
+  },
+  "N10": {
+    "Россия": {
+      "title": "Инфекция мочевых путей",
+      "pdf_path": "/home/anastasia/PycharmProjects/medguides/parser/ru-parser/pdf/Инфекция_мочевых_путей_281_3.pdf"
+    },
+    "США": {
+      "title": "Acute pyelonephritis",
+      "pdf_path": "https://www.aafp.org/pubs/afp/issues/2020/0801/p173.pdf"
+    },
+    "ВОЗ": {
+      "title": "Bacterial encephalitis",
+      "code": "1D00.0",
+      "pdf_path": "/home/anastasia/PycharmProjects/medguides/parser/who-parser/pdf/1D00.0.pdf"
+    }
+  },
+  "N20": {
+    "Россия": {
+      "title": "Мочекаменная болезнь",
+      "pdf_path": "/home/anastasia/PycharmProjects/medguides/parser/ru-parser/pdf/Мочекаменная_болезнь_7_2.pdf"
+    },
+    "США": {
+      "title": "Calculus of kidney",
+      "pdf_path": "https://ntp.niehs.nih.gov/sites/default/files/nnl/urinary/kidney/calculus/kidney-calculus-pdf_508.pdf"
+    },
+    "ВОЗ": {
+      "title": "Streptococcal cellulitis of skin",
+      "code": "1B70.1",
+      "pdf_path": "/home/anastasia/PycharmProjects/medguides/parser/who-parser/pdf/1B70.1.pdf"
+    }
+  },
+  "N21": {
+    "Россия": {
+      "title": "Мочекаменная болезнь",
+      "pdf_path": "/home/anastasia/PycharmProjects/medguides/parser/ru-parser/pdf/Мочекаменная_болезнь_374_3.pdf"
+    },
+    "США": {
+      "title": "Calculus in bladder",
+      "pdf_path": "https://www.aafp.org/pubs/afp/issues/2006/0701/p86.pdf"
+    },
+    "ВОЗ": {
+      "title": "Adenocarcinoma of bladder",
+      "code": "2C94.0",
+      "pdf_path": "/home/anastasia/PycharmProjects/medguides/parser/who-parser/pdf/2C94.0.pdf"
+    }
+  },
+  "N22": {
+    "Россия": {
+      "title": "Мочекаменная болезнь",
+      "pdf_path": "/home/anastasia/PycharmProjects/medguides/parser/ru-parser/pdf/Мочекаменная_болезнь_374_3.pdf"
+    },
+    "США": {
+      "title": "Calculus of urinary tract in diseases classified elsewhere",
+      "pdf_path": "https://www.niddk.nih.gov/-/media/Files/Strategic-Plans/urologic/Trackstar-Urologic-Diseases-Chap-09.pdf"
+    },
+    "ВОЗ": {
+      "title": "Совпадение не найдено",
+      "code": "",
+      "pdf_path": ""
+    }
+  },
+  "N30": {
+    "Россия": {
+      "title": "Инфекция мочевых путей",
+      "pdf_path": "/home/anastasia/PycharmProjects/medguides/parser/ru-parser/pdf/Инфекция_мочевых_путей_281_3.pdf"
+    },
+    "США": {
+      "title": "Acute cystitis without hematuria",
+      "pdf_path": "https://www.aafp.org/pubs/afp/issues/2011/1001/p771.pdf"
+    },
+    "ВОЗ": {
+      "title": "Acute Chagas disease without heart involvement",
+      "code": "1F53.1",
+      "pdf_path": "/home/anastasia/PycharmProjects/medguides/parser/who-parser/pdf/1F53.1.pdf"
+    }
+  },
+  "N39": {
+    "Россия": {
+      "title": "Энурез",
+      "pdf_path": "/home/anastasia/PycharmProjects/medguides/parser/ru-parser/pdf/Энурез_835_1.pdf"
+    },
+    "США": {
+      "title": "Urinary tract infection, site not specified",
+      "pdf_path": "https://digirepo.nlm.nih.gov/master/borndig/101774710/sign88.pdf"
+    },
+    "ВОЗ": {
+      "title": "Gonococcal genitourinary infection, unspecified",
+      "code": "1A70.Z",
+      "pdf_path": "/home/anastasia/PycharmProjects/medguides/parser/who-parser/pdf/1A70.Z.pdf"
+    }
+  },
+  "N61": {
+    "Россия": {
+      "title": "Воспалительные заболевания молочных желез",
+      "pdf_path": "/home/anastasia/PycharmProjects/medguides/parser/ru-parser/pdf/Воспалительные_заболевания_молочных_желез_858_1.pdf"
+    },
+    "США": {
+      "title": "Mastitis without abscess",
+      "pdf_path": "https://www.aafp.org/pubs/afp/issues/2008/0915/p727.pdf"
+    },
+    "ВОЗ": {
+      "title": "Diabetic ketoacidosis without coma",
+      "code": "5A22.0",
+      "pdf_path": "/home/anastasia/PycharmProjects/medguides/parser/who-parser/pdf/5A22.0.pdf"
+    }
+  },
+  "N70": {
+    "Россия": {
+      "title": "Воспалительные болезни женских тазовых органов",
+      "pdf_path": "/home/anastasia/PycharmProjects/medguides/parser/ru-parser/pdf/Воспалительные_болезни_женских_тазовых_органов_643_2.pdf"
+    },
+    "США": {
+      "title": "Acute salpingitis",
+      "pdf_path": "https://www.cdc.gov/sti/media/pdfs/2024/03/Acute-Salpingitis-PID.pdf"
+    },
+    "ВОЗ": {
+      "title": "Bacterial meningitis",
+      "code": "1D01.0",
+      "pdf_path": "/home/anastasia/PycharmProjects/medguides/parser/who-parser/pdf/1D01.0.pdf"
+    }
+  },
+  "N73": {
+    "Россия": {
+      "title": "Воспалительные болезни женских тазовых органов",
+      "pdf_path": "/home/anastasia/PycharmProjects/medguides/parser/ru-parser/pdf/Воспалительные_болезни_женских_тазовых_органов_643_2.pdf"
+    },
+    "США": {
+      "title": "Acute parametritis and pelvic cellulitis",
+      "pdf_path": "https://digirepo.nlm.nih.gov/ext/dw/101738434/PDF/101738434.pdf"
+    },
+    "ВОЗ": {
+      "title": "Совпадение не найдено",
+      "code": "",
+      "pdf_path": ""
+    }
+  },
+  "N75": {
+    "Россия": {
+      "title": "Болезни бартолиновой железы",
+      "pdf_path": "/home/anastasia/PycharmProjects/medguides/parser/ru-parser/pdf/Болезни_бартолиновой_железы_765_1.pdf"
+    },
+    "США": {
+      "title": "Cyst of Bartholin's gland",
+      "pdf_path": "https://www.aafp.org/pubs/afp/issues/2019/0615/p760.pdf"
+    },
+    "ВОЗ": {
+      "title": "Cysts of eyelid",
+      "code": "2F36.4",
+      "pdf_path": "/home/anastasia/PycharmProjects/medguides/parser/who-parser/pdf/2F36.4.pdf"
+    }
+  },
+  "N80": {
+    "Россия": {
+      "title": "Эндометриоз",
+      "pdf_path": "/home/anastasia/PycharmProjects/medguides/parser/ru-parser/pdf/Эндометриоз_259_2.pdf"
+    },
+    "США": {
+      "title": "Endometriosis of the uterus, unspecified",
+      "pdf_path": "https://www.aafp.org/pubs/afp/issues/2022/1000/endometriosis.pdf"
+    },
+    "ВОЗ": {
+      "title": "Tuberculosis of the nervous system, unspecified",
+      "code": "1B11.Z",
+      "pdf_path": "/home/anastasia/PycharmProjects/medguides/parser/who-parser/pdf/1B11.Z.pdf"
+    }
+  },
+  "N97": {
+    "Россия": {
+      "title": "Женское бесплодие",
+      "pdf_path": "/home/anastasia/PycharmProjects/medguides/parser/ru-parser/pdf/Женское_бесплодие_641_2.pdf"
+    },
+    "США": {
+      "title": "Female infertility associated with anovulation",
+      "pdf_path": "https://www.aafp.org/pubs/afp/issues/2015/0301/p308.pdf"
+    },
+    "ВОЗ": {
+      "title": "Haemophagocytic syndrome associated with infection",
+      "code": "3B62.5",
+      "pdf_path": "/home/anastasia/PycharmProjects/medguides/parser/who-parser/pdf/3B62.5.pdf"
+    }
+  },
+  "O15": {
+    "Россия": {
+      "title": "Преэклампсия. Эклампсия. Отеки, протеинурия и гипертензивные расстройства во время беременности, в родах и послеродовом периоде.",
+      "pdf_path": "/home/anastasia/PycharmProjects/medguides/parser/ru-parser/pdf/Преэклампсия__Эклампсия__Отеки__протеинурия_и_гипертензивные_расстройства_во_время_беременности__в_родах_и_послеродовом_периоде__637_2.pdf"
+    },
+    "США": {
+      "title": "Eclampsia complicating pregnancy, unspecified trimester",
+      "pdf_path": "https://hcup-us.ahrq.gov/reports/statbriefs/HCUP-SB-312-Appendices-508.pdf"
+    },
+    "ВОЗ": {
+      "title": "Kaposi sarcoma of unspecified primary site",
+      "code": "2B57.Z",
+      "pdf_path": "/home/anastasia/PycharmProjects/medguides/parser/who-parser/pdf/2B57.Z.pdf"
+    }
+  },
+  "O30": {
+    "Россия": {
+      "title": "Многоплодная беременность",
+      "pdf_path": "/home/anastasia/PycharmProjects/medguides/parser/ru-parser/pdf/Многоплодная_беременность_638_2.pdf"
+    },
+    "США": {
+      "title": "Twin pregnancy, unspecified number of placenta and unspecified number of amniotic sacs, first trimester",
+      "pdf_path": "https://qualityindicators.ahrq.gov/Downloads/Modules/IQI/V2023/TechSpecs/IQI_Appendix_A.pdf"
+    },
+    "ВОЗ": {
+      "title": "Совпадение не найдено",
+      "code": "",
+      "pdf_path": ""
+    }
+  },
+  "O31": {
+    "Россия": {
+      "title": "Многоплодная беременность",
+      "pdf_path": "/home/anastasia/PycharmProjects/medguides/parser/ru-parser/pdf/Многоплодная_беременность_638_2.pdf"
+    },
+    "США": {
+      "title": "Papyraceous fetus, unspecified trimester, not applicable or unspecified",
+      "pdf_path": "https://qualityindicators.ahrq.gov/Downloads/Modules/IQI/V2024/TechSpecs/IQI_APPENDIX_A.pdf"
+    },
+    "ВОЗ": {
+      "title": "Совпадение не найдено",
+      "code": "",
+      "pdf_path": ""
+    }
+  },
+  "O70": {
+    "Россия": {
+      "title": "Разрывы промежности при родоразрешении и другие акушерские травмы (акушерский травматизм)",
+      "pdf_path": "/home/anastasia/PycharmProjects/medguides/parser/ru-parser/pdf/Разрывы_промежности_при_родоразрешении_и_другие_акушерские_травмы__акушерский_травматизм__768_1.pdf"
+    },
+    "США": {
+      "title": "First degree perineal laceration during delivery",
+      "pdf_path": "https://www.aafp.org/pubs/afp/issues/2021/0615/p745.pdf"
+    },
+    "ВОЗ": {
+      "title": "Совпадение не найдено",
+      "code": "",
+      "pdf_path": ""
+    }
+  },
+  "P05": {
+    "Россия": {
+      "title": "Недостаточный рост плода, требующий предоставления медицинской помощи матери (задержка роста плода)",
+      "pdf_path": "/home/anastasia/PycharmProjects/medguides/parser/ru-parser/pdf/Недостаточный_рост_плода__требующий_предоставления_медицинской_помощи_матери__задержка_роста_плода__722_1.pdf"
+    },
+    "США": {
+      "title": "Newborn light for gestational age, unspecified weight",
+      "pdf_path": "https://qualityindicators.ahrq.gov/Downloads/Modules/PQI/V2018/TechSpecs/PQI_09_Low_Birth_Weight_Rate.pdf"
+    },
+    "ВОЗ": {
+      "title": "Совпадение не найдено",
+      "code": "",
+      "pdf_path": ""
+    }
+  },
+  "R32": {
+    "Россия": {
+      "title": "Недержание мочи",
+      "pdf_path": "/home/anastasia/PycharmProjects/medguides/parser/ru-parser/pdf/Недержание_мочи_8_2.pdf"
+    },
+    "США": {
+      "title": "Unspecified urinary incontinence",
+      "pdf_path": "https://www.ahrq.gov/sites/default/files/wysiwyg/evidencenow/projects/urinary/ucsd-pocket-guide.pdf"
+    },
+    "ВОЗ": {
+      "title": "Liposarcoma, unspecified primary site",
+      "code": "2B59.Z",
+      "pdf_path": "/home/anastasia/PycharmProjects/medguides/parser/who-parser/pdf/2B59.Z.pdf"
+    }
+  },
+  "R54": {
+    "Россия": {
+      "title": "Старческая астения",
+      "pdf_path": "/home/anastasia/PycharmProjects/medguides/parser/ru-parser/pdf/Старческая_астения_613_2.pdf"
+    },
+    "США": {
+      "title": "Age-related physical debility",
+      "pdf_path": "https://www.cdc.gov/nchs/data/databriefs/db20.pdf"
+    },
+    "ВОЗ": {
+      "title": "Совпадение не найдено",
+      "code": "",
+      "pdf_path": ""
+    }
+  },
+  "R75": {
+    "Россия": {
+      "title": "ВИЧ-инфекция у беременных",
+      "pdf_path": "/home/anastasia/PycharmProjects/medguides/parser/ru-parser/pdf/ВИЧ-инфекция_у_беременных_717_1.pdf"
+    },
+    "США": {
+      "title": "Inconclusive laboratory evidence of human immunodeficiency virus [HIV]",
+      "pdf_path": "https://stacks.cdc.gov/view/cdc/23447/cdc_23447_DS1.pdf"
+    },
+    "ВОЗ": {
+      "title": "Совпадение не найдено",
+      "code": "",
+      "pdf_path": ""
+    }
+  }
+}

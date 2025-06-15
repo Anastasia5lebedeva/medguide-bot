@@ -1,0 +1,50 @@
+{
+  "Monkeypox": [
+    "mpox",
+    "monkeypox",
+    "orthopoxvirus"
+  ],
+  "Tuberculosis": [
+    "tb",
+    "tbc",
+    "tuberculosis"
+  ],
+  "Typhoid fever": [
+    "typhoid",
+    "enteric fever"
+  ],
+  "COVID-19": [
+    "coronavirus",
+    "covid",
+    "sars-cov-2"
+  ],
+  "HIV disease": [
+    "hiv",
+    "human immunodeficiency virus"
+  ],
+  "Malaria": [
+    "malaria",
+    "plasmodium infection"
+  ],
+  "Cholera": [
+    "cholera",
+    "vibrio cholerae"
+  ],
+  "Measles": [
+    "measles",
+    "rubeola"
+  ],
+  "Rubella": [
+    "rubella",
+    "german measles"
+  ],
+  "Syphilis": [
+    "syphilis",
+    "treponema pallidum"
+  ],
+  "Retained placenta": [
+    "retained placenta",
+    "placenta adherens",
+    "retained afterbirth"
+  ]
+}

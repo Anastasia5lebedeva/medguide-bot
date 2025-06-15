@@ -1,0 +1,2523 @@
+[
+  {
+    "rec_id": "USA_A90",
+    "title": "Dengue fever",
+    "mkb_codes": "['A90']",
+    "pdf_path": "pdf/usa/A90_Dengue_fever.pdf",
+    "source": "www.cdc.gov",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_A92",
+    "title": "Chikungunya virus disease",
+    "mkb_codes": "['A92']",
+    "pdf_path": "pdf/usa/A92_Chikungunya_virus_disease.pdf",
+    "source": "www.cdc.gov",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_A91",
+    "title": "Dengue hemorrhagic fever",
+    "mkb_codes": "['A91']",
+    "pdf_path": "pdf/usa/A91_Dengue_hemorrhagic_fever.pdf",
+    "source": "www.cdc.gov",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_A00",
+    "title": "Cholera due to Vibrio cholerae 01, biovar cholerae",
+    "mkb_codes": "['A00']",
+    "pdf_path": "pdf/usa/A00_Cholera_due_to_Vibrio_cholerae_01,_biovar_cholerae.pdf",
+    "source": "www.cdc.gov",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_A03",
+    "title": "Shigellosis due to Shigella dysenteriae",
+    "mkb_codes": "['A03']",
+    "pdf_path": "pdf/usa/A03_Shigellosis_due_to_Shigella_dysenteriae.pdf",
+    "source": "www.cdc.gov",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_A04",
+    "title": "Enteropathogenic Escherichia coli infection",
+    "mkb_codes": "['A04']",
+    "pdf_path": "pdf/usa/A04_Enteropathogenic_Escherichia_coli_infection.pdf",
+    "source": "www.cdc.gov",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_A05",
+    "title": "Foodborne staphylococcal intoxication",
+    "mkb_codes": "['A05']",
+    "pdf_path": "pdf/usa/A05_Foodborne_staphylococcal_intoxication.pdf",
+    "source": "www.cdc.gov",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_A08",
+    "title": "Rotaviral enteritis",
+    "mkb_codes": "['A08']",
+    "pdf_path": "pdf/usa/A08_Rotaviral_enteritis.pdf",
+    "source": "www.cdc.gov",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_A19",
+    "title": "Acute miliary tuberculosis of a single specified site",
+    "mkb_codes": "['A19']",
+    "pdf_path": "pdf/usa/A19_Acute_miliary_tuberculosis_of_a_single_specified_s.pdf",
+    "source": "www.cdc.gov",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_A20",
+    "title": "Bubonic plague",
+    "mkb_codes": "['A20']",
+    "pdf_path": "pdf/usa/A20_Bubonic_plague.pdf",
+    "source": "www.cdc.gov",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_A22",
+    "title": "Cutaneous anthrax",
+    "mkb_codes": "['A22']",
+    "pdf_path": "pdf/usa/A22_Cutaneous_anthrax.pdf",
+    "source": "www.cdc.gov",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_A23",
+    "title": "Brucellosis due to Brucella melitensis",
+    "mkb_codes": "['A23']",
+    "pdf_path": "pdf/usa/A23_Brucellosis_due_to_Brucella_melitensis.pdf",
+    "source": "www.cdc.gov",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_A25",
+    "title": "Spirillosis",
+    "mkb_codes": "['A25']",
+    "pdf_path": "pdf/usa/A25_Spirillosis.pdf",
+    "source": "www.idsociety.org",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_A27",
+    "title": "Leptospirosis icterohemorrhagica",
+    "mkb_codes": "['A27']",
+    "pdf_path": "pdf/usa/A27_Leptospirosis_icterohemorrhagica.pdf",
+    "source": "www.cdc.gov",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_A28",
+    "title": "Pasteurellosis",
+    "mkb_codes": "['A28']",
+    "pdf_path": "pdf/usa/A28_Pasteurellosis.pdf",
+    "source": "wwwnc.cdc.gov",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_A32",
+    "title": "Cutaneous listeriosis",
+    "mkb_codes": "['A32']",
+    "pdf_path": "pdf/usa/A32_Cutaneous_listeriosis.pdf",
+    "source": "stacks.cdc.gov",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_A33",
+    "title": "Tetanus neonatorum",
+    "mkb_codes": "['A33']",
+    "pdf_path": "pdf/usa/A33_Tetanus_neonatorum.pdf",
+    "source": "digirepo.nlm.nih.gov",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_A34",
+    "title": "Obstetrical tetanus",
+    "mkb_codes": "['A34']",
+    "pdf_path": "pdf/usa/A34_Obstetrical_tetanus.pdf",
+    "source": "www.cdc.gov",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_A35",
+    "title": "Other tetanus",
+    "mkb_codes": "['A35']",
+    "pdf_path": "pdf/usa/A35_Other_tetanus.pdf",
+    "source": "www.cdc.gov",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_A39",
+    "title": "Meningococcal meningitis",
+    "mkb_codes": "['A39']",
+    "pdf_path": "pdf/usa/A39_Meningococcal_meningitis.pdf",
+    "source": "www.cdc.gov",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_A49",
+    "title": "Methicillin susceptible Staphylococcus aureus infection, unspecified site",
+    "mkb_codes": "['A49']",
+    "pdf_path": "pdf/usa/A49_Methicillin_susceptible_Staphylococcus_aureus_infe.pdf",
+    "source": "www.cdc.gov",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_A51",
+    "title": "Primary genital syphilis",
+    "mkb_codes": "['A51']",
+    "pdf_path": "pdf/usa/A51_Primary_genital_syphilis.pdf",
+    "source": "stacks.cdc.gov",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_A52",
+    "title": "Cardiovascular syphilis, unspecified",
+    "mkb_codes": "['A52']",
+    "pdf_path": "pdf/usa/A52_Cardiovascular_syphilis,_unspecified.pdf",
+    "source": "www.cdc.gov",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_A54",
+    "title": "Gonococcal infection of lower genitourinary tract, unspecified",
+    "mkb_codes": "['A54']",
+    "pdf_path": "pdf/usa/A54_Gonococcal_infection_of_lower_genitourinary_tract,.pdf",
+    "source": "stacks.cdc.gov",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_A56",
+    "title": "Chlamydial infection of lower genitourinary tract, unspecified",
+    "mkb_codes": "['A56']",
+    "pdf_path": "pdf/usa/A56_Chlamydial_infection_of_lower_genitourinary_tract,.pdf",
+    "source": "www.aafp.org",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_A59",
+    "title": "Urogenital trichomoniasis, unspecified",
+    "mkb_codes": "['A59']",
+    "pdf_path": "pdf/usa/A59_Urogenital_trichomoniasis,_unspecified.pdf",
+    "source": "www.cdc.gov",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_A64",
+    "title": "Unspecified sexually transmitted disease",
+    "mkb_codes": "['A64']",
+    "pdf_path": "pdf/usa/A64_Unspecified_sexually_transmitted_disease.pdf",
+    "source": "www.cdc.gov",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_A65",
+    "title": "Nonvenereal syphilis",
+    "mkb_codes": "['A65']",
+    "pdf_path": "pdf/usa/A65_Nonvenereal_syphilis.pdf",
+    "source": "wwwnc.cdc.gov",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_A66",
+    "title": "Initial lesions of yaws",
+    "mkb_codes": "['A66']",
+    "pdf_path": "pdf/usa/A66_Initial_lesions_of_yaws.pdf",
+    "source": "stacks.cdc.gov",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_A68",
+    "title": "Louse-borne relapsing fever",
+    "mkb_codes": "['A68']",
+    "pdf_path": "pdf/usa/A68_Louse-borne_relapsing_fever.pdf",
+    "source": "www2c.cdc.gov",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_A70",
+    "title": "Chlamydia psittaci infections",
+    "mkb_codes": "['A70']",
+    "pdf_path": "pdf/usa/A70_Chlamydia_psittaci_infections.pdf",
+    "source": "www.cdc.gov",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_A75",
+    "title": "Epidemic louse-borne typhus fever due to Rickettsia prowazekii",
+    "mkb_codes": "['A75']",
+    "pdf_path": "pdf/usa/A75_Epidemic_louse-borne_typhus_fever_due_to_Rickettsi.pdf",
+    "source": "stacks.cdc.gov",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_A77",
+    "title": "Spotted fever due to Rickettsia rickettsii",
+    "mkb_codes": "['A77']",
+    "pdf_path": "pdf/usa/A77_Spotted_fever_due_to_Rickettsia_rickettsii.pdf",
+    "source": "www.cdc.gov",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_A78",
+    "title": "Q fever",
+    "mkb_codes": "['A78']",
+    "pdf_path": "pdf/usa/A78_Q_fever.pdf",
+    "source": "wwwnc.cdc.gov",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_A79",
+    "title": "Trench fever",
+    "mkb_codes": "['A79']",
+    "pdf_path": "pdf/usa/A79_Trench_fever.pdf",
+    "source": "wwwnc.cdc.gov",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_A80",
+    "title": "Acute paralytic poliomyelitis, vaccine-associated",
+    "mkb_codes": "['A80']",
+    "pdf_path": "pdf/usa/A80_Acute_paralytic_poliomyelitis,_vaccine-associated.pdf",
+    "source": "stacks.cdc.gov",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_A83",
+    "title": "Japanese encephalitis",
+    "mkb_codes": "['A83']",
+    "pdf_path": "pdf/usa/A83_Japanese_encephalitis.pdf",
+    "source": "www.cdc.gov",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_A84",
+    "title": "Far Eastern tick-borne encephalitis [Russian spring-summer encephalitis]",
+    "mkb_codes": "['A84']",
+    "pdf_path": "pdf/usa/A84_Far_Eastern_tick-borne_encephalitis_[Russian_sprin.pdf",
+    "source": "stacks.cdc.gov",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_A89",
+    "title": "Unspecified viral infection of central nervous system",
+    "mkb_codes": "['A89']",
+    "pdf_path": "pdf/usa/A89_Unspecified_viral_infection_of_central_nervous_sys.pdf",
+    "source": "www.cdc.gov",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_A93",
+    "title": "Oropouche virus disease",
+    "mkb_codes": "['A93']",
+    "pdf_path": "pdf/usa/A93_Oropouche_virus_disease.pdf",
+    "source": "www.cdc.gov",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_A94",
+    "title": "Unspecified arthropod-borne viral fever",
+    "mkb_codes": "['A94']",
+    "pdf_path": "pdf/usa/A94_Unspecified_arthropod-borne_viral_fever.pdf",
+    "source": "stacks.cdc.gov",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_A96",
+    "title": "Junin hemorrhagic fever",
+    "mkb_codes": "['A96']",
+    "pdf_path": "pdf/usa/A96_Junin_hemorrhagic_fever.pdf",
+    "source": "wwwnc.cdc.gov",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_A98",
+    "title": "Crimean-Congo hemorrhagic fever",
+    "mkb_codes": "['A98']",
+    "pdf_path": "pdf/usa/A98_Crimean-Congo_hemorrhagic_fever.pdf",
+    "source": "stacks.cdc.gov",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_B02",
+    "title": "Zoster encephalitis",
+    "mkb_codes": "['B02']",
+    "pdf_path": "pdf/usa/B02_Zoster_encephalitis.pdf",
+    "source": "stacks.cdc.gov",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_B03",
+    "title": "Smallpox",
+    "mkb_codes": "['B03']",
+    "pdf_path": "pdf/usa/B03_Smallpox.pdf",
+    "source": "stacks.cdc.gov",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_B04",
+    "title": "Monkeypox",
+    "mkb_codes": "['B04']",
+    "pdf_path": "pdf/usa/B04_Monkeypox.pdf",
+    "source": "stacks.cdc.gov",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_B05",
+    "title": "Measles complicated by encephalitis",
+    "mkb_codes": "['B05']",
+    "pdf_path": "pdf/usa/B05_Measles_complicated_by_encephalitis.pdf",
+    "source": "www.cdc.gov",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_B06",
+    "title": "Rubella with neurological complication, unspecified",
+    "mkb_codes": "['B06']",
+    "pdf_path": "pdf/usa/B06_Rubella_with_neurological_complication,_unspecifie.pdf",
+    "source": "www.cdc.gov",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_B07",
+    "title": "Plantar wart",
+    "mkb_codes": "['B07']",
+    "pdf_path": "pdf/usa/B07_Plantar_wart.pdf",
+    "source": "www.aafp.org",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_B08",
+    "title": "Cowpox",
+    "mkb_codes": "['B08']",
+    "pdf_path": "pdf/usa/B08_Cowpox.pdf",
+    "source": "stacks.cdc.gov",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_B10",
+    "title": "Human herpesvirus 6 encephalitis",
+    "mkb_codes": "['B10']",
+    "pdf_path": "pdf/usa/B10_Human_herpesvirus_6_encephalitis.pdf",
+    "source": "stacks.cdc.gov",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_B18",
+    "title": "Chronic viral hepatitis B with delta-agent",
+    "mkb_codes": "['B18']",
+    "pdf_path": "pdf/usa/B18_Chronic_viral_hepatitis_B_with_delta-agent.pdf",
+    "source": "ndc.services.cdc.gov",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_B19",
+    "title": "Unspecified viral hepatitis with hepatic coma",
+    "mkb_codes": "['B19']",
+    "pdf_path": "pdf/usa/B19_Unspecified_viral_hepatitis_with_hepatic_coma.pdf",
+    "source": "www.ncdc.gov.in",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_B20",
+    "title": "Human immunodeficiency virus [HIV] disease",
+    "mkb_codes": "['B20']",
+    "pdf_path": "pdf/usa/B20_Human_immunodeficiency_virus_[HIV]_disease.pdf",
+    "source": "www.cdc.gov",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_B26",
+    "title": "Mumps orchitis",
+    "mkb_codes": "['B26']",
+    "pdf_path": "pdf/usa/B26_Mumps_orchitis.pdf",
+    "source": "www.cdc.gov",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_B30",
+    "title": "Keratoconjunctivitis due to adenovirus",
+    "mkb_codes": "['B30']",
+    "pdf_path": "pdf/usa/B30_Keratoconjunctivitis_due_to_adenovirus.pdf",
+    "source": "www.cdc.gov",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_B33",
+    "title": "Epidemic myalgia",
+    "mkb_codes": "['B33']",
+    "pdf_path": "pdf/usa/B33_Epidemic_myalgia.pdf",
+    "source": "stacks.cdc.gov",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_B34",
+    "title": "Adenovirus infection, unspecified",
+    "mkb_codes": "['B34']",
+    "pdf_path": "pdf/usa/B34_Adenovirus_infection,_unspecified.pdf",
+    "source": "stacks.cdc.gov",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_B35",
+    "title": "Tinea barbae and tinea capitis",
+    "mkb_codes": "['B35']",
+    "pdf_path": "pdf/usa/B35_Tinea_barbae_and_tinea_capitis.pdf",
+    "source": "www.aafp.org",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_B38",
+    "title": "Acute pulmonary coccidioidomycosis",
+    "mkb_codes": "['B38']",
+    "pdf_path": "pdf/usa/B38_Acute_pulmonary_coccidioidomycosis.pdf",
+    "source": "www.aafp.org",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_B40",
+    "title": "Acute pulmonary blastomycosis",
+    "mkb_codes": "['B40']",
+    "pdf_path": "pdf/usa/B40_Acute_pulmonary_blastomycosis.pdf",
+    "source": "www.cdc.gov",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_B48",
+    "title": "Lobomycosis",
+    "mkb_codes": "['B48']",
+    "pdf_path": "pdf/usa/B48_Lobomycosis.pdf",
+    "source": "wwwnc.cdc.gov",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_B50",
+    "title": "Plasmodium falciparum malaria with cerebral complications",
+    "mkb_codes": "['B50']",
+    "pdf_path": "pdf/usa/B50_Plasmodium_falciparum_malaria_with_cerebral_compli.pdf",
+    "source": "stacks.cdc.gov",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_B52",
+    "title": "Plasmodium malariae malaria with nephropathy",
+    "mkb_codes": "['B52']",
+    "pdf_path": "pdf/usa/B52_Plasmodium_malariae_malaria_with_nephropathy.pdf",
+    "source": "stacks.cdc.gov",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_B53",
+    "title": "Plasmodium ovale malaria",
+    "mkb_codes": "['B53']",
+    "pdf_path": "pdf/usa/B53_Plasmodium_ovale_malaria.pdf",
+    "source": "www.cdc.gov",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_B60",
+    "title": "Babesiosis, unspecified",
+    "mkb_codes": "['B60']",
+    "pdf_path": "pdf/usa/B60_Babesiosis,_unspecified.pdf",
+    "source": "stacks.cdc.gov",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_B64",
+    "title": "Unspecified protozoal disease",
+    "mkb_codes": "['B64']",
+    "pdf_path": "pdf/usa/B64_Unspecified_protozoal_disease.pdf",
+    "source": "stacks.cdc.gov",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_B70",
+    "title": "Diphyllobothriasis",
+    "mkb_codes": "['B70']",
+    "pdf_path": "pdf/usa/B70_Diphyllobothriasis.pdf",
+    "source": "stacks.cdc.gov",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_B71",
+    "title": "Hymenolepiasis",
+    "mkb_codes": "['B71']",
+    "pdf_path": "pdf/usa/B71_Hymenolepiasis.pdf",
+    "source": "beta.cdc.gov",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_B72",
+    "title": "Dracunculiasis",
+    "mkb_codes": "['B72']",
+    "pdf_path": "pdf/usa/B72_Dracunculiasis.pdf",
+    "source": "www.cdc.gov",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_B74",
+    "title": "Filariasis due to Wuchereria bancrofti",
+    "mkb_codes": "['B74']",
+    "pdf_path": "pdf/usa/B74_Filariasis_due_to_Wuchereria_bancrofti.pdf",
+    "source": "www.cdc.gov",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_B78",
+    "title": "Intestinal strongyloidiasis",
+    "mkb_codes": "['B78']",
+    "pdf_path": "pdf/usa/B78_Intestinal_strongyloidiasis.pdf",
+    "source": "stacks.cdc.gov",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_B83",
+    "title": "Visceral larva migrans",
+    "mkb_codes": "['B83']",
+    "pdf_path": "pdf/usa/B83_Visceral_larva_migrans.pdf",
+    "source": "stacks.cdc.gov",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_B86",
+    "title": "Scabies",
+    "mkb_codes": "['B86']",
+    "pdf_path": "pdf/usa/B86_Scabies.pdf",
+    "source": "www.cdc.gov",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_B89",
+    "title": "Unspecified parasitic disease",
+    "mkb_codes": "['B89']",
+    "pdf_path": "pdf/usa/B89_Unspecified_parasitic_disease.pdf",
+    "source": "stacks.cdc.gov",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_B96",
+    "title": "Mycoplasma pneumoniae [M. pneumoniae] as the cause of diseases classified elsewhere",
+    "mkb_codes": "['B96']",
+    "pdf_path": "pdf/usa/B96_Mycoplasma_pneumoniae_[M._pneumoniae]_as_the_cause.pdf",
+    "source": "www.cdc.gov",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_B99",
+    "title": "Other infectious disease",
+    "mkb_codes": "['B99']",
+    "pdf_path": "pdf/usa/B99_Other_infectious_disease.pdf",
+    "source": "www.idsociety.org",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_C00",
+    "title": "Malignant neoplasm of external upper lip",
+    "mkb_codes": "['C00']",
+    "pdf_path": "pdf/usa/C00_Malignant_neoplasm_of_external_upper_lip.pdf",
+    "source": "qualityindicators.ahrq.gov",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_C01",
+    "title": "Malignant neoplasm of base of tongue",
+    "mkb_codes": "['C01']",
+    "pdf_path": "pdf/usa/C01_Malignant_neoplasm_of_base_of_tongue.pdf",
+    "source": "www.nccn.org",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_C04",
+    "title": "Malignant neoplasm of anterior floor of mouth",
+    "mkb_codes": "['C04']",
+    "pdf_path": "pdf/usa/C04_Malignant_neoplasm_of_anterior_floor_of_mouth.pdf",
+    "source": "qualityindicators.ahrq.gov",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_C11",
+    "title": "Malignant neoplasm of superior wall of nasopharynx",
+    "mkb_codes": "['C11']",
+    "pdf_path": "pdf/usa/C11_Malignant_neoplasm_of_superior_wall_of_nasopharynx.pdf",
+    "source": "www.nccn.org",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_C20",
+    "title": "Malignant neoplasm of rectum",
+    "mkb_codes": "['C20']",
+    "pdf_path": "pdf/usa/C20_Malignant_neoplasm_of_rectum.pdf",
+    "source": "www.nccn.org",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_C23",
+    "title": "Malignant neoplasm of gallbladder",
+    "mkb_codes": "['C23']",
+    "pdf_path": "pdf/usa/C23_Malignant_neoplasm_of_gallbladder.pdf",
+    "source": "www.nccn.org",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_C33",
+    "title": "Malignant neoplasm of trachea",
+    "mkb_codes": "['C33']",
+    "pdf_path": "pdf/usa/C33_Malignant_neoplasm_of_trachea.pdf",
+    "source": "www.cdc.gov",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_C40",
+    "title": "Malignant neoplasm of scapula and long bones of unspecified upper limb",
+    "mkb_codes": "['C40']",
+    "pdf_path": "pdf/usa/C40_Malignant_neoplasm_of_scapula_and_long_bones_of_un.pdf",
+    "source": "www.aafp.org",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_C54",
+    "title": "Malignant neoplasm of isthmus uteri",
+    "mkb_codes": "['C54']",
+    "pdf_path": "pdf/usa/C54_Malignant_neoplasm_of_isthmus_uteri.pdf",
+    "source": "www.cdc.gov",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_C56",
+    "title": "Malignant neoplasm of right ovary",
+    "mkb_codes": "['C56']",
+    "pdf_path": "pdf/usa/C56_Malignant_neoplasm_of_right_ovary.pdf",
+    "source": "www.nccn.org",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_C64",
+    "title": "Malignant neoplasm of right kidney, except renal pelvis",
+    "mkb_codes": "['C64']",
+    "pdf_path": "pdf/usa/C64_Malignant_neoplasm_of_right_kidney,_except_renal_p.pdf",
+    "source": "www.niddk.nih.gov",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_C73",
+    "title": "Malignant neoplasm of thyroid gland",
+    "mkb_codes": "['C73']",
+    "pdf_path": "pdf/usa/C73_Malignant_neoplasm_of_thyroid_gland.pdf",
+    "source": "www.ncbi.nlm.nih.gov",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_C7A",
+    "title": "Malignant carcinoid tumor of unspecified site",
+    "mkb_codes": "['C7A']",
+    "pdf_path": "pdf/usa/C7A_Malignant_carcinoid_tumor_of_unspecified_site.pdf",
+    "source": "qualityindicators.ahrq.gov",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_C7B",
+    "title": "Secondary carcinoid tumors, unspecified site",
+    "mkb_codes": "['C7B']",
+    "pdf_path": "pdf/usa/C7B_Secondary_carcinoid_tumors,_unspecified_site.pdf",
+    "source": "qualityindicators.ahrq.gov",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_C78",
+    "title": "Secondary malignant neoplasm of unspecified lung",
+    "mkb_codes": "['C78']",
+    "pdf_path": "pdf/usa/C78_Secondary_malignant_neoplasm_of_unspecified_lung.pdf",
+    "source": "qualityindicators.ahrq.gov",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_C79",
+    "title": "Secondary malignant neoplasm of unspecified kidney and renal pelvis",
+    "mkb_codes": "['C79']",
+    "pdf_path": "pdf/usa/C79_Secondary_malignant_neoplasm_of_unspecified_kidney.pdf",
+    "source": "qualityindicators.ahrq.gov",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_C80",
+    "title": "Disseminated malignant neoplasm, unspecified",
+    "mkb_codes": "['C80']",
+    "pdf_path": "pdf/usa/C80_Disseminated_malignant_neoplasm,_unspecified.pdf",
+    "source": "www.cdc.gov",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_C85",
+    "title": "Unspecified B-cell lymphoma, unspecified site",
+    "mkb_codes": "['C85']",
+    "pdf_path": "pdf/usa/C85_Unspecified_B-cell_lymphoma,_unspecified_site.pdf",
+    "source": "qualityindicators.ahrq.gov",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_C91",
+    "title": "Acute lymphoblastic leukemia not having achieved remission",
+    "mkb_codes": "['C91']",
+    "pdf_path": "pdf/usa/C91_Acute_lymphoblastic_leukemia_not_having_achieved_r.pdf",
+    "source": "www.nccn.org",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_C94",
+    "title": "Acute erythroid leukemia, not having achieved remission",
+    "mkb_codes": "['C94']",
+    "pdf_path": "pdf/usa/C94_Acute_erythroid_leukemia,_not_having_achieved_remi.pdf",
+    "source": "qualityindicators.ahrq.gov",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_C95",
+    "title": "Acute leukemia of unspecified cell type not having achieved remission",
+    "mkb_codes": "['C95']",
+    "pdf_path": "pdf/usa/C95_Acute_leukemia_of_unspecified_cell_type_not_having.pdf",
+    "source": "qualityindicators.ahrq.gov",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_D04",
+    "title": "Carcinoma in situ of skin of lip",
+    "mkb_codes": "['D04']",
+    "pdf_path": "pdf/usa/D04_Carcinoma_in_situ_of_skin_of_lip.pdf",
+    "source": "www.nccn.org",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_D17",
+    "title": "Benign lipomatous neoplasm of skin and subcutaneous tissue of head, face and neck",
+    "mkb_codes": "['D17']",
+    "pdf_path": "pdf/usa/D17_Benign_lipomatous_neoplasm_of_skin_and_subcutaneou.pdf",
+    "source": "www.aafp.org",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_D18",
+    "title": "Hemangioma unspecified site",
+    "mkb_codes": "['D18']",
+    "pdf_path": "pdf/usa/D18_Hemangioma_unspecified_site.pdf",
+    "source": "www.aafp.org",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_D21",
+    "title": "Benign neoplasm of connective and other soft tissue of head, face and neck",
+    "mkb_codes": "['D21']",
+    "pdf_path": "pdf/usa/D21_Benign_neoplasm_of_connective_and_other_soft_tissu.pdf",
+    "source": "www.aafp.org",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_D36",
+    "title": "Benign neoplasm of lymph nodes",
+    "mkb_codes": "['D36']",
+    "pdf_path": "pdf/usa/D36_Benign_neoplasm_of_lymph_nodes.pdf",
+    "source": "www.aafp.org",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_D3A",
+    "title": "Benign carcinoid tumor of unspecified site",
+    "mkb_codes": "['D3A']",
+    "pdf_path": "pdf/usa/D3A_Benign_carcinoid_tumor_of_unspecified_site.pdf",
+    "source": "www.aafp.org",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_D40",
+    "title": "Neoplasm of uncertain behavior of prostate",
+    "mkb_codes": "['D40']",
+    "pdf_path": "pdf/usa/D40_Neoplasm_of_uncertain_behavior_of_prostate.pdf",
+    "source": "www.niddk.nih.gov",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_D44",
+    "title": "Neoplasm of uncertain behavior of thyroid gland",
+    "mkb_codes": "['D44']",
+    "pdf_path": "pdf/usa/D44_Neoplasm_of_uncertain_behavior_of_thyroid_gland.pdf",
+    "source": "www.ncbi.nlm.nih.gov",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_D51",
+    "title": "Vitamin B12 deficiency anemia due to intrinsic factor deficiency",
+    "mkb_codes": "['D51']",
+    "pdf_path": "pdf/usa/D51_Vitamin_B12_deficiency_anemia_due_to_intrinsic_fac.pdf",
+    "source": "www.aafp.org",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_D53",
+    "title": "Protein deficiency anemia",
+    "mkb_codes": "['D53']",
+    "pdf_path": "pdf/usa/D53_Protein_deficiency_anemia.pdf",
+    "source": "www.aafp.org",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_D56",
+    "title": "Alpha thalassemia",
+    "mkb_codes": "['D56']",
+    "pdf_path": "pdf/usa/D56_Alpha_thalassemia.pdf",
+    "source": "www.aafp.org",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_D57",
+    "title": "Hb-SS disease with crisis, unspecified",
+    "mkb_codes": "['D57']",
+    "pdf_path": "pdf/usa/D57_Hb-SS_disease_with_crisis,_unspecified.pdf",
+    "source": "stacks.cdc.gov",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_D68",
+    "title": "Von Willebrand disease, unspecified",
+    "mkb_codes": "['D68']",
+    "pdf_path": "pdf/usa/D68_Von_Willebrand_disease,_unspecified.pdf",
+    "source": "www.nhlbi.nih.gov",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_D69",
+    "title": "Allergic purpura",
+    "mkb_codes": "['D69']",
+    "pdf_path": "pdf/usa/D69_Allergic_purpura.pdf",
+    "source": "www.cdc.gov",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_D82",
+    "title": "Wiskott-Aldrich syndrome",
+    "mkb_codes": "['D82']",
+    "pdf_path": "pdf/usa/D82_Wiskott-Aldrich_syndrome.pdf",
+    "source": "pubweb-prod.niaid.nih.gov",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_E06",
+    "title": "Acute thyroiditis",
+    "mkb_codes": "['E06']",
+    "pdf_path": "pdf/usa/E06_Acute_thyroiditis.pdf",
+    "source": "www.aafp.org",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_E08",
+    "title": "Diabetes mellitus due to underlying condition with hyperosmolarity without nonketotic hyperglycemic-hyperosmolar coma (NKHHC)",
+    "mkb_codes": "['E08']",
+    "pdf_path": "pdf/usa/E08_Diabetes_mellitus_due_to_underlying_condition_with.pdf",
+    "source": "qualityindicators.ahrq.gov",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_E09",
+    "title": "Drug or chemical induced diabetes mellitus with hyperosmolarity without nonketotic hyperglycemic-hyperosmolar coma (NKHHC)",
+    "mkb_codes": "['E09']",
+    "pdf_path": "pdf/usa/E09_Drug_or_chemical_induced_diabetes_mellitus_with_hy.pdf",
+    "source": "qualityindicators.ahrq.gov",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_E11",
+    "title": "Type 2 diabetes mellitus with hyperosmolarity without nonketotic hyperglycemic-hyperosmolar coma (NKHHC)",
+    "mkb_codes": "['E11']",
+    "pdf_path": "pdf/usa/E11_Type_2_diabetes_mellitus_with_hyperosmolarity_with.pdf",
+    "source": "www.aafp.org",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_E21",
+    "title": "Primary hyperparathyroidism",
+    "mkb_codes": "['E21']",
+    "pdf_path": "pdf/usa/E21_Primary_hyperparathyroidism.pdf",
+    "source": "www.ncbi.nlm.nih.gov",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_E28",
+    "title": "Estrogen excess",
+    "mkb_codes": "['E28']",
+    "pdf_path": "pdf/usa/E28_Estrogen_excess.pdf",
+    "source": "www.aafp.org",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_E31",
+    "title": "Autoimmune polyglandular failure",
+    "mkb_codes": "['E31']",
+    "pdf_path": "pdf/usa/E31_Autoimmune_polyglandular_failure.pdf",
+    "source": "www.aafp.org",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_E36",
+    "title": "Intraoperative hemorrhage and hematoma of an endocrine system organ or structure complicating an endocrine system procedure",
+    "mkb_codes": "['E36']",
+    "pdf_path": "pdf/usa/E36_Intraoperative_hemorrhage_and_hematoma_of_an_endoc.pdf",
+    "source": "qualityindicators.ahrq.gov",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_E52",
+    "title": "Niacin deficiency [pellagra]",
+    "mkb_codes": "['E52']",
+    "pdf_path": "pdf/usa/E52_Niacin_deficiency_[pellagra].pdf",
+    "source": "www.cdc.gov",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_E77",
+    "title": "Defects in post-translational modification of lysosomal enzymes",
+    "mkb_codes": "['E77']",
+    "pdf_path": "pdf/usa/E77_Defects_in_post-translational_modification_of_lyso.pdf",
+    "source": "stacks.cdc.gov",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_E86",
+    "title": "Dehydration",
+    "mkb_codes": "['E86']",
+    "pdf_path": "pdf/usa/E86_Dehydration.pdf",
+    "source": "www.cdc.gov",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_E87",
+    "title": "Hyperosmolality and hypernatremia",
+    "mkb_codes": "['E87']",
+    "pdf_path": "pdf/usa/E87_Hyperosmolality_and_hypernatremia.pdf",
+    "source": "www.aafp.org",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_F06",
+    "title": "Psychotic disorder with hallucinations due to known physiological condition",
+    "mkb_codes": "['F06']",
+    "pdf_path": "pdf/usa/F06_Psychotic_disorder_with_hallucinations_due_to_know.pdf",
+    "source": "www.aafp.org",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_F15",
+    "title": "Other stimulant abuse, uncomplicated",
+    "mkb_codes": "['F15']",
+    "pdf_path": "pdf/usa/F15_Other_stimulant_abuse,_uncomplicated.pdf",
+    "source": "www.cdc.gov",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_F18",
+    "title": "Inhalant abuse, uncomplicated",
+    "mkb_codes": "['F18']",
+    "pdf_path": "pdf/usa/F18_Inhalant_abuse,_uncomplicated.pdf",
+    "source": "www.aafp.org",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_F21",
+    "title": "Schizotypal disorder",
+    "mkb_codes": "['F21']",
+    "pdf_path": "pdf/usa/F21_Schizotypal_disorder.pdf",
+    "source": "www.aafp.org",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_F30",
+    "title": "Manic episode without psychotic symptoms, unspecified",
+    "mkb_codes": "['F30']",
+    "pdf_path": "pdf/usa/F30_Manic_episode_without_psychotic_symptoms,_unspecif.pdf",
+    "source": "www.aafp.org",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_F33",
+    "title": "Major depressive disorder, recurrent, mild",
+    "mkb_codes": "['F33']",
+    "pdf_path": "pdf/usa/F33_Major_depressive_disorder,_recurrent,_mild.pdf",
+    "source": "www.aafp.org",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_F41",
+    "title": "Panic disorder [episodic paroxysmal anxiety]",
+    "mkb_codes": "['F41']",
+    "pdf_path": "pdf/usa/F41_Panic_disorder_[episodic_paroxysmal_anxiety].pdf",
+    "source": "www.aafp.org",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_F60",
+    "title": "Paranoid personality disorder",
+    "mkb_codes": "['F60']",
+    "pdf_path": "pdf/usa/F60_Paranoid_personality_disorder.pdf",
+    "source": "www.ncbi.nlm.nih.gov",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_F66",
+    "title": "Other sexual disorders",
+    "mkb_codes": "['F66']",
+    "pdf_path": "pdf/usa/F66_Other_sexual_disorders.pdf",
+    "source": "www.aafp.org",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_F79",
+    "title": "Unspecified intellectual disabilities",
+    "mkb_codes": "['F79']",
+    "pdf_path": "pdf/usa/F79_Unspecified_intellectual_disabilities.pdf",
+    "source": "www.cdc.gov",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_F84",
+    "title": "Autistic disorder",
+    "mkb_codes": "['F84']",
+    "pdf_path": "pdf/usa/F84_Autistic_disorder.pdf",
+    "source": "www.ncbi.nlm.nih.gov",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_F90",
+    "title": "Attention-deficit hyperactivity disorder, predominantly inattentive type",
+    "mkb_codes": "['F90']",
+    "pdf_path": "pdf/usa/F90_Attention-deficit_hyperactivity_disorder,_predomin.pdf",
+    "source": "infocenter.nimh.nih.gov",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_F91",
+    "title": "Conduct disorder confined to family context",
+    "mkb_codes": "['F91']",
+    "pdf_path": "pdf/usa/F91_Conduct_disorder_confined_to_family_context.pdf",
+    "source": "www.aafp.org",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_G00",
+    "title": "Hemophilus meningitis",
+    "mkb_codes": "['G00']",
+    "pdf_path": "pdf/usa/G00_Hemophilus_meningitis.pdf",
+    "source": "www.cdc.gov",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_G01",
+    "title": "Meningitis in bacterial diseases classified elsewhere",
+    "mkb_codes": "['G01']",
+    "pdf_path": "pdf/usa/G01_Meningitis_in_bacterial_diseases_classified_elsewh.pdf",
+    "source": "www.ncbi.nlm.nih.gov",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_G05",
+    "title": "Encephalitis and encephalomyelitis in diseases classified elsewhere",
+    "mkb_codes": "['G05']",
+    "pdf_path": "pdf/usa/G05_Encephalitis_and_encephalomyelitis_in_diseases_cla.pdf",
+    "source": "wwwnc.cdc.gov",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_G06",
+    "title": "Intracranial abscess and granuloma",
+    "mkb_codes": "['G06']",
+    "pdf_path": "pdf/usa/G06_Intracranial_abscess_and_granuloma.pdf",
+    "source": "www.cdc.gov",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_G25",
+    "title": "Essential tremor",
+    "mkb_codes": "['G25']",
+    "pdf_path": "pdf/usa/G25_Essential_tremor.pdf",
+    "source": "www.aafp.org",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_G35",
+    "title": "Multiple sclerosis",
+    "mkb_codes": "['G35']",
+    "pdf_path": "pdf/usa/G35_Multiple_sclerosis.pdf",
+    "source": "www.ncbi.nlm.nih.gov",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_G52",
+    "title": "Disorders of olfactory nerve",
+    "mkb_codes": "['G52']",
+    "pdf_path": "pdf/usa/G52_Disorders_of_olfactory_nerve.pdf",
+    "source": "www.aafp.org",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_G70",
+    "title": "Myasthenia gravis without (acute) exacerbation",
+    "mkb_codes": "['G70']",
+    "pdf_path": "pdf/usa/G70_Myasthenia_gravis_without_(acute)_exacerbation.pdf",
+    "source": "www.ninds.nih.gov",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_G89",
+    "title": "Central pain syndrome",
+    "mkb_codes": "['G89']",
+    "pdf_path": "pdf/usa/G89_Central_pain_syndrome.pdf",
+    "source": "www.aafp.org",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_G98",
+    "title": "Neurogenic arthritis, not elsewhere classified",
+    "mkb_codes": "['G98']",
+    "pdf_path": "pdf/usa/G98_Neurogenic_arthritis,_not_elsewhere_classified.pdf",
+    "source": "www.ncbi.nlm.nih.gov",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_H25",
+    "title": "Cortical age-related cataract, right eye",
+    "mkb_codes": "['H25']",
+    "pdf_path": "pdf/usa/H25_Cortical_age-related_cataract,_right_eye.pdf",
+    "source": "www.nei.nih.gov",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_H35",
+    "title": "Unspecified background retinopathy",
+    "mkb_codes": "['H35']",
+    "pdf_path": "pdf/usa/H35_Unspecified_background_retinopathy.pdf",
+    "source": "www.ncbi.nlm.nih.gov",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_H53",
+    "title": "Unspecified amblyopia, right eye",
+    "mkb_codes": "['H53']",
+    "pdf_path": "pdf/usa/H53_Unspecified_amblyopia,_right_eye.pdf",
+    "source": "www.aafp.org",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_H60",
+    "title": "Abscess of external ear, unspecified ear",
+    "mkb_codes": "['H60']",
+    "pdf_path": "pdf/usa/H60_Abscess_of_external_ear,_unspecified_ear.pdf",
+    "source": "www.aafp.org",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_H65",
+    "title": "Acute serous otitis media, unspecified ear",
+    "mkb_codes": "['H65']",
+    "pdf_path": "pdf/usa/H65_Acute_serous_otitis_media,_unspecified_ear.pdf",
+    "source": "www.aafp.org",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_H67",
+    "title": "Otitis media in diseases classified elsewhere, right ear",
+    "mkb_codes": "['H67']",
+    "pdf_path": "pdf/usa/H67_Otitis_media_in_diseases_classified_elsewhere,_rig.pdf",
+    "source": "qualityindicators.ahrq.gov",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_H81",
+    "title": "Meniere's disease, right ear",
+    "mkb_codes": "['H81']",
+    "pdf_path": "pdf/usa/H81_Meniere's_disease,_right_ear.pdf",
+    "source": "www.nidcd.nih.gov",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_H91",
+    "title": "Ototoxic hearing loss, right ear",
+    "mkb_codes": "['H91']",
+    "pdf_path": "pdf/usa/H91_Ototoxic_hearing_loss,_right_ear.pdf",
+    "source": "www.cdc.gov",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_H94",
+    "title": "Acoustic neuritis in infectious and parasitic diseases classified elsewhere, unspecified ear",
+    "mkb_codes": "['H94']",
+    "pdf_path": "pdf/usa/H94_Acoustic_neuritis_in_infectious_and_parasitic_dise.pdf",
+    "source": "www.cdc.gov",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_I01",
+    "title": "Acute rheumatic pericarditis",
+    "mkb_codes": "['I01']",
+    "pdf_path": "pdf/usa/I01_Acute_rheumatic_pericarditis.pdf",
+    "source": "www.aafp.org",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_I22",
+    "title": "Subsequent ST elevation (STEMI) myocardial infarction of anterior wall",
+    "mkb_codes": "['I22']",
+    "pdf_path": "pdf/usa/I22_Subsequent_ST_elevation_(STEMI)_myocardial_infarct.pdf",
+    "source": "www.aafp.org",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_I24",
+    "title": "Acute coronary thrombosis not resulting in myocardial infarction",
+    "mkb_codes": "['I24']",
+    "pdf_path": "pdf/usa/I24_Acute_coronary_thrombosis_not_resulting_in_myocard.pdf",
+    "source": "www.aafp.org",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_I34",
+    "title": "Nonrheumatic mitral (valve) insufficiency",
+    "mkb_codes": "['I34']",
+    "pdf_path": "pdf/usa/I34_Nonrheumatic_mitral_(valve)_insufficiency.pdf",
+    "source": "www.ncbi.nlm.nih.gov",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_I35",
+    "title": "Nonrheumatic aortic (valve) stenosis",
+    "mkb_codes": "['I35']",
+    "pdf_path": "pdf/usa/I35_Nonrheumatic_aortic_(valve)_stenosis.pdf",
+    "source": "www.ncbi.nlm.nih.gov",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_I39",
+    "title": "Endocarditis and heart valve disorders in diseases classified elsewhere",
+    "mkb_codes": "['I39']",
+    "pdf_path": "pdf/usa/I39_Endocarditis_and_heart_valve_disorders_in_diseases.pdf",
+    "source": "stacks.cdc.gov",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_I43",
+    "title": "Cardiomyopathy in diseases classified elsewhere",
+    "mkb_codes": "['I43']",
+    "pdf_path": "pdf/usa/I43_Cardiomyopathy_in_diseases_classified_elsewhere.pdf",
+    "source": "www.cdc.gov",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_I50",
+    "title": "Left ventricular failure, unspecified",
+    "mkb_codes": "['I50']",
+    "pdf_path": "pdf/usa/I50_Left_ventricular_failure,_unspecified.pdf",
+    "source": "www.thaiheart.org",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_I52",
+    "title": "Other heart disorders in diseases classified elsewhere",
+    "mkb_codes": "['I52']",
+    "pdf_path": "pdf/usa/I52_Other_heart_disorders_in_diseases_classified_elsew.pdf",
+    "source": "www.cdc.gov",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_I60",
+    "title": "Nontraumatic subarachnoid hemorrhage from unspecified carotid siphon and bifurcation",
+    "mkb_codes": "['I60']",
+    "pdf_path": "pdf/usa/I60_Nontraumatic_subarachnoid_hemorrhage_from_unspecif.pdf",
+    "source": "www.aafp.org",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_I62",
+    "title": "Nontraumatic subdural hemorrhage, unspecified",
+    "mkb_codes": "['I62']",
+    "pdf_path": "pdf/usa/I62_Nontraumatic_subdural_hemorrhage,_unspecified.pdf",
+    "source": "sisterstudy.niehs.nih.gov",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_I75",
+    "title": "Atheroembolism of right upper extremity",
+    "mkb_codes": "['I75']",
+    "pdf_path": "pdf/usa/I75_Atheroembolism_of_right_upper_extremity.pdf",
+    "source": "www.aafp.org",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_I83",
+    "title": "Varicose veins of unspecified lower extremity with ulcer of thigh",
+    "mkb_codes": "['I83']",
+    "pdf_path": "pdf/usa/I83_Varicose_veins_of_unspecified_lower_extremity_with.pdf",
+    "source": "www.aafp.org",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_I87",
+    "title": "Postthrombotic syndrome without complications of right lower extremity",
+    "mkb_codes": "['I87']",
+    "pdf_path": "pdf/usa/I87_Postthrombotic_syndrome_without_complications_of_r.pdf",
+    "source": "www.aafp.org",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_J00",
+    "title": "Acute nasopharyngitis [common cold]",
+    "mkb_codes": "['J00']",
+    "pdf_path": "pdf/usa/J00_Acute_nasopharyngitis_[common_cold].pdf",
+    "source": "www.aafp.org",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_J02",
+    "title": "Streptococcal pharyngitis",
+    "mkb_codes": "['J02']",
+    "pdf_path": "pdf/usa/J02_Streptococcal_pharyngitis.pdf",
+    "source": "www.aafp.org",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_J03",
+    "title": "Acute streptococcal tonsillitis, unspecified",
+    "mkb_codes": "['J03']",
+    "pdf_path": "pdf/usa/J03_Acute_streptococcal_tonsillitis,_unspecified.pdf",
+    "source": "www.aafp.org",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_J09",
+    "title": "Influenza due to identified novel influenza A virus with pneumonia",
+    "mkb_codes": "['J09']",
+    "pdf_path": "pdf/usa/J09_Influenza_due_to_identified_novel_influenza_A_viru.pdf",
+    "source": "stacks.cdc.gov",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_J10",
+    "title": "Influenza due to other identified influenza virus with unspecified type of pneumonia",
+    "mkb_codes": "['J10']",
+    "pdf_path": "pdf/usa/J10_Influenza_due_to_other_identified_influenza_virus_.pdf",
+    "source": "stacks.cdc.gov",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_J11",
+    "title": "Influenza due to unidentified influenza virus with unspecified type of pneumonia",
+    "mkb_codes": "['J11']",
+    "pdf_path": "pdf/usa/J11_Influenza_due_to_unidentified_influenza_virus_with.pdf",
+    "source": "stacks.cdc.gov",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_J12",
+    "title": "Adenoviral pneumonia",
+    "mkb_codes": "['J12']",
+    "pdf_path": "pdf/usa/J12_Adenoviral_pneumonia.pdf",
+    "source": "www.cdc.gov",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_J14",
+    "title": "Pneumonia due to Hemophilus influenzae",
+    "mkb_codes": "['J14']",
+    "pdf_path": "pdf/usa/J14_Pneumonia_due_to_Hemophilus_influenzae.pdf",
+    "source": "wwwnc.cdc.gov",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_J15",
+    "title": "Pneumonia due to Klebsiella pneumoniae",
+    "mkb_codes": "['J15']",
+    "pdf_path": "pdf/usa/J15_Pneumonia_due_to_Klebsiella_pneumoniae.pdf",
+    "source": "wwwnc.cdc.gov",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_J17",
+    "title": "Pneumonia in diseases classified elsewhere",
+    "mkb_codes": "['J17']",
+    "pdf_path": "pdf/usa/J17_Pneumonia_in_diseases_classified_elsewhere.pdf",
+    "source": "www.idsociety.org",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_J21",
+    "title": "Acute bronchiolitis due to respiratory syncytial virus",
+    "mkb_codes": "['J21']",
+    "pdf_path": "pdf/usa/J21_Acute_bronchiolitis_due_to_respiratory_syncytial_v.pdf",
+    "source": "www.aafp.org",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_J30",
+    "title": "Vasomotor rhinitis",
+    "mkb_codes": "['J30']",
+    "pdf_path": "pdf/usa/J30_Vasomotor_rhinitis.pdf",
+    "source": "www.aafp.org",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_J32",
+    "title": "Chronic maxillary sinusitis",
+    "mkb_codes": "['J32']",
+    "pdf_path": "pdf/usa/J32_Chronic_maxillary_sinusitis.pdf",
+    "source": "www.aafp.org",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_J36",
+    "title": "Peritonsillar abscess",
+    "mkb_codes": "['J36']",
+    "pdf_path": "pdf/usa/J36_Peritonsillar_abscess.pdf",
+    "source": "www.aafp.org",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_J38",
+    "title": "Paralysis of vocal cords and larynx, unspecified",
+    "mkb_codes": "['J38']",
+    "pdf_path": "pdf/usa/J38_Paralysis_of_vocal_cords_and_larynx,_unspecified.pdf",
+    "source": "www.nidcd.nih.gov",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_J40",
+    "title": "Bronchitis, not specified as acute or chronic",
+    "mkb_codes": "['J40']",
+    "pdf_path": "pdf/usa/J40_Bronchitis,_not_specified_as_acute_or_chronic.pdf",
+    "source": "www.cdc.gov",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_J42",
+    "title": "Unspecified chronic bronchitis",
+    "mkb_codes": "['J42']",
+    "pdf_path": "pdf/usa/J42_Unspecified_chronic_bronchitis.pdf",
+    "source": "www.aafp.org",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_J45",
+    "title": "Mild intermittent asthma, uncomplicated",
+    "mkb_codes": "['J45']",
+    "pdf_path": "pdf/usa/J45_Mild_intermittent_asthma,_uncomplicated.pdf",
+    "source": "www.nhlbi.nih.gov",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_J60",
+    "title": "Coalworker's pneumoconiosis",
+    "mkb_codes": "['J60']",
+    "pdf_path": "pdf/usa/J60_Coalworker's_pneumoconiosis.pdf",
+    "source": "www.cdc.gov",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_J61",
+    "title": "Pneumoconiosis due to asbestos and other mineral fibers",
+    "mkb_codes": "['J61']",
+    "pdf_path": "pdf/usa/J61_Pneumoconiosis_due_to_asbestos_and_other_mineral_f.pdf",
+    "source": "www.cdc.gov",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_J67",
+    "title": "Farmer's lung",
+    "mkb_codes": "['J67']",
+    "pdf_path": "pdf/usa/J67_Farmer's_lung.pdf",
+    "source": "ftp.cdc.gov",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_J68",
+    "title": "Bronchitis and pneumonitis due to chemicals, gases, fumes and vapors",
+    "mkb_codes": "['J68']",
+    "pdf_path": "pdf/usa/J68_Bronchitis_and_pneumonitis_due_to_chemicals,_gases.pdf",
+    "source": "www.cdc.gov",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_J70",
+    "title": "Acute pulmonary manifestations due to radiation",
+    "mkb_codes": "['J70']",
+    "pdf_path": "pdf/usa/J70_Acute_pulmonary_manifestations_due_to_radiation.pdf",
+    "source": "pubweb-prod.niaid.nih.gov",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_J99",
+    "title": "Respiratory disorders in diseases classified elsewhere",
+    "mkb_codes": "['J99']",
+    "pdf_path": "pdf/usa/J99_Respiratory_disorders_in_diseases_classified_elsew.pdf",
+    "source": "stacks.cdc.gov",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_K02",
+    "title": "Arrested dental caries",
+    "mkb_codes": "['K02']",
+    "pdf_path": "pdf/usa/K02_Arrested_dental_caries.pdf",
+    "source": "www.ada.org",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_K04",
+    "title": "Reversible pulpitis",
+    "mkb_codes": "['K04']",
+    "pdf_path": "pdf/usa/K04_Reversible_pulpitis.pdf",
+    "source": "www.ada.org",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_K14",
+    "title": "Glossitis",
+    "mkb_codes": "['K14']",
+    "pdf_path": "pdf/usa/K14_Glossitis.pdf",
+    "source": "www.aafp.org",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_K20",
+    "title": "Eosinophilic esophagitis",
+    "mkb_codes": "['K20']",
+    "pdf_path": "pdf/usa/K20_Eosinophilic_esophagitis.pdf",
+    "source": "www.aafp.org",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_K23",
+    "title": "Disorders of esophagus in diseases classified elsewhere",
+    "mkb_codes": "['K23']",
+    "pdf_path": "pdf/usa/K23_Disorders_of_esophagus_in_diseases_classified_else.pdf",
+    "source": "www.aafp.org",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_K41",
+    "title": "Bilateral femoral hernia, with obstruction, without gangrene, not specified as recurrent",
+    "mkb_codes": "['K41']",
+    "pdf_path": "pdf/usa/K41_Bilateral_femoral_hernia,_with_obstruction,_withou.pdf",
+    "source": "www.aafp.org",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_K51",
+    "title": "Ulcerative (chronic) pancolitis without complications",
+    "mkb_codes": "['K51']",
+    "pdf_path": "pdf/usa/K51_Ulcerative_(chronic)_pancolitis_without_complicati.pdf",
+    "source": "www.aafp.org",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_K64",
+    "title": "First degree hemorrhoids",
+    "mkb_codes": "['K64']",
+    "pdf_path": "pdf/usa/K64_First_degree_hemorrhoids.pdf",
+    "source": "www.aafp.org",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_K73",
+    "title": "Chronic persistent hepatitis, not elsewhere classified",
+    "mkb_codes": "['K73']",
+    "pdf_path": "pdf/usa/K73_Chronic_persistent_hepatitis,_not_elsewhere_classi.pdf",
+    "source": "www.ncbi.nlm.nih.gov",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_K80",
+    "title": "Calculus of gallbladder with acute cholecystitis without obstruction",
+    "mkb_codes": "['K80']",
+    "pdf_path": "pdf/usa/K80_Calculus_of_gallbladder_with_acute_cholecystitis_w.pdf",
+    "source": "www.aafp.org",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_K95",
+    "title": "Infection due to gastric band procedure",
+    "mkb_codes": "['K95']",
+    "pdf_path": "pdf/usa/K95_Infection_due_to_gastric_band_procedure.pdf",
+    "source": "www.cdc.gov",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_L02",
+    "title": "Cutaneous abscess of face",
+    "mkb_codes": "['L02']",
+    "pdf_path": "pdf/usa/L02_Cutaneous_abscess_of_face.pdf",
+    "source": "www.aafp.org",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_L05",
+    "title": "Pilonidal cyst with abscess",
+    "mkb_codes": "['L05']",
+    "pdf_path": "pdf/usa/L05_Pilonidal_cyst_with_abscess.pdf",
+    "source": "www.aafp.org",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_L21",
+    "title": "Seborrhea capitis",
+    "mkb_codes": "['L21']",
+    "pdf_path": "pdf/usa/L21_Seborrhea_capitis.pdf",
+    "source": "www.aafp.org",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_L25",
+    "title": "Unspecified contact dermatitis due to cosmetics",
+    "mkb_codes": "['L25']",
+    "pdf_path": "pdf/usa/L25_Unspecified_contact_dermatitis_due_to_cosmetics.pdf",
+    "source": "www.aafp.org",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_L27",
+    "title": "Generalized skin eruption due to drugs and medicaments taken internally",
+    "mkb_codes": "['L27']",
+    "pdf_path": "pdf/usa/L27_Generalized_skin_eruption_due_to_drugs_and_medicam.pdf",
+    "source": "www.ncbi.nlm.nih.gov",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_L42",
+    "title": "Pityriasis rosea",
+    "mkb_codes": "['L42']",
+    "pdf_path": "pdf/usa/L42_Pityriasis_rosea.pdf",
+    "source": "www.aafp.org",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_L43",
+    "title": "Hypertrophic lichen planus",
+    "mkb_codes": "['L43']",
+    "pdf_path": "pdf/usa/L43_Hypertrophic_lichen_planus.pdf",
+    "source": "www.aafp.org",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_L49",
+    "title": "Exfoliation due to erythematous condition involving less than 10 percent of body surface",
+    "mkb_codes": "['L49']",
+    "pdf_path": "pdf/usa/L49_Exfoliation_due_to_erythematous_condition_involvin.pdf",
+    "source": "qualityindicators.ahrq.gov",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_L51",
+    "title": "Nonbullous erythema multiforme",
+    "mkb_codes": "['L51']",
+    "pdf_path": "pdf/usa/L51_Nonbullous_erythema_multiforme.pdf",
+    "source": "www.aafp.org",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_L52",
+    "title": "Erythema nodosum",
+    "mkb_codes": "['L52']",
+    "pdf_path": "pdf/usa/L52_Erythema_nodosum.pdf",
+    "source": "www.aafp.org",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_L54",
+    "title": "Erythema in diseases classified elsewhere",
+    "mkb_codes": "['L54']",
+    "pdf_path": "pdf/usa/L54_Erythema_in_diseases_classified_elsewhere.pdf",
+    "source": "www.aafp.org",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_L60",
+    "title": "Ingrowing nail",
+    "mkb_codes": "['L60']",
+    "pdf_path": "pdf/usa/L60_Ingrowing_nail.pdf",
+    "source": "www.aafp.org",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_L63",
+    "title": "Alopecia (capitis) totalis",
+    "mkb_codes": "['L63']",
+    "pdf_path": "pdf/usa/L63_Alopecia_(capitis)_totalis.pdf",
+    "source": "www.aafp.org",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_L70",
+    "title": "Acne vulgaris",
+    "mkb_codes": "['L70']",
+    "pdf_path": "pdf/usa/L70_Acne_vulgaris.pdf",
+    "source": "www.ncbi.nlm.nih.gov",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_L76",
+    "title": "Intraoperative hemorrhage and hematoma of skin and subcutaneous tissue complicating a dermatologic procedure",
+    "mkb_codes": "['L76']",
+    "pdf_path": "pdf/usa/L76_Intraoperative_hemorrhage_and_hematoma_of_skin_and.pdf",
+    "source": "qualityindicators.ahrq.gov",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_L84",
+    "title": "Corns and callosities",
+    "mkb_codes": "['L84']",
+    "pdf_path": "pdf/usa/L84_Corns_and_callosities.pdf",
+    "source": "www.aafp.org",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_L86",
+    "title": "Keratoderma in diseases classified elsewhere",
+    "mkb_codes": "['L86']",
+    "pdf_path": "pdf/usa/L86_Keratoderma_in_diseases_classified_elsewhere.pdf",
+    "source": "www.cdc.gov",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_L89",
+    "title": "Pressure ulcer of unspecified elbow, unstageable",
+    "mkb_codes": "['L89']",
+    "pdf_path": "pdf/usa/L89_Pressure_ulcer_of_unspecified_elbow,_unstageable.pdf",
+    "source": "qualityindicators.ahrq.gov",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_L92",
+    "title": "Granuloma annulare",
+    "mkb_codes": "['L92']",
+    "pdf_path": "pdf/usa/L92_Granuloma_annulare.pdf",
+    "source": "www.aafp.org",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_M00",
+    "title": "Staphylococcal arthritis, unspecified joint",
+    "mkb_codes": "['M00']",
+    "pdf_path": "pdf/usa/M00_Staphylococcal_arthritis,_unspecified_joint.pdf",
+    "source": "www.aafp.org",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_M01",
+    "title": "Direct infection of unspecified joint in infectious and parasitic diseases classified elsewhere",
+    "mkb_codes": "['M01']",
+    "pdf_path": "pdf/usa/M01_Direct_infection_of_unspecified_joint_in_infectiou.pdf",
+    "source": "qualityindicators.ahrq.gov",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_M1A",
+    "title": "Idiopathic chronic gout, unspecified site, without tophus (tophi)",
+    "mkb_codes": "['M1A']",
+    "pdf_path": "pdf/usa/M1A_Idiopathic_chronic_gout,_unspecified_site,_without.pdf",
+    "source": "www.cdc.gov",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_M10",
+    "title": "Idiopathic gout, unspecified site",
+    "mkb_codes": "['M10']",
+    "pdf_path": "pdf/usa/M10_Idiopathic_gout,_unspecified_site.pdf",
+    "source": "www.ncbi.nlm.nih.gov",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_M13",
+    "title": "Polyarthritis, unspecified",
+    "mkb_codes": "['M13']",
+    "pdf_path": "pdf/usa/M13_Polyarthritis,_unspecified.pdf",
+    "source": "www.aafp.org",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_M14",
+    "title": "Charcot's joint, unspecified site",
+    "mkb_codes": "['M14']",
+    "pdf_path": "pdf/usa/M14_Charcot's_joint,_unspecified_site.pdf",
+    "source": "www.aafp.org",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_M15",
+    "title": "Primary generalized (osteo)arthritis",
+    "mkb_codes": "['M15']",
+    "pdf_path": "pdf/usa/M15_Primary_generalized_(osteo)arthritis.pdf",
+    "source": "www.aafp.org",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_M17",
+    "title": "Bilateral primary osteoarthritis of knee",
+    "mkb_codes": "['M17']",
+    "pdf_path": "pdf/usa/M17_Bilateral_primary_osteoarthritis_of_knee.pdf",
+    "source": "www.aafp.org",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_M19",
+    "title": "Primary osteoarthritis, right shoulder",
+    "mkb_codes": "['M19']",
+    "pdf_path": "pdf/usa/M19_Primary_osteoarthritis,_right_shoulder.pdf",
+    "source": "www.aafp.org",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_M42",
+    "title": "Juvenile osteochondrosis of spine, site unspecified",
+    "mkb_codes": "['M42']",
+    "pdf_path": "pdf/usa/M42_Juvenile_osteochondrosis_of_spine,_site_unspecifie.pdf",
+    "source": "www.aafp.org",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_M46",
+    "title": "Spinal enthesopathy, site unspecified",
+    "mkb_codes": "['M46']",
+    "pdf_path": "pdf/usa/M46_Spinal_enthesopathy,_site_unspecified.pdf",
+    "source": "qualityindicators.ahrq.gov",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_M49",
+    "title": "Spondylopathy in diseases classified elsewhere, site unspecified",
+    "mkb_codes": "['M49']",
+    "pdf_path": "pdf/usa/M49_Spondylopathy_in_diseases_classified_elsewhere,_si.pdf",
+    "source": "qualityindicators.ahrq.gov",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_M62",
+    "title": "Separation of muscle (nontraumatic), unspecified site",
+    "mkb_codes": "['M62']",
+    "pdf_path": "pdf/usa/M62_Separation_of_muscle_(nontraumatic),_unspecified_s.pdf",
+    "source": "stacks.cdc.gov",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_M65",
+    "title": "Abscess of tendon sheath, unspecified site",
+    "mkb_codes": "['M65']",
+    "pdf_path": "pdf/usa/M65_Abscess_of_tendon_sheath,_unspecified_site.pdf",
+    "source": "www.cdc.gov",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_M70",
+    "title": "Crepitant synovitis (acute) (chronic), right wrist",
+    "mkb_codes": "['M70']",
+    "pdf_path": "pdf/usa/M70_Crepitant_synovitis_(acute)_(chronic),_right_wrist.pdf",
+    "source": "www.aafp.org",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_M71",
+    "title": "Abscess of bursa, unspecified site",
+    "mkb_codes": "['M71']",
+    "pdf_path": "pdf/usa/M71_Abscess_of_bursa,_unspecified_site.pdf",
+    "source": "www.cdc.gov",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_M84",
+    "title": "Stress fracture, unspecified site, initial encounter for fracture",
+    "mkb_codes": "['M84']",
+    "pdf_path": "pdf/usa/M84_Stress_fracture,_unspecified_site,_initial_encount.pdf",
+    "source": "www.aafp.org",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_M86",
+    "title": "Acute hematogenous osteomyelitis, unspecified site",
+    "mkb_codes": "['M86']",
+    "pdf_path": "pdf/usa/M86_Acute_hematogenous_osteomyelitis,_unspecified_site.pdf",
+    "source": "www.aafp.org",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_M88",
+    "title": "Osteitis deformans of skull",
+    "mkb_codes": "['M88']",
+    "pdf_path": "pdf/usa/M88_Osteitis_deformans_of_skull.pdf",
+    "source": "www.aafp.org",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_M92",
+    "title": "Juvenile osteochondrosis of humerus, unspecified arm",
+    "mkb_codes": "['M92']",
+    "pdf_path": "pdf/usa/M92_Juvenile_osteochondrosis_of_humerus,_unspecified_a.pdf",
+    "source": "www.aafp.org",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_M94",
+    "title": "Chondrocostal junction syndrome [Tietze]",
+    "mkb_codes": "['M94']",
+    "pdf_path": "pdf/usa/M94_Chondrocostal_junction_syndrome_[Tietze].pdf",
+    "source": "www.aafp.org",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_N00",
+    "title": "Acute nephritic syndrome with minor glomerular abnormality",
+    "mkb_codes": "['N00']",
+    "pdf_path": "pdf/usa/N00_Acute_nephritic_syndrome_with_minor_glomerular_abn.pdf",
+    "source": "qualityindicators.ahrq.gov",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_N10",
+    "title": "Acute pyelonephritis",
+    "mkb_codes": "['N10']",
+    "pdf_path": "pdf/usa/N10_Acute_pyelonephritis.pdf",
+    "source": "www.aafp.org",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_N16",
+    "title": "Renal tubulo-interstitial disorders in diseases classified elsewhere",
+    "mkb_codes": "['N16']",
+    "pdf_path": "pdf/usa/N16_Renal_tubulo-interstitial_disorders_in_diseases_cl.pdf",
+    "source": "qualityindicators.ahrq.gov",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_N17",
+    "title": "Acute kidney failure with tubular necrosis",
+    "mkb_codes": "['N17']",
+    "pdf_path": "pdf/usa/N17_Acute_kidney_failure_with_tubular_necrosis.pdf",
+    "source": "www.aafp.org",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_N18",
+    "title": "Chronic kidney disease, stage 1",
+    "mkb_codes": "['N18']",
+    "pdf_path": "pdf/usa/N18_Chronic_kidney_disease,_stage_1.pdf",
+    "source": "www.aafp.org",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_N21",
+    "title": "Calculus in bladder",
+    "mkb_codes": "['N21']",
+    "pdf_path": "pdf/usa/N21_Calculus_in_bladder.pdf",
+    "source": "www.aafp.org",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_N22",
+    "title": "Calculus of urinary tract in diseases classified elsewhere",
+    "mkb_codes": "['N22']",
+    "pdf_path": "pdf/usa/N22_Calculus_of_urinary_tract_in_diseases_classified_e.pdf",
+    "source": "www.niddk.nih.gov",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_N29",
+    "title": "Other disorders of kidney and ureter in diseases classified elsewhere",
+    "mkb_codes": "['N29']",
+    "pdf_path": "pdf/usa/N29_Other_disorders_of_kidney_and_ureter_in_diseases_c.pdf",
+    "source": "www.niddk.nih.gov",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_N30",
+    "title": "Acute cystitis without hematuria",
+    "mkb_codes": "['N30']",
+    "pdf_path": "pdf/usa/N30_Acute_cystitis_without_hematuria.pdf",
+    "source": "www.aafp.org",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_N33",
+    "title": "Bladder disorders in diseases classified elsewhere",
+    "mkb_codes": "['N33']",
+    "pdf_path": "pdf/usa/N33_Bladder_disorders_in_diseases_classified_elsewhere.pdf",
+    "source": "www.cdc.gov",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_N37",
+    "title": "Urethral disorders in diseases classified elsewhere",
+    "mkb_codes": "['N37']",
+    "pdf_path": "pdf/usa/N37_Urethral_disorders_in_diseases_classified_elsewher.pdf",
+    "source": "www.aafp.org",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_N39",
+    "title": "Urinary tract infection, site not specified",
+    "mkb_codes": "['N39']",
+    "pdf_path": "pdf/usa/N39_Urinary_tract_infection,_site_not_specified.pdf",
+    "source": "digirepo.nlm.nih.gov",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_N41",
+    "title": "Acute prostatitis",
+    "mkb_codes": "['N41']",
+    "pdf_path": "pdf/usa/N41_Acute_prostatitis.pdf",
+    "source": "www.aafp.org",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_N47",
+    "title": "Adherent prepuce, newborn",
+    "mkb_codes": "['N47']",
+    "pdf_path": "pdf/usa/N47_Adherent_prepuce,_newborn.pdf",
+    "source": "www.aafp.org",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_N48",
+    "title": "Leukoplakia of penis",
+    "mkb_codes": "['N48']",
+    "pdf_path": "pdf/usa/N48_Leukoplakia_of_penis.pdf",
+    "source": "www.aafp.org",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_N61",
+    "title": "Mastitis without abscess",
+    "mkb_codes": "['N61']",
+    "pdf_path": "pdf/usa/N61_Mastitis_without_abscess.pdf",
+    "source": "www.aafp.org",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_N70",
+    "title": "Acute salpingitis",
+    "mkb_codes": "['N70']",
+    "pdf_path": "pdf/usa/N70_Acute_salpingitis.pdf",
+    "source": "www.cdc.gov",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_N72",
+    "title": "Inflammatory disease of cervix uteri",
+    "mkb_codes": "['N72']",
+    "pdf_path": "pdf/usa/N72_Inflammatory_disease_of_cervix_uteri.pdf",
+    "source": "www.aafp.org",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_N73",
+    "title": "Acute parametritis and pelvic cellulitis",
+    "mkb_codes": "['N73']",
+    "pdf_path": "pdf/usa/N73_Acute_parametritis_and_pelvic_cellulitis.pdf",
+    "source": "digirepo.nlm.nih.gov",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_N75",
+    "title": "Cyst of Bartholin's gland",
+    "mkb_codes": "['N75']",
+    "pdf_path": "pdf/usa/N75_Cyst_of_Bartholin's_gland.pdf",
+    "source": "www.aafp.org",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_N76",
+    "title": "Acute vaginitis",
+    "mkb_codes": "['N76']",
+    "pdf_path": "pdf/usa/N76_Acute_vaginitis.pdf",
+    "source": "www.aafp.org",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_N80",
+    "title": "Endometriosis of the uterus, unspecified",
+    "mkb_codes": "['N80']",
+    "pdf_path": "pdf/usa/N80_Endometriosis_of_the_uterus,_unspecified.pdf",
+    "source": "www.aafp.org",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_N81",
+    "title": "Urethrocele",
+    "mkb_codes": "['N81']",
+    "pdf_path": "pdf/usa/N81_Urethrocele.pdf",
+    "source": "www.ncbi.nlm.nih.gov",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_N97",
+    "title": "Female infertility associated with anovulation",
+    "mkb_codes": "['N97']",
+    "pdf_path": "pdf/usa/N97_Female_infertility_associated_with_anovulation.pdf",
+    "source": "www.aafp.org",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_N99",
+    "title": "Postprocedural (acute) (chronic) kidney failure",
+    "mkb_codes": "['N99']",
+    "pdf_path": "pdf/usa/N99_Postprocedural_(acute)_(chronic)_kidney_failure.pdf",
+    "source": "qualityindicators.ahrq.gov",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_O30",
+    "title": "Twin pregnancy, unspecified number of placenta and unspecified number of amniotic sacs, first trimester",
+    "mkb_codes": "['O30']",
+    "pdf_path": "pdf/usa/O30_Twin_pregnancy,_unspecified_number_of_placenta_and.pdf",
+    "source": "qualityindicators.ahrq.gov",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_O31",
+    "title": "Papyraceous fetus, unspecified trimester, not applicable or unspecified",
+    "mkb_codes": "['O31']",
+    "pdf_path": "pdf/usa/O31_Papyraceous_fetus,_unspecified_trimester,_not_appl.pdf",
+    "source": "qualityindicators.ahrq.gov",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_O32",
+    "title": "Maternal care for unstable lie, not applicable or unspecified",
+    "mkb_codes": "['O32']",
+    "pdf_path": "pdf/usa/O32_Maternal_care_for_unstable_lie,_not_applicable_or_.pdf",
+    "source": "qualityindicators.ahrq.gov",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_O70",
+    "title": "First degree perineal laceration during delivery",
+    "mkb_codes": "['O70']",
+    "pdf_path": "pdf/usa/O70_First_degree_perineal_laceration_during_delivery.pdf",
+    "source": "www.aafp.org",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_O98",
+    "title": "Tuberculosis complicating pregnancy, first trimester",
+    "mkb_codes": "['O98']",
+    "pdf_path": "pdf/usa/O98_Tuberculosis_complicating_pregnancy,_first_trimest.pdf",
+    "source": "stacks.cdc.gov",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_P05",
+    "title": "Newborn light for gestational age, unspecified weight",
+    "mkb_codes": "['P05']",
+    "pdf_path": "pdf/usa/P05_Newborn_light_for_gestational_age,_unspecified_wei.pdf",
+    "source": "qualityindicators.ahrq.gov",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_P10",
+    "title": "Subdural hemorrhage due to birth injury",
+    "mkb_codes": "['P10']",
+    "pdf_path": "pdf/usa/P10_Subdural_hemorrhage_due_to_birth_injury.pdf",
+    "source": "qualityindicators.ahrq.gov",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_P13",
+    "title": "Fracture of skull due to birth injury",
+    "mkb_codes": "['P13']",
+    "pdf_path": "pdf/usa/P13_Fracture_of_skull_due_to_birth_injury.pdf",
+    "source": "www.ncbi.nlm.nih.gov",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_P22",
+    "title": "Respiratory distress syndrome of newborn",
+    "mkb_codes": "['P22']",
+    "pdf_path": "pdf/usa/P22_Respiratory_distress_syndrome_of_newborn.pdf",
+    "source": "www.aafp.org",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_P28",
+    "title": "Primary atelectasis of newborn",
+    "mkb_codes": "['P28']",
+    "pdf_path": "pdf/usa/P28_Primary_atelectasis_of_newborn.pdf",
+    "source": "www.aafp.org",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_P35",
+    "title": "Congenital rubella syndrome",
+    "mkb_codes": "['P35']",
+    "pdf_path": "pdf/usa/P35_Congenital_rubella_syndrome.pdf",
+    "source": "stacks.cdc.gov",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_P36",
+    "title": "Sepsis of newborn due to streptococcus, group B",
+    "mkb_codes": "['P36']",
+    "pdf_path": "pdf/usa/P36_Sepsis_of_newborn_due_to_streptococcus,_group_B.pdf",
+    "source": "www.aafp.org",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_P76",
+    "title": "Meconium plug syndrome",
+    "mkb_codes": "['P76']",
+    "pdf_path": "pdf/usa/P76_Meconium_plug_syndrome.pdf",
+    "source": "www.aafp.org",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_P95",
+    "title": "Stillbirth",
+    "mkb_codes": "['P95']",
+    "pdf_path": "pdf/usa/P95_Stillbirth.pdf",
+    "source": "www.nichd.nih.gov",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_Q00",
+    "title": "Anencephaly",
+    "mkb_codes": "['Q00']",
+    "pdf_path": "pdf/usa/Q00_Anencephaly.pdf",
+    "source": "www.cdc.gov",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_Q13",
+    "title": "Coloboma of iris",
+    "mkb_codes": "['Q13']",
+    "pdf_path": "pdf/usa/Q13_Coloboma_of_iris.pdf",
+    "source": "www.nei.nih.gov",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_Q38",
+    "title": "Congenital malformations of lips, not elsewhere classified",
+    "mkb_codes": "['Q38']",
+    "pdf_path": "pdf/usa/Q38_Congenital_malformations_of_lips,_not_elsewhere_cl.pdf",
+    "source": "www.cdc.gov",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_Q86",
+    "title": "Fetal alcohol syndrome (dysmorphic)",
+    "mkb_codes": "['Q86']",
+    "pdf_path": "pdf/usa/Q86_Fetal_alcohol_syndrome_(dysmorphic).pdf",
+    "source": "www.cdc.gov",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_Q96",
+    "title": "Karyotype 45, X",
+    "mkb_codes": "['Q96']",
+    "pdf_path": "pdf/usa/Q96_Karyotype_45,_X.pdf",
+    "source": "www.aafp.org",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_R01",
+    "title": "Benign and innocent cardiac murmurs",
+    "mkb_codes": "['R01']",
+    "pdf_path": "pdf/usa/R01_Benign_and_innocent_cardiac_murmurs.pdf",
+    "source": "www.aafp.org",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_R03",
+    "title": "Elevated blood-pressure reading, without diagnosis of hypertension",
+    "mkb_codes": "['R03']",
+    "pdf_path": "pdf/usa/R03_Elevated_blood-pressure_reading,_without_diagnosis.pdf",
+    "source": "www.aafp.org",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_R06",
+    "title": "Dyspnea, unspecified",
+    "mkb_codes": "['R06']",
+    "pdf_path": "pdf/usa/R06_Dyspnea,_unspecified.pdf",
+    "source": "www.aafp.org",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_R07",
+    "title": "Pain in throat",
+    "mkb_codes": "['R07']",
+    "pdf_path": "pdf/usa/R07_Pain_in_throat.pdf",
+    "source": "digirepo.nlm.nih.gov",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_R13",
+    "title": "Aphagia",
+    "mkb_codes": "['R13']",
+    "pdf_path": "pdf/usa/R13_Aphagia.pdf",
+    "source": "www.aafp.org",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_R14",
+    "title": "Abdominal distension (gaseous)",
+    "mkb_codes": "['R14']",
+    "pdf_path": "pdf/usa/R14_Abdominal_distension_(gaseous).pdf",
+    "source": "www.aafp.org",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_R19",
+    "title": "Intra-abdominal and pelvic swelling, mass and lump, unspecified site",
+    "mkb_codes": "['R19']",
+    "pdf_path": "pdf/usa/R19_Intra-abdominal_and_pelvic_swelling,_mass_and_lump.pdf",
+    "source": "www.idsociety.org",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_R21",
+    "title": "Rash and other nonspecific skin eruption",
+    "mkb_codes": "['R21']",
+    "pdf_path": "pdf/usa/R21_Rash_and_other_nonspecific_skin_eruption.pdf",
+    "source": "www.aafp.org",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_R30",
+    "title": "Dysuria",
+    "mkb_codes": "['R30']",
+    "pdf_path": "pdf/usa/R30_Dysuria.pdf",
+    "source": "www.aafp.org",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_R42",
+    "title": "Dizziness and giddiness",
+    "mkb_codes": "['R42']",
+    "pdf_path": "pdf/usa/R42_Dizziness_and_giddiness.pdf",
+    "source": "www.aafp.org",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_R45",
+    "title": "Nervousness",
+    "mkb_codes": "['R45']",
+    "pdf_path": "pdf/usa/R45_Nervousness.pdf",
+    "source": "www.ncbi.nlm.nih.gov",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_R46",
+    "title": "Very low level of personal hygiene",
+    "mkb_codes": "['R46']",
+    "pdf_path": "pdf/usa/R46_Very_low_level_of_personal_hygiene.pdf",
+    "source": "www.cdc.gov",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_R49",
+    "title": "Dysphonia",
+    "mkb_codes": "['R49']",
+    "pdf_path": "pdf/usa/R49_Dysphonia.pdf",
+    "source": "www.aafp.org",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_R51",
+    "title": "Headache with orthostatic component, not elsewhere classified",
+    "mkb_codes": "['R51']",
+    "pdf_path": "pdf/usa/R51_Headache_with_orthostatic_component,_not_elsewhere.pdf",
+    "source": "www.aafp.org",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_R54",
+    "title": "Age-related physical debility",
+    "mkb_codes": "['R54']",
+    "pdf_path": "pdf/usa/R54_Age-related_physical_debility.pdf",
+    "source": "www.cdc.gov",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_R55",
+    "title": "Syncope and collapse",
+    "mkb_codes": "['R55']",
+    "pdf_path": "pdf/usa/R55_Syncope_and_collapse.pdf",
+    "source": "www.aafp.org",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_R60",
+    "title": "Localized edema",
+    "mkb_codes": "['R60']",
+    "pdf_path": "pdf/usa/R60_Localized_edema.pdf",
+    "source": "www.aafp.org",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_R62",
+    "title": "Delayed milestone in childhood",
+    "mkb_codes": "['R62']",
+    "pdf_path": "pdf/usa/R62_Delayed_milestone_in_childhood.pdf",
+    "source": "stacks.cdc.gov",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_R65",
+    "title": "Systemic inflammatory response syndrome (SIRS) of non-infectious origin without acute organ dysfunction",
+    "mkb_codes": "['R65']",
+    "pdf_path": "pdf/usa/R65_Systemic_inflammatory_response_syndrome_(SIRS)_of_.pdf",
+    "source": "archive.cdc.gov",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_R73",
+    "title": "Impaired fasting glucose",
+    "mkb_codes": "['R73']",
+    "pdf_path": "pdf/usa/R73_Impaired_fasting_glucose.pdf",
+    "source": "www.aafp.org",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_R75",
+    "title": "Inconclusive laboratory evidence of human immunodeficiency virus [HIV]",
+    "mkb_codes": "['R75']",
+    "pdf_path": "pdf/usa/R75_Inconclusive_laboratory_evidence_of_human_immunode.pdf",
+    "source": "stacks.cdc.gov",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_R83",
+    "title": "Abnormal level of enzymes in cerebrospinal fluid",
+    "mkb_codes": "['R83']",
+    "pdf_path": "pdf/usa/R83_Abnormal_level_of_enzymes_in_cerebrospinal_fluid.pdf",
+    "source": "www.aafp.org",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_R89",
+    "title": "Abnormal level of enzymes in specimens from other organs, systems and tissues",
+    "mkb_codes": "['R89']",
+    "pdf_path": "pdf/usa/R89_Abnormal_level_of_enzymes_in_specimens_from_other_.pdf",
+    "source": "www.cdc.gov",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_R91",
+    "title": "Solitary pulmonary nodule",
+    "mkb_codes": "['R91']",
+    "pdf_path": "pdf/usa/R91_Solitary_pulmonary_nodule.pdf",
+    "source": "www.aafp.org",
+    "country": "USA"
+  },
+  {
+    "rec_id": "USA_U07",
+    "title": "Vaping-related disorder",
+    "mkb_codes": "['U07']",
+    "pdf_path": "pdf/usa/U07_Vaping-related_disorder.pdf",
+    "source": "www.cdc.gov",
+    "country": "USA"
+  }
+]
+

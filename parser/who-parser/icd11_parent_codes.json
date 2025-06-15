@@ -1,0 +1,2026 @@
+[
+  {
+    "code": "1A07",
+    "title": "Typhoid fever"
+  },
+  {
+    "code": "1A09",
+    "title": "Infections due to other Salmonella"
+  },
+  {
+    "code": "1A02",
+    "title": "Intestinal infections due to Shigella"
+  },
+  {
+    "code": "1A04",
+    "title": "Intestinal infections due to Clostridioides difficile"
+  },
+  {
+    "code": "1A05",
+    "title": "Intestinal infections due to Yersinia enterocolitica"
+  },
+  {
+    "code": "1A06",
+    "title": "Gastroenteritis due to Campylobacter"
+  },
+  {
+    "code": "1A10",
+    "title": "Foodborne staphylococcal intoxication"
+  },
+  {
+    "code": "1A11",
+    "title": "Botulism"
+  },
+  {
+    "code": "1A13",
+    "title": "Foodborne Bacillus cereus intoxication"
+  },
+  {
+    "code": "1A20",
+    "title": "Enteritis due to Adenovirus"
+  },
+  {
+    "code": "1A21",
+    "title": "Gastroenteritis due to Astrovirus"
+  },
+  {
+    "code": "1A22",
+    "title": "Gastroenteritis due to Rotavirus"
+  },
+  {
+    "code": "1A23",
+    "title": "Enteritis due to Norovirus"
+  },
+  {
+    "code": "1A24",
+    "title": "Intestinal infections due to Cytomegalovirus"
+  },
+  {
+    "code": "1A31",
+    "title": "Giardiasis"
+  },
+  {
+    "code": "1A40",
+    "title": "Gastroenteritis or colitis without specification of infectious agent"
+  },
+  {
+    "code": "1A60",
+    "title": "Congenital syphilis"
+  },
+  {
+    "code": "1A61",
+    "title": "Early syphilis"
+  },
+  {
+    "code": "1A62",
+    "title": "Late syphilis"
+  },
+  {
+    "code": "1A70",
+    "title": "Gonococcal genitourinary infection"
+  },
+  {
+    "code": "1A71",
+    "title": "Gonococcal pelviperitonitis"
+  },
+  {
+    "code": "1A72",
+    "title": "Gonococcal infection of other sites"
+  },
+  {
+    "code": "1A73",
+    "title": "Disseminated gonococcal infection"
+  },
+  {
+    "code": "1A81",
+    "title": "Non-ulcerative sexually transmitted chlamydial infection"
+  },
+  {
+    "code": "1A92",
+    "title": "Trichomoniasis"
+  },
+  {
+    "code": "1A94",
+    "title": "Anogenital herpes simplex infection"
+  },
+  {
+    "code": "1A95",
+    "title": "Anogenital warts"
+  },
+  {
+    "code": "1A93",
+    "title": "Sexually transmissible infestations"
+  },
+  {
+    "code": "1B10",
+    "title": "Tuberculosis of the respiratory system"
+  },
+  {
+    "code": "1B12",
+    "title": "Tuberculosis of other systems and organs"
+  },
+  {
+    "code": "1B13",
+    "title": "Miliary tuberculosis"
+  },
+  {
+    "code": "1B51",
+    "title": "Streptococcal pharyngitis"
+  },
+  {
+    "code": "1B95",
+    "title": "Brucellosis"
+  },
+  {
+    "code": "1C1C",
+    "title": "Meningococcal disease"
+  },
+  {
+    "code": "1C40",
+    "title": "Campylobacteriosis"
+  },
+  {
+    "code": "1D64",
+    "title": "Middle East respiratory syndrome"
+  },
+  {
+    "code": "1D90",
+    "title": "Adenovirus infection of unspecified site"
+  },
+  {
+    "code": "1D91",
+    "title": "Enterovirus infection of unspecified site"
+  },
+  {
+    "code": "1D92",
+    "title": "Coronavirus infection, unspecified site"
+  },
+  {
+    "code": "1E30",
+    "title": "Influenza due to identified seasonal influenza virus"
+  },
+  {
+    "code": "1E31",
+    "title": "Influenza due to identified zoonotic or pandemic influenza virus"
+  },
+  {
+    "code": "1E32",
+    "title": "Influenza, virus not identified"
+  },
+  {
+    "code": "1F62",
+    "title": "Ascariasis"
+  },
+  {
+    "code": "2A30",
+    "title": "Refractory anaemia"
+  },
+  {
+    "code": "2A31",
+    "title": "Refractory neutropaenia"
+  },
+  {
+    "code": "2A32",
+    "title": "Refractory thrombocytopenia"
+  },
+  {
+    "code": "2A33",
+    "title": "Refractory anaemia with ring sideroblasts"
+  },
+  {
+    "code": "2A34",
+    "title": "Refractory cytopenia with multi-lineage dysplasia"
+  },
+  {
+    "code": "2A35",
+    "title": "Refractory anaemia with excess of blasts"
+  },
+  {
+    "code": "2A36",
+    "title": "Myelodysplastic syndrome with isolated del(5q)"
+  },
+  {
+    "code": "2A37",
+    "title": "Myelodysplastic syndrome, unclassifiable"
+  },
+  {
+    "code": "2A38",
+    "title": "Refractory cytopenia of childhood"
+  },
+  {
+    "code": "2A40",
+    "title": "Chronic myelomonocytic leukaemia"
+  },
+  {
+    "code": "2A41",
+    "title": "Atypical chronic myeloid leukaemia, BCR-ABL1-negative"
+  },
+  {
+    "code": "2A44",
+    "title": "Myeloproliferative and myelodysplastic disease, unclassifiable"
+  },
+  {
+    "code": "2A50",
+    "title": "Myeloid/lymphoid neoplasm associated with PDGFRA rearrangement"
+  },
+  {
+    "code": "2A51",
+    "title": "Myeloid neoplasm associated with PDGFRB rearrangement"
+  },
+  {
+    "code": "2A52",
+    "title": "Myeloid or lymphoid neoplasms with FGFR1 abnormalities"
+  },
+  {
+    "code": "2A81",
+    "title": "Diffuse large B-cell lymphomas"
+  },
+  {
+    "code": "2A82",
+    "title": "Mature B-cell neoplasm with leukaemic behaviour"
+  },
+  {
+    "code": "2A83",
+    "title": "Plasma cell neoplasms"
+  },
+  {
+    "code": "2A85",
+    "title": "Other specified mature B-cell neoplasms or lymphoma"
+  },
+  {
+    "code": "2B01",
+    "title": "Mycosis fungoides"
+  },
+  {
+    "code": "2B02",
+    "title": "Sézary syndrome"
+  },
+  {
+    "code": "2B30",
+    "title": "Hodgkin lymphoma"
+  },
+  {
+    "code": "2B5K",
+    "title": "Unspecified malignant soft tissue tumours or sarcomas of bone or articular cartilage of other or unspecified sites"
+  },
+  {
+    "code": "2B60",
+    "title": "Malignant neoplasms of lip"
+  },
+  {
+    "code": "2B61",
+    "title": "Malignant neoplasms of base of tongue"
+  },
+  {
+    "code": "2B62",
+    "title": "Malignant neoplasms of other or unspecified parts of tongue"
+  },
+  {
+    "code": "2B63",
+    "title": "Malignant neoplasms of gum"
+  },
+  {
+    "code": "2B64",
+    "title": "Malignant neoplasms of floor of mouth"
+  },
+  {
+    "code": "2B65",
+    "title": "Malignant neoplasms of palate"
+  },
+  {
+    "code": "2B66",
+    "title": "Malignant neoplasms of other or unspecified parts of mouth"
+  },
+  {
+    "code": "2B67",
+    "title": "Malignant neoplasms of parotid gland"
+  },
+  {
+    "code": "2B68",
+    "title": "Malignant neoplasms of submandibular or sublingual glands"
+  },
+  {
+    "code": "2B69",
+    "title": "Malignant neoplasms of tonsil"
+  },
+  {
+    "code": "2B6A",
+    "title": "Malignant neoplasms of oropharynx"
+  },
+  {
+    "code": "2B6B",
+    "title": "Malignant neoplasms of nasopharynx"
+  },
+  {
+    "code": "2B6C",
+    "title": "Malignant neoplasms of piriform sinus"
+  },
+  {
+    "code": "2B6D",
+    "title": "Malignant neoplasms of hypopharynx"
+  },
+  {
+    "code": "2B6E",
+    "title": "Malignant neoplasms of other or ill-defined sites in the lip, oral cavity or pharynx"
+  },
+  {
+    "code": "2B70",
+    "title": "Malignant neoplasms of oesophagus"
+  },
+  {
+    "code": "2B72",
+    "title": "Malignant neoplasms of stomach"
+  },
+  {
+    "code": "2B80",
+    "title": "Malignant neoplasms of small intestine"
+  },
+  {
+    "code": "2B91",
+    "title": "Malignant neoplasms of rectosigmoid junction"
+  },
+  {
+    "code": "2B92",
+    "title": "Malignant neoplasms of rectum"
+  },
+  {
+    "code": "2C00",
+    "title": "Malignant neoplasms of anus or anal canal"
+  },
+  {
+    "code": "2C12",
+    "title": "Malignant neoplasms of liver or intrahepatic bile ducts"
+  },
+  {
+    "code": "2C13",
+    "title": "Malignant neoplasms of gallbladder"
+  },
+  {
+    "code": "2C14",
+    "title": "Malignant neoplasms of proximal biliary tract, cystic duct"
+  },
+  {
+    "code": "2C15",
+    "title": "Malignant neoplasms of biliary tract, distal bile duct"
+  },
+  {
+    "code": "2C17",
+    "title": "Malignant neoplasms of other or unspecified parts of biliary tract"
+  },
+  {
+    "code": "2C11",
+    "title": "Malignant neoplasms of other or ill-defined digestive organs"
+  },
+  {
+    "code": "2C22",
+    "title": "Malignant neoplasms of accessory sinuses"
+  },
+  {
+    "code": "2C23",
+    "title": "Malignant neoplasms of larynx"
+  },
+  {
+    "code": "2C24",
+    "title": "Malignant neoplasms of trachea"
+  },
+  {
+    "code": "2C25",
+    "title": "Malignant neoplasms of bronchus or lung"
+  },
+  {
+    "code": "2C26",
+    "title": "Malignant neoplasms of the pleura"
+  },
+  {
+    "code": "2C27",
+    "title": "Malignant neoplasms of thymus"
+  },
+  {
+    "code": "2C28",
+    "title": "Malignant neoplasms of heart or mediastinum"
+  },
+  {
+    "code": "2C29",
+    "title": "Malignant neoplasms of other or ill-defined sites in the respiratory system or intrathoracic organs"
+  },
+  {
+    "code": "2C31",
+    "title": "Squamous cell carcinoma of skin"
+  },
+  {
+    "code": "2C32",
+    "title": "Basal cell carcinoma of skin"
+  },
+  {
+    "code": "2C33",
+    "title": "Adnexal carcinoma of skin"
+  },
+  {
+    "code": "2C35",
+    "title": "Cutaneous sarcoma"
+  },
+  {
+    "code": "2C50",
+    "title": "Malignant neoplasms of retroperitoneum"
+  },
+  {
+    "code": "2C65",
+    "title": "Hereditary breast and ovarian cancer syndrome"
+  },
+  {
+    "code": "2C70",
+    "title": "Malignant neoplasms of vulva"
+  },
+  {
+    "code": "2C71",
+    "title": "Malignant neoplasms of vagina"
+  },
+  {
+    "code": "2C73",
+    "title": "Malignant neoplasms of ovary"
+  },
+  {
+    "code": "2C75",
+    "title": "Malignant neoplasms of placenta"
+  },
+  {
+    "code": "2C76",
+    "title": "Malignant neoplasms of corpus uteri"
+  },
+  {
+    "code": "2C78",
+    "title": "Malignant neoplasms of uterus, part not specified"
+  },
+  {
+    "code": "2C80",
+    "title": "Malignant neoplasms of testis"
+  },
+  {
+    "code": "2C81",
+    "title": "Malignant neoplasms of penis"
+  },
+  {
+    "code": "2C82",
+    "title": "Malignant neoplasms of prostate"
+  },
+  {
+    "code": "2C83",
+    "title": "Malignant neoplasms of scrotum"
+  },
+  {
+    "code": "2C90",
+    "title": "Malignant neoplasms of kidney, except renal pelvis"
+  },
+  {
+    "code": "2C91",
+    "title": "Malignant neoplasms of renal pelvis"
+  },
+  {
+    "code": "2C92",
+    "title": "Malignant neoplasms of ureter"
+  },
+  {
+    "code": "2C93",
+    "title": "Malignant neoplasms of urethra or paraurethral gland"
+  },
+  {
+    "code": "2D00",
+    "title": "Malignant neoplasm of conjunctiva"
+  },
+  {
+    "code": "2D02",
+    "title": "Malignant neoplasm of retina"
+  },
+  {
+    "code": "2D05",
+    "title": "Malignant neoplasm of choroid"
+  },
+  {
+    "code": "2D06",
+    "title": "Malignant neoplasm of ciliary body"
+  },
+  {
+    "code": "2D10",
+    "title": "Malignant neoplasms of thyroid gland"
+  },
+  {
+    "code": "2D11",
+    "title": "Malignant neoplasms of adrenal gland"
+  },
+  {
+    "code": "2D42",
+    "title": "Malignant neoplasms of ill-defined sites"
+  },
+  {
+    "code": "2D50",
+    "title": "Malignant neoplasm metastasis in brain"
+  },
+  {
+    "code": "2D51",
+    "title": "Malignant neoplasm metastasis in meninges"
+  },
+  {
+    "code": "2E63",
+    "title": "Melanoma in situ neoplasms"
+  },
+  {
+    "code": "2E66",
+    "title": "Carcinoma in situ of cervix uteri"
+  },
+  {
+    "code": "2E81",
+    "title": "Benign vascular neoplasms"
+  },
+  {
+    "code": "2E90",
+    "title": "Benign neoplasm of lip, oral cavity or pharynx"
+  },
+  {
+    "code": "2E91",
+    "title": "Benign neoplasm of major salivary glands"
+  },
+  {
+    "code": "2F25",
+    "title": "Cherry angioma"
+  },
+  {
+    "code": "2F31",
+    "title": "Benign non-mesenchymal neoplasms of uterus"
+  },
+  {
+    "code": "2F70",
+    "title": "Neoplasms of uncertain behaviour of oral cavity or digestive organs"
+  },
+  {
+    "code": "2F73",
+    "title": "Neoplasms of uncertain behaviour of retroperitoneum"
+  },
+  {
+    "code": "2F74",
+    "title": "Neoplasms of uncertain behaviour of peritoneum"
+  },
+  {
+    "code": "2F7B",
+    "title": "Neoplasms of uncertain behaviour of bone or articular cartilage"
+  },
+  {
+    "code": "2F7C",
+    "title": "Neoplasms of uncertain behaviour of connective or other soft tissue"
+  },
+  {
+    "code": "2F91",
+    "title": "Neoplasms of unknown behaviour of middle ear, respiratory or intrathoracic organs"
+  },
+  {
+    "code": "2F93",
+    "title": "Neoplasms of unknown behaviour of retroperitoneum"
+  },
+  {
+    "code": "2F94",
+    "title": "Neoplasms of unknown behaviour of peritoneum"
+  },
+  {
+    "code": "2F96",
+    "title": "Neoplasms of unknown behaviour of female genital organs"
+  },
+  {
+    "code": "2F97",
+    "title": "Neoplasms of unknown behaviour of male genital organs"
+  },
+  {
+    "code": "2F98",
+    "title": "Neoplasms of unknown behaviour of urinary organs"
+  },
+  {
+    "code": "2F9A",
+    "title": "Neoplasms of unknown behaviour of endocrine glands"
+  },
+  {
+    "code": "2F9B",
+    "title": "Neoplasms of unknown behaviour of bone or articular cartilage"
+  },
+  {
+    "code": "2F9C",
+    "title": "Neoplasms of unknown behaviour of connective or other soft tissue"
+  },
+  {
+    "code": "3A00",
+    "title": "Iron deficiency anaemia"
+  },
+  {
+    "code": "3A01",
+    "title": "Megaloblastic anaemia due to vitamin B12 deficiency"
+  },
+  {
+    "code": "3A51",
+    "title": "Sickle cell disorders or other haemoglobinopathies"
+  },
+  {
+    "code": "3A94",
+    "title": "Acute posthaemorrhagic anaemia"
+  },
+  {
+    "code": "3B10",
+    "title": "Hereditary factor VIII deficiency"
+  },
+  {
+    "code": "3B11",
+    "title": "Hereditary factor IX deficiency"
+  },
+  {
+    "code": "3B14",
+    "title": "Other inherited coagulation factor deficiency with bleeding tendency"
+  },
+  {
+    "code": "3B15",
+    "title": "Inherited coagulation factor deficiency without bleeding tendency"
+  },
+  {
+    "code": "3B65",
+    "title": "Thrombotic microangiopathy, not elsewhere classified"
+  },
+  {
+    "code": "4A61",
+    "title": "SAPHO syndrome"
+  },
+  {
+    "code": "4A84",
+    "title": "Anaphylaxis"
+  },
+  {
+    "code": "5A00",
+    "title": "Hypothyroidism"
+  },
+  {
+    "code": "5A01",
+    "title": "Nontoxic goitre"
+  },
+  {
+    "code": "5A03",
+    "title": "Thyroiditis"
+  },
+  {
+    "code": "5A50",
+    "title": "Hypoparathyroidism"
+  },
+  {
+    "code": "5A71",
+    "title": "Adrenogenital disorders"
+  },
+  {
+    "code": "5A73",
+    "title": "Hypoaldosteronism"
+  },
+  {
+    "code": "5A74",
+    "title": "Adrenocortical insufficiency"
+  },
+  {
+    "code": "5A76",
+    "title": "Certain specified disorders of adrenal gland"
+  },
+  {
+    "code": "5A92",
+    "title": "Peripheral precocious puberty"
+  },
+  {
+    "code": "5B01",
+    "title": "Polyglandular hyperfunction"
+  },
+  {
+    "code": "5B50",
+    "title": "Underweight in infants, children or adolescents"
+  },
+  {
+    "code": "5B51",
+    "title": "Wasting in infants, children or adolescents"
+  },
+  {
+    "code": "5B52",
+    "title": "Acute malnutrition in infants, children or adolescents"
+  },
+  {
+    "code": "5B53",
+    "title": "Stunting in infants, children or adolescents"
+  },
+  {
+    "code": "5B54",
+    "title": "Underweight in adults"
+  },
+  {
+    "code": "5C73",
+    "title": "Acidosis"
+  },
+  {
+    "code": "5C76",
+    "title": "Hyperkalaemia"
+  },
+  {
+    "code": "5D40",
+    "title": "Postprocedural hypothyroidism"
+  },
+  {
+    "code": "5D42",
+    "title": "Postprocedural hypoparathyroidism"
+  },
+  {
+    "code": "5D46",
+    "title": "Postprocedural adrenocortical hypofunction"
+  },
+  {
+    "code": "6A20",
+    "title": "Schizophrenia"
+  },
+  {
+    "code": "6A60",
+    "title": "Bipolar type I disorder"
+  },
+  {
+    "code": "6A61",
+    "title": "Bipolar type II disorder"
+  },
+  {
+    "code": "6A70",
+    "title": "Single episode depressive disorder"
+  },
+  {
+    "code": "6A71",
+    "title": "Recurrent depressive disorder"
+  },
+  {
+    "code": "6B00",
+    "title": "Generalised anxiety disorder"
+  },
+  {
+    "code": "6B01",
+    "title": "Panic disorder"
+  },
+  {
+    "code": "6B20",
+    "title": "Obsessive-compulsive disorder"
+  },
+  {
+    "code": "6B22",
+    "title": "Olfactory reference disorder"
+  },
+  {
+    "code": "6B25",
+    "title": "Body-focused repetitive behaviour disorders"
+  },
+  {
+    "code": "6B40",
+    "title": "Post traumatic stress disorder"
+  },
+  {
+    "code": "6C00",
+    "title": "Enuresis"
+  },
+  {
+    "code": "6D10",
+    "title": "Personality disorder"
+  },
+  {
+    "code": "6D71",
+    "title": "Mild neurocognitive disorder"
+  },
+  {
+    "code": "6D80",
+    "title": "Dementia due to Alzheimer disease"
+  },
+  {
+    "code": "6D82",
+    "title": "Dementia due to Lewy body disease"
+  },
+  {
+    "code": "6D83",
+    "title": "Frontotemporal dementia"
+  },
+  {
+    "code": "6D85",
+    "title": "Dementia due to diseases classified elsewhere"
+  },
+  {
+    "code": "8A02",
+    "title": "Dystonic disorders"
+  },
+  {
+    "code": "8A20",
+    "title": "Alzheimer disease"
+  },
+  {
+    "code": "8A40",
+    "title": "Multiple sclerosis"
+  },
+  {
+    "code": "8A61",
+    "title": "Genetic or presumed genetic syndromes primarily expressed as epilepsy"
+  },
+  {
+    "code": "8A62",
+    "title": "Epileptic encephalopathies"
+  },
+  {
+    "code": "8A63",
+    "title": "Seizure due to acute causes"
+  },
+  {
+    "code": "8A64",
+    "title": "Single seizure due to remote causes"
+  },
+  {
+    "code": "8A65",
+    "title": "Single unprovoked seizure"
+  },
+  {
+    "code": "8A67",
+    "title": "Acute repetitive seizures"
+  },
+  {
+    "code": "8A80",
+    "title": "Migraine"
+  },
+  {
+    "code": "8A81",
+    "title": "Tension-type headache"
+  },
+  {
+    "code": "8A82",
+    "title": "Trigeminal autonomic cephalalgias"
+  },
+  {
+    "code": "8A83",
+    "title": "Other primary headache disorder"
+  },
+  {
+    "code": "8A84",
+    "title": "Secondary headache"
+  },
+  {
+    "code": "8B00",
+    "title": "Intracerebral haemorrhage"
+  },
+  {
+    "code": "8B20",
+    "title": "Stroke not known if ischaemic or haemorrhagic"
+  },
+  {
+    "code": "8B22",
+    "title": "Certain specified cerebrovascular diseases"
+  },
+  {
+    "code": "8B23",
+    "title": "Cerebrovascular abnormalities"
+  },
+  {
+    "code": "8B25",
+    "title": "Late effects of cerebrovascular disease"
+  },
+  {
+    "code": "8B40",
+    "title": "Cauda equina syndrome"
+  },
+  {
+    "code": "8B80",
+    "title": "Disorders of olfactory nerve"
+  },
+  {
+    "code": "8B84",
+    "title": "Disorders of hypoglossal nerve"
+  },
+  {
+    "code": "8B85",
+    "title": "Disorders of multiple cranial nerves"
+  },
+  {
+    "code": "8B86",
+    "title": "Disorders of vagus nerve"
+  },
+  {
+    "code": "8B87",
+    "title": "Disorders of glossopharyngeal nerve"
+  },
+  {
+    "code": "8B91",
+    "title": "Brachial plexus disorders"
+  },
+  {
+    "code": "8B93",
+    "title": "Radiculopathy"
+  },
+  {
+    "code": "8B94",
+    "title": "Diabetic radiculoplexoneuropathy"
+  },
+  {
+    "code": "8C10",
+    "title": "Mononeuropathies of upper limb"
+  },
+  {
+    "code": "8C70",
+    "title": "Muscular dystrophy"
+  },
+  {
+    "code": "9A60",
+    "title": "Conjunctivitis"
+  },
+  {
+    "code": "9A80",
+    "title": "Hyphaema"
+  },
+  {
+    "code": "9A96",
+    "title": "Anterior uveitis"
+  },
+  {
+    "code": "9B70",
+    "title": "Inherited retinal dystrophies"
+  },
+  {
+    "code": "9B76",
+    "title": "Degenerative high myopia"
+  },
+  {
+    "code": "9B78",
+    "title": "Certain specified retinal disorders"
+  },
+  {
+    "code": "9B84",
+    "title": "Vitreous opacities, membranes or strands"
+  },
+  {
+    "code": "9C20",
+    "title": "Panuveitis"
+  },
+  {
+    "code": "9C60",
+    "title": "Glaucoma suspect"
+  },
+  {
+    "code": "AA11",
+    "title": "Acute noninfectious otitis externa"
+  },
+  {
+    "code": "AA13",
+    "title": "Chronic otitis externa"
+  },
+  {
+    "code": "AA00",
+    "title": "Abscess of external ear"
+  },
+  {
+    "code": "AA01",
+    "title": "Cellulitis of external ear"
+  },
+  {
+    "code": "AA02",
+    "title": "Malignant otitis externa"
+  },
+  {
+    "code": "AA04",
+    "title": "Perichondritis of external ear"
+  },
+  {
+    "code": "AA80",
+    "title": "Acute serous or mucoid otitis media"
+  },
+  {
+    "code": "AA81",
+    "title": "Acute nonserous nonsuppurative otitis media"
+  },
+  {
+    "code": "AA90",
+    "title": "Acute suppurative otitis media"
+  },
+  {
+    "code": "AB33",
+    "title": "Otosclerosis"
+  },
+  {
+    "code": "AB37",
+    "title": "Noise effects on inner ear"
+  },
+  {
+    "code": "AB54",
+    "title": "Presbycusis"
+  },
+  {
+    "code": "AB55",
+    "title": "Sudden idiopathic hearing loss"
+  },
+  {
+    "code": "AB57",
+    "title": "Auditory synaptopathy or neuropathy"
+  },
+  {
+    "code": "BA00",
+    "title": "Essential hypertension"
+  },
+  {
+    "code": "BA01",
+    "title": "Hypertensive heart disease"
+  },
+  {
+    "code": "BA02",
+    "title": "Hypertensive renal disease"
+  },
+  {
+    "code": "BA04",
+    "title": "Secondary hypertension"
+  },
+  {
+    "code": "BA41",
+    "title": "Acute myocardial infarction"
+  },
+  {
+    "code": "BA43",
+    "title": "Coronary thrombosis not resulting in myocardial infarction"
+  },
+  {
+    "code": "BA50",
+    "title": "Old myocardial infarction"
+  },
+  {
+    "code": "BA51",
+    "title": "Ischaemic cardiomyopathy"
+  },
+  {
+    "code": "BA52",
+    "title": "Coronary atherosclerosis"
+  },
+  {
+    "code": "BA81",
+    "title": "Coronary artery aneurysm"
+  },
+  {
+    "code": "BA82",
+    "title": "Coronary artery dissection"
+  },
+  {
+    "code": "BB02",
+    "title": "Certain specified diseases of pulmonary vessels"
+  },
+  {
+    "code": "BB20",
+    "title": "Acute pericarditis"
+  },
+  {
+    "code": "BB22",
+    "title": "Constrictive pericarditis"
+  },
+  {
+    "code": "BB23",
+    "title": "Cardiac tamponade"
+  },
+  {
+    "code": "BB24",
+    "title": "Haemopericardium"
+  },
+  {
+    "code": "BB25",
+    "title": "Pericardial effusion"
+  },
+  {
+    "code": "BB61",
+    "title": "Mitral valve insufficiency"
+  },
+  {
+    "code": "BB62",
+    "title": "Mitral valve prolapse"
+  },
+  {
+    "code": "BB81",
+    "title": "Tricuspid valve insufficiency"
+  },
+  {
+    "code": "BC42",
+    "title": "Myocarditis"
+  },
+  {
+    "code": "BC62",
+    "title": "Accessory pathway"
+  },
+  {
+    "code": "BC63",
+    "title": "Conduction disorders"
+  },
+  {
+    "code": "BC64",
+    "title": "Sudden arrhythmic death syndrome"
+  },
+  {
+    "code": "BC65",
+    "title": "Cardiac arrhythmia associated with genetic disorder"
+  },
+  {
+    "code": "BC70",
+    "title": "Ventricular premature depolarization"
+  },
+  {
+    "code": "BC71",
+    "title": "Ventricular tachyarrhythmia"
+  },
+  {
+    "code": "BC80",
+    "title": "Supraventricular bradyarrhythmia"
+  },
+  {
+    "code": "BC81",
+    "title": "Supraventricular tachyarrhythmia"
+  },
+  {
+    "code": "BC90",
+    "title": "Rhythm disturbance at level of atrioventricular junction"
+  },
+  {
+    "code": "BD10",
+    "title": "Congestive heart failure"
+  },
+  {
+    "code": "BD11",
+    "title": "Left ventricular failure"
+  },
+  {
+    "code": "BE1A",
+    "title": "Cardiac transplant associated coronary allograft vasculopathy"
+  },
+  {
+    "code": "CA00",
+    "title": "Acute nasopharyngitis"
+  },
+  {
+    "code": "CA01",
+    "title": "Acute sinusitis"
+  },
+  {
+    "code": "CA02",
+    "title": "Acute pharyngitis"
+  },
+  {
+    "code": "CA03",
+    "title": "Acute tonsillitis"
+  },
+  {
+    "code": "CA04",
+    "title": "Acute laryngopharyngitis"
+  },
+  {
+    "code": "CA05",
+    "title": "Acute laryngitis or tracheitis"
+  },
+  {
+    "code": "CA06",
+    "title": "Acute obstructive laryngitis or epiglottitis"
+  },
+  {
+    "code": "CA07",
+    "title": "Acute upper respiratory infections of multiple and unspecified sites"
+  },
+  {
+    "code": "CA0D",
+    "title": "Deviated nasal septum"
+  },
+  {
+    "code": "CA20",
+    "title": "Bronchitis"
+  },
+  {
+    "code": "CA21",
+    "title": "Emphysema"
+  },
+  {
+    "code": "CA22",
+    "title": "Chronic obstructive pulmonary disease"
+  },
+  {
+    "code": "CA23",
+    "title": "Asthma"
+  },
+  {
+    "code": "CA24",
+    "title": "Bronchiectasis"
+  },
+  {
+    "code": "CA25",
+    "title": "Cystic fibrosis"
+  },
+  {
+    "code": "CA27",
+    "title": "Tracheobronchitis"
+  },
+  {
+    "code": "CA41",
+    "title": "Acute bronchiolitis"
+  },
+  {
+    "code": "CA42",
+    "title": "Acute bronchitis"
+  },
+  {
+    "code": "CA70",
+    "title": "Hypersensitivity pneumonitis due to organic dust"
+  },
+  {
+    "code": "CB03",
+    "title": "Idiopathic interstitial pneumonitis"
+  },
+  {
+    "code": "DA05",
+    "title": "Cysts of oral or facial-neck region"
+  },
+  {
+    "code": "DA42",
+    "title": "Gastritis"
+  },
+  {
+    "code": "DA51",
+    "title": "Duodenitis"
+  },
+  {
+    "code": "DA60",
+    "title": "Gastric ulcer"
+  },
+  {
+    "code": "DA63",
+    "title": "Duodenal ulcer"
+  },
+  {
+    "code": "DB10",
+    "title": "Appendicitis"
+  },
+  {
+    "code": "DB32",
+    "title": "Motility disorders of large intestine"
+  },
+  {
+    "code": "DB53",
+    "title": "Anal prolapse"
+  },
+  {
+    "code": "DB60",
+    "title": "Haemorrhoids"
+  },
+  {
+    "code": "DB70",
+    "title": "Infections of the anal region"
+  },
+  {
+    "code": "DB71",
+    "title": "Anal polyp"
+  },
+  {
+    "code": "DB95",
+    "title": "Drug-induced or toxic liver disease"
+  },
+  {
+    "code": "DC11",
+    "title": "Cholelithiasis"
+  },
+  {
+    "code": "DC12",
+    "title": "Cholecystitis"
+  },
+  {
+    "code": "DC13",
+    "title": "Cholangitis"
+  },
+  {
+    "code": "DC33",
+    "title": "Autoimmune pancreatitis"
+  },
+  {
+    "code": "DC34",
+    "title": "Obstructive pancreatitis"
+  },
+  {
+    "code": "DC35",
+    "title": "Certain specified diseases of pancreas"
+  },
+  {
+    "code": "DC71",
+    "title": "Diverticulosis of small intestine"
+  },
+  {
+    "code": "DC72",
+    "title": "Diverticulum of small intestine"
+  },
+  {
+    "code": "DC81",
+    "title": "Diverticulosis of large intestine"
+  },
+  {
+    "code": "DC82",
+    "title": "Diverticulum of large intestine"
+  },
+  {
+    "code": "DC90",
+    "title": "Diverticular disease of small and large intestine"
+  },
+  {
+    "code": "DD00",
+    "title": "Diverticulitis of unspecified part of intestine"
+  },
+  {
+    "code": "DD01",
+    "title": "Diverticulosis of unspecified part of intestine"
+  },
+  {
+    "code": "DD02",
+    "title": "Diverticulum of unspecified part of intestine"
+  },
+  {
+    "code": "DD70",
+    "title": "Crohn disease"
+  },
+  {
+    "code": "DD71",
+    "title": "Ulcerative colitis"
+  },
+  {
+    "code": "DD72",
+    "title": "Indeterminate colitis"
+  },
+  {
+    "code": "DD93",
+    "title": "Functional digestive disorders of infants, toddlers or children"
+  },
+  {
+    "code": "DD94",
+    "title": "Functional gallbladder disorder"
+  },
+  {
+    "code": "EA80",
+    "title": "Atopic eczema"
+  },
+  {
+    "code": "EA81",
+    "title": "Seborrhoeic dermatitis and related conditions"
+  },
+  {
+    "code": "EA90",
+    "title": "Psoriasis"
+  },
+  {
+    "code": "EB04",
+    "title": "Idiopathic angioedema"
+  },
+  {
+    "code": "EB05",
+    "title": "Urticaria of unspecified type"
+  },
+  {
+    "code": "EB40",
+    "title": "Pemphigus"
+  },
+  {
+    "code": "EG61",
+    "title": "Infections of the anus or perianal skin"
+  },
+  {
+    "code": "EG63",
+    "title": "Sacrococcygeal pilonidal disease"
+  },
+  {
+    "code": "EJ40",
+    "title": "Sunburn"
+  },
+  {
+    "code": "EK00",
+    "title": "Allergic contact dermatitis"
+  },
+  {
+    "code": "EK02",
+    "title": "Irritant contact dermatitis"
+  },
+  {
+    "code": "EK10",
+    "title": "Allergic contact urticaria"
+  },
+  {
+    "code": "EL53",
+    "title": "Skin graft failure"
+  },
+  {
+    "code": "EL54",
+    "title": "Composite graft failure"
+  },
+  {
+    "code": "FA00",
+    "title": "Osteoarthritis of hip"
+  },
+  {
+    "code": "FA01",
+    "title": "Osteoarthritis of knee"
+  },
+  {
+    "code": "FA13",
+    "title": "Infectious spondyloarthritis"
+  },
+  {
+    "code": "FA21",
+    "title": "Psoriatic arthritis"
+  },
+  {
+    "code": "FA82",
+    "title": "Spinal stenosis"
+  },
+  {
+    "code": "FA84",
+    "title": "Spondylolisthesis"
+  },
+  {
+    "code": "FA85",
+    "title": "Spinal endplate defects"
+  },
+  {
+    "code": "FA90",
+    "title": "Infection of vertebra"
+  },
+  {
+    "code": "FA91",
+    "title": "Infection of intervertebral disc"
+  },
+  {
+    "code": "FB10",
+    "title": "Spinal instabilities"
+  },
+  {
+    "code": "GA03",
+    "title": "Diseases of Bartholin gland"
+  },
+  {
+    "code": "GA01",
+    "title": "Inflammatory disorders of the uterus, except cervix"
+  },
+  {
+    "code": "GA05",
+    "title": "Female pelvic inflammatory diseases"
+  },
+  {
+    "code": "GA07",
+    "title": "Salpingitis or oophoritis"
+  },
+  {
+    "code": "GA10",
+    "title": "Endometriosis"
+  },
+  {
+    "code": "GA14",
+    "title": "Acquired abnormalities of vagina"
+  },
+  {
+    "code": "GA20",
+    "title": "Menstrual cycle bleeding disorders"
+  },
+  {
+    "code": "GA21",
+    "title": "Nonmenstrual bleeding disorders"
+  },
+  {
+    "code": "GA23",
+    "title": "Anovulatory bleeding"
+  },
+  {
+    "code": "GA22",
+    "title": "Excessive menstruation with irregular cycle"
+  },
+  {
+    "code": "GA30",
+    "title": "Menopausal or perimenopausal disorders"
+  },
+  {
+    "code": "GA31",
+    "title": "Female infertility"
+  },
+  {
+    "code": "GA33",
+    "title": "Recurrent pregnancy loss"
+  },
+  {
+    "code": "GA90",
+    "title": "Hyperplasia of prostate"
+  },
+  {
+    "code": "GB04",
+    "title": "Male infertility"
+  },
+  {
+    "code": "GB21",
+    "title": "Inflammatory disorders of breast"
+  },
+  {
+    "code": "GB22",
+    "title": "Hypertrophy of breast"
+  },
+  {
+    "code": "GB50",
+    "title": "Acute tubulo-interstitial nephritis"
+  },
+  {
+    "code": "GB51",
+    "title": "Acute pyelonephritis"
+  },
+  {
+    "code": "GB55",
+    "title": "Chronic tubulo-interstitial nephritis"
+  },
+  {
+    "code": "GB58",
+    "title": "Pyonephrosis"
+  },
+  {
+    "code": "GB59",
+    "title": "Renal or perinephric abscess"
+  },
+  {
+    "code": "GB70",
+    "title": "Calculus of upper urinary tract"
+  },
+  {
+    "code": "GB71",
+    "title": "Calculus of lower urinary tract"
+  },
+  {
+    "code": "GB80",
+    "title": "Nonfamilial nongenetic cystic kidney disease"
+  },
+  {
+    "code": "GB83",
+    "title": "Nephronophthisis"
+  },
+  {
+    "code": "GC00",
+    "title": "Cystitis"
+  },
+  {
+    "code": "GC42",
+    "title": "Sexual dysfunction associated with pelvic organ prolapse"
+  },
+  {
+    "code": "GC71",
+    "title": "Prolapse of vaginal vault after hysterectomy"
+  },
+  {
+    "code": "GC72",
+    "title": "Postprocedural urethral stricture"
+  },
+  {
+    "code": "HA01",
+    "title": "Sexual arousal dysfunctions"
+  },
+  {
+    "code": "JA03",
+    "title": "Missed abortion"
+  },
+  {
+    "code": "JA04",
+    "title": "Blighted ovum or nonhydatidiform mole"
+  },
+  {
+    "code": "JA05",
+    "title": "Complications following abortion, ectopic or molar pregnancy"
+  },
+  {
+    "code": "JA20",
+    "title": "Pre-existing hypertension complicating pregnancy, childbirth or the puerperium"
+  },
+  {
+    "code": "JA21",
+    "title": "Pre-eclampsia superimposed on chronic hypertension"
+  },
+  {
+    "code": "JA22",
+    "title": "Gestational oedema or proteinuria without hypertension"
+  },
+  {
+    "code": "JA23",
+    "title": "Gestational hypertension"
+  },
+  {
+    "code": "JA24",
+    "title": "Pre-eclampsia"
+  },
+  {
+    "code": "JA25",
+    "title": "Eclampsia"
+  },
+  {
+    "code": "JA40",
+    "title": "Haemorrhage in early pregnancy"
+  },
+  {
+    "code": "JA43",
+    "title": "Postpartum haemorrhage"
+  },
+  {
+    "code": "JA60",
+    "title": "Excessive vomiting in pregnancy"
+  },
+  {
+    "code": "JA61",
+    "title": "Venous complications in pregnancy"
+  },
+  {
+    "code": "JA62",
+    "title": "Infections of genitourinary tract in pregnancy"
+  },
+  {
+    "code": "JA80",
+    "title": "Maternal care related to multiple gestation"
+  },
+  {
+    "code": "JA81",
+    "title": "Maternal care related to complications specific to multiple gestation"
+  },
+  {
+    "code": "JA83",
+    "title": "Maternal care for disproportion"
+  },
+  {
+    "code": "JA85",
+    "title": "Maternal care for fetal abnormality or damage"
+  },
+  {
+    "code": "JA87",
+    "title": "Maternal care related to polyhydramnios"
+  },
+  {
+    "code": "JA88",
+    "title": "Maternal care related to certain specified disorders of amniotic fluid or membranes"
+  },
+  {
+    "code": "JA89",
+    "title": "Maternal care related to premature rupture of membranes"
+  },
+  {
+    "code": "JA8C",
+    "title": "Maternal care related to premature separation of placenta"
+  },
+  {
+    "code": "JA8E",
+    "title": "Maternal care related to prolonged pregnancy"
+  },
+  {
+    "code": "JB00",
+    "title": "Preterm labour or delivery"
+  },
+  {
+    "code": "JB01",
+    "title": "Failed induction of labour"
+  },
+  {
+    "code": "JB02",
+    "title": "Abnormalities of forces of labour"
+  },
+  {
+    "code": "JB03",
+    "title": "Long labour"
+  },
+  {
+    "code": "JB05",
+    "title": "Obstructed labour due to maternal pelvic abnormality"
+  },
+  {
+    "code": "JB09",
+    "title": "Perineal laceration during delivery"
+  },
+  {
+    "code": "JB0A",
+    "title": "Certain specified obstetric trauma"
+  },
+  {
+    "code": "JB21",
+    "title": "Single delivery by forceps or vacuum extractor"
+  },
+  {
+    "code": "JB22",
+    "title": "Single delivery by caesarean section"
+  },
+  {
+    "code": "JB24",
+    "title": "Multiple delivery"
+  },
+  {
+    "code": "JB41",
+    "title": "Venous complications in the puerperium"
+  },
+  {
+    "code": "JB42",
+    "title": "Obstetric embolism"
+  },
+  {
+    "code": "JB45",
+    "title": "Infections of breast associated with childbirth"
+  },
+  {
+    "code": "KA20",
+    "title": "Disorders of newborn related to slow fetal growth or fetal malnutrition"
+  },
+  {
+    "code": "KA21",
+    "title": "Disorders of newborn related to short gestation or low birth weight, not elsewhere classified"
+  },
+  {
+    "code": "KA8A",
+    "title": "Polycythaemia neonatorum"
+  },
+  {
+    "code": "KA8B",
+    "title": "Anaemia of prematurity"
+  },
+  {
+    "code": "KA8C",
+    "title": "Congenital hypoplastic anaemia"
+  },
+  {
+    "code": "KB00",
+    "title": "Neonatal cerebral ischaemia"
+  },
+  {
+    "code": "KB04",
+    "title": "Hypoxic ischaemic encephalopathy of newborn"
+  },
+  {
+    "code": "KB06",
+    "title": "Neonatal seizures"
+  },
+  {
+    "code": "LA52",
+    "title": "Facial asymmetry"
+  },
+  {
+    "code": "LA55",
+    "title": "Compression facies"
+  },
+  {
+    "code": "LA56",
+    "title": "Pierre Robin syndrome"
+  },
+  {
+    "code": "LA80",
+    "title": "Anomalous position-orientation of heart"
+  },
+  {
+    "code": "LA81",
+    "title": "Abnormal ventricular relationships"
+  },
+  {
+    "code": "LA85",
+    "title": "Congenital anomaly of an atrioventricular or ventriculo-arterial connection"
+  },
+  {
+    "code": "LA8F",
+    "title": "Congenital anomaly of right atrium"
+  },
+  {
+    "code": "LA8G",
+    "title": "Congenital anomaly of left atrium"
+  },
+  {
+    "code": "LA8A",
+    "title": "Congenital anomaly of a ventriculo-arterial valve or adjacent regions"
+  },
+  {
+    "code": "LA8C",
+    "title": "Congenital anomaly of coronary artery"
+  },
+  {
+    "code": "LA90",
+    "title": "Structural developmental anomalies of the peripheral vascular system"
+  },
+  {
+    "code": "LC52",
+    "title": "Complex or combined developmental vascular malformations involving the skin"
+  },
+  {
+    "code": "LD23",
+    "title": "Syndromes with vascular anomalies as a major feature"
+  },
+  {
+    "code": "MC1A",
+    "title": "Visual floaters"
+  },
+  {
+    "code": "MC82",
+    "title": "Cardiac arrest"
+  },
+  {
+    "code": "MD21",
+    "title": "Haemorrhage from throat"
+  },
+  {
+    "code": "ME07",
+    "title": "Faecal incontinence"
+  },
+  {
+    "code": "ME82",
+    "title": "Pain in joint"
+  },
+  {
+    "code": "ME84",
+    "title": "Spinal pain"
+  },
+  {
+    "code": "MF56",
+    "title": "Renal colic"
+  },
+  {
+    "code": "MG2A",
+    "title": "Ageing associated decline in intrinsic capacity"
+  },
+  {
+    "code": "NA07",
+    "title": "Intracranial injury"
+  },
+  {
+    "code": "NA08",
+    "title": "Crushing injury of head"
+  },
+  {
+    "code": "NA30",
+    "title": "Concussion or oedema of cervical spinal cord"
+  },
+  {
+    "code": "NA83",
+    "title": "Dislocation or strain or sprain of joints or ligaments of thorax"
+  },
+  {
+    "code": "NA90",
+    "title": "Concussion or oedema of thoracic spinal cord"
+  },
+  {
+    "code": "NA91",
+    "title": "Certain specified injuries of thoracic spinal cord"
+  },
+  {
+    "code": "NB00",
+    "title": "Injury of nerve root of thoracic spine"
+  },
+  {
+    "code": "NB34",
+    "title": "Injury of muscle, fascia or tendon at thorax level"
+  },
+  {
+    "code": "NB35",
+    "title": "Multiple injuries of thorax"
+  },
+  {
+    "code": "NB52",
+    "title": "Fracture of lumbar spine or pelvis"
+  },
+  {
+    "code": "NB53",
+    "title": "Dislocation or strain or sprain of joints or ligaments of lumbar spine or pelvis"
+  },
+  {
+    "code": "NB60",
+    "title": "Concussion or oedema of lumbar spinal cord"
+  },
+  {
+    "code": "NB61",
+    "title": "Concussion or oedema of sacral spinal cord"
+  },
+  {
+    "code": "NB62",
+    "title": "Certain specified injuries of lumbar spinal cord"
+  },
+  {
+    "code": "NB63",
+    "title": "Certain specified injuries of sacral spinal cord"
+  },
+  {
+    "code": "NB70",
+    "title": "Injury of nerve root of lumbar spine"
+  },
+  {
+    "code": "NB71",
+    "title": "Injury of nerve root of sacral spine"
+  },
+  {
+    "code": "NB72",
+    "title": "Injury of cauda equina"
+  },
+  {
+    "code": "NC16",
+    "title": "Injury of muscle, fascia, tendon or bursa at shoulder or upper arm level"
+  },
+  {
+    "code": "NC39",
+    "title": "Multiple injuries of forearm"
+  },
+  {
+    "code": "NC79",
+    "title": "Multiple injuries of hip or thigh"
+  },
+  {
+    "code": "NC96",
+    "title": "Injury of muscle, fascia, tendon or bursa at lower leg level"
+  },
+  {
+    "code": "NC99",
+    "title": "Multiple injuries of lower leg"
+  },
+  {
+    "code": "ND10",
+    "title": "Injury to toenail"
+  },
+  {
+    "code": "ND13",
+    "title": "Fracture of foot, except ankle"
+  },
+  {
+    "code": "ND73",
+    "title": "Foreign body in alimentary tract"
+  },
+  {
+    "code": "ND90",
+    "title": "Burn of head or neck except face"
+  },
+  {
+    "code": "ND92",
+    "title": "Burn of trunk except perineum or genitalia"
+  },
+  {
+    "code": "ND94",
+    "title": "Burn of shoulder or arm, except wrist or hand"
+  },
+  {
+    "code": "ND95",
+    "title": "Burn of wrist or hand"
+  },
+  {
+    "code": "ND96",
+    "title": "Burn of hip or leg, except ankle or foot"
+  },
+  {
+    "code": "ND97",
+    "title": "Burn of ankle or foot"
+  },
+  {
+    "code": "NE00",
+    "title": "Burn of eye or ocular adnexa"
+  },
+  {
+    "code": "NE01",
+    "title": "Burn of respiratory tract"
+  },
+  {
+    "code": "NE10",
+    "title": "Burns of multiple body regions"
+  },
+  {
+    "code": "NE11",
+    "title": "Burn of unspecified body region"
+  },
+  {
+    "code": "NE40",
+    "title": "Superficial frostbite"
+  },
+  {
+    "code": "NE41",
+    "title": "Frostbite with tissue necrosis"
+  },
+  {
+    "code": "NF02",
+    "title": "Hypothermia"
+  },
+  {
+    "code": "NF03",
+    "title": "Other effects of reduced temperature"
+  },
+  {
+    "code": "QA14",
+    "title": "Contact with health services for human immunodeficiency virus counselling"
+  },
+  {
+    "code": "QA31",
+    "title": "Contact with health services for genetic counselling"
+  },
+  {
+    "code": "QA40",
+    "title": "Pregnancy examination or test"
+  },
+  {
+    "code": "QA41",
+    "title": "Pregnant state"
+  },
+  {
+    "code": "QA42",
+    "title": "Supervision of normal pregnancy"
+  },
+  {
+    "code": "QA43",
+    "title": "Supervision of high-risk pregnancy"
+  },
+  {
+    "code": "QA45",
+    "title": "Antenatal screening"
+  },
+  {
+    "code": "QB22",
+    "title": "Kidney donor"
+  },
+  {
+    "code": "QB9B",
+    "title": "Palliative care"
+  }
+]
