@@ -1,6 +1,6 @@
 from telegram import InputFile, Update
 from telegram.ext import Application, CommandHandler, ContextTypes
-from bot.api import extract_text_from_pdf_bytes  # ✅ Путь правильный
+from bot.api import extract_text_from_pdf_bytes
 from recommendations_db import search_recommendations_by_icd
 import os
 import asyncio
@@ -35,7 +35,8 @@ def split_text_safely(text, header, max_len=MAX_TELEGRAM_LENGTH):
         chunks.append(text[i:i+last_dot+1].strip())
         i += last_dot + 1
     return chunks
-async def send_pdf_from_db(rec_id: str, update: Update, context: ContextTypes.DEFAULT_TYPE):
+
+async def send_pdf_from_db(rec_id: str, update: Update, context: ContextTypes.DEFAULT_TYPE, with_text=True):
     async with aiosqlite.connect(DB_PATH) as db:
         db.row_factory = aiosqlite.Row
         async with db.execute("SELECT * FROM recommendations WHERE rec_id = ?", (rec_id,)) as cur:
@@ -48,7 +49,7 @@ async def send_pdf_from_db(rec_id: str, update: Update, context: ContextTypes.DE
             title = row["title"] or rec_id
 
             if pdf_blob:
-                extracted_text = extract_text_from_pdf_bytes(pdf_blob)
+                extracted_text = extract_text_from_pdf_bytes(pdf_blob) if with_text else None
 
                 with tempfile.NamedTemporaryFile(delete=False, suffix=".pdf") as tmp:
                     tmp.write(pdf_blob)
@@ -101,18 +102,18 @@ async def handle_mkb(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
     await update.message.reply_text("\n".join(summary_lines))
 
+    first_country_sent = False
     for country in ["Россия", "США", "ВОЗ"]:
         for rec in grouped[country]:
-            await send_pdf_from_db(rec["rec_id"], update, context)
+            await send_pdf_from_db(rec["rec_id"], update, context, with_text=not first_country_sent)
+            first_country_sent = True
             await asyncio.sleep(2)
-
 
 def main():
     app = Application.builder().token("7743250703:AAFxxZq2ugNAK2Uf3WdPH1ngvFJ2lZKk3_M").build()
     app.add_handler(CommandHandler("mkb", handle_mkb))
     print(" Бот запущен...")
     app.run_polling()
-
 
 if __name__ == "__main__":
     main()
