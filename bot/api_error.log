@@ -11890,3 +11890,1173 @@ Traceback (most recent call last):
   File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/request/_baserequest.py", line 355, in _request_wrapper
     raise Conflict(message)
 telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-06-16 21:43:30,285 - INFO - HTTP Request: POST https://api.telegram.org/bot7743250703:AAFxxZq2ugNAK2Uf3WdPH1ngvFJ2lZKk3_M/getUpdates "HTTP/1.1 409 Conflict"
+2025-06-16 21:43:30,285 - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/ext/_utils/networkloop.py", line 115, in network_retry_loop
+    if not await do_action():
+           ^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/ext/_utils/networkloop.py", line 108, in do_action
+    return action_cb_task.result()
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/ext/_updater.py", line 335, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/ext/_extbot.py", line 669, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/_bot.py", line 4601, in get_updates
+    await self._post(
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/_bot.py", line 697, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/ext/_extbot.py", line 369, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/_bot.py", line 726, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/request/_baserequest.py", line 197, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/request/_baserequest.py", line 355, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-06-16 21:44:04,692 - INFO - HTTP Request: POST https://api.telegram.org/bot7743250703:AAFxxZq2ugNAK2Uf3WdPH1ngvFJ2lZKk3_M/getUpdates "HTTP/1.1 409 Conflict"
+2025-06-16 21:44:04,692 - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/ext/_utils/networkloop.py", line 115, in network_retry_loop
+    if not await do_action():
+           ^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/ext/_utils/networkloop.py", line 108, in do_action
+    return action_cb_task.result()
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/ext/_updater.py", line 335, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/ext/_extbot.py", line 669, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/_bot.py", line 4601, in get_updates
+    await self._post(
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/_bot.py", line 697, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/ext/_extbot.py", line 369, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/_bot.py", line 726, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/request/_baserequest.py", line 197, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/request/_baserequest.py", line 355, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-06-16 21:44:39,098 - INFO - HTTP Request: POST https://api.telegram.org/bot7743250703:AAFxxZq2ugNAK2Uf3WdPH1ngvFJ2lZKk3_M/getUpdates "HTTP/1.1 409 Conflict"
+2025-06-16 21:44:39,099 - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/ext/_utils/networkloop.py", line 115, in network_retry_loop
+    if not await do_action():
+           ^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/ext/_utils/networkloop.py", line 108, in do_action
+    return action_cb_task.result()
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/ext/_updater.py", line 335, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/ext/_extbot.py", line 669, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/_bot.py", line 4601, in get_updates
+    await self._post(
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/_bot.py", line 697, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/ext/_extbot.py", line 369, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/_bot.py", line 726, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/request/_baserequest.py", line 197, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/request/_baserequest.py", line 355, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-06-16 21:45:13,505 - INFO - HTTP Request: POST https://api.telegram.org/bot7743250703:AAFxxZq2ugNAK2Uf3WdPH1ngvFJ2lZKk3_M/getUpdates "HTTP/1.1 409 Conflict"
+2025-06-16 21:45:13,505 - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/ext/_utils/networkloop.py", line 115, in network_retry_loop
+    if not await do_action():
+           ^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/ext/_utils/networkloop.py", line 108, in do_action
+    return action_cb_task.result()
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/ext/_updater.py", line 335, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/ext/_extbot.py", line 669, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/_bot.py", line 4601, in get_updates
+    await self._post(
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/_bot.py", line 697, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/ext/_extbot.py", line 369, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/_bot.py", line 726, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/request/_baserequest.py", line 197, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/request/_baserequest.py", line 355, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-06-16 21:45:47,912 - INFO - HTTP Request: POST https://api.telegram.org/bot7743250703:AAFxxZq2ugNAK2Uf3WdPH1ngvFJ2lZKk3_M/getUpdates "HTTP/1.1 409 Conflict"
+2025-06-16 21:45:47,912 - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/ext/_utils/networkloop.py", line 115, in network_retry_loop
+    if not await do_action():
+           ^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/ext/_utils/networkloop.py", line 108, in do_action
+    return action_cb_task.result()
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/ext/_updater.py", line 335, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/ext/_extbot.py", line 669, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/_bot.py", line 4601, in get_updates
+    await self._post(
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/_bot.py", line 697, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/ext/_extbot.py", line 369, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/_bot.py", line 726, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/request/_baserequest.py", line 197, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/request/_baserequest.py", line 355, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-06-16 21:46:22,318 - INFO - HTTP Request: POST https://api.telegram.org/bot7743250703:AAFxxZq2ugNAK2Uf3WdPH1ngvFJ2lZKk3_M/getUpdates "HTTP/1.1 409 Conflict"
+2025-06-16 21:46:22,318 - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/ext/_utils/networkloop.py", line 115, in network_retry_loop
+    if not await do_action():
+           ^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/ext/_utils/networkloop.py", line 108, in do_action
+    return action_cb_task.result()
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/ext/_updater.py", line 335, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/ext/_extbot.py", line 669, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/_bot.py", line 4601, in get_updates
+    await self._post(
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/_bot.py", line 697, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/ext/_extbot.py", line 369, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/_bot.py", line 726, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/request/_baserequest.py", line 197, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/request/_baserequest.py", line 355, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-06-16 21:46:56,725 - INFO - HTTP Request: POST https://api.telegram.org/bot7743250703:AAFxxZq2ugNAK2Uf3WdPH1ngvFJ2lZKk3_M/getUpdates "HTTP/1.1 409 Conflict"
+2025-06-16 21:46:56,733 - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/ext/_utils/networkloop.py", line 115, in network_retry_loop
+    if not await do_action():
+           ^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/ext/_utils/networkloop.py", line 108, in do_action
+    return action_cb_task.result()
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/ext/_updater.py", line 335, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/ext/_extbot.py", line 669, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/_bot.py", line 4601, in get_updates
+    await self._post(
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/_bot.py", line 697, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/ext/_extbot.py", line 369, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/_bot.py", line 726, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/request/_baserequest.py", line 197, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/request/_baserequest.py", line 355, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-06-16 21:47:31,432 - INFO - HTTP Request: POST https://api.telegram.org/bot7743250703:AAFxxZq2ugNAK2Uf3WdPH1ngvFJ2lZKk3_M/getUpdates "HTTP/1.1 409 Conflict"
+2025-06-16 21:47:31,432 - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/ext/_utils/networkloop.py", line 115, in network_retry_loop
+    if not await do_action():
+           ^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/ext/_utils/networkloop.py", line 108, in do_action
+    return action_cb_task.result()
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/ext/_updater.py", line 335, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/ext/_extbot.py", line 669, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/_bot.py", line 4601, in get_updates
+    await self._post(
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/_bot.py", line 697, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/ext/_extbot.py", line 369, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/_bot.py", line 726, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/request/_baserequest.py", line 197, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/request/_baserequest.py", line 355, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-06-16 21:48:06,240 - INFO - HTTP Request: POST https://api.telegram.org/bot7743250703:AAFxxZq2ugNAK2Uf3WdPH1ngvFJ2lZKk3_M/getUpdates "HTTP/1.1 409 Conflict"
+2025-06-16 21:48:06,240 - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/ext/_utils/networkloop.py", line 115, in network_retry_loop
+    if not await do_action():
+           ^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/ext/_utils/networkloop.py", line 108, in do_action
+    return action_cb_task.result()
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/ext/_updater.py", line 335, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/ext/_extbot.py", line 669, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/_bot.py", line 4601, in get_updates
+    await self._post(
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/_bot.py", line 697, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/ext/_extbot.py", line 369, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/_bot.py", line 726, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/request/_baserequest.py", line 197, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/request/_baserequest.py", line 355, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-06-16 21:48:40,986 - INFO - HTTP Request: POST https://api.telegram.org/bot7743250703:AAFxxZq2ugNAK2Uf3WdPH1ngvFJ2lZKk3_M/getUpdates "HTTP/1.1 409 Conflict"
+2025-06-16 21:48:40,986 - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/ext/_utils/networkloop.py", line 115, in network_retry_loop
+    if not await do_action():
+           ^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/ext/_utils/networkloop.py", line 108, in do_action
+    return action_cb_task.result()
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/ext/_updater.py", line 335, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/ext/_extbot.py", line 669, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/_bot.py", line 4601, in get_updates
+    await self._post(
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/_bot.py", line 697, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/ext/_extbot.py", line 369, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/_bot.py", line 726, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/request/_baserequest.py", line 197, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/request/_baserequest.py", line 355, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-06-16 21:49:15,649 - INFO - HTTP Request: POST https://api.telegram.org/bot7743250703:AAFxxZq2ugNAK2Uf3WdPH1ngvFJ2lZKk3_M/getUpdates "HTTP/1.1 409 Conflict"
+2025-06-16 21:49:15,650 - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/ext/_utils/networkloop.py", line 115, in network_retry_loop
+    if not await do_action():
+           ^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/ext/_utils/networkloop.py", line 108, in do_action
+    return action_cb_task.result()
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/ext/_updater.py", line 335, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/ext/_extbot.py", line 669, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/_bot.py", line 4601, in get_updates
+    await self._post(
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/_bot.py", line 697, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/ext/_extbot.py", line 369, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/_bot.py", line 726, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/request/_baserequest.py", line 197, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/request/_baserequest.py", line 355, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-06-16 21:49:55,020 - INFO - HTTP Request: POST https://api.telegram.org/bot7743250703:AAFxxZq2ugNAK2Uf3WdPH1ngvFJ2lZKk3_M/getUpdates "HTTP/1.1 409 Conflict"
+2025-06-16 21:49:55,021 - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/ext/_utils/networkloop.py", line 115, in network_retry_loop
+    if not await do_action():
+           ^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/ext/_utils/networkloop.py", line 108, in do_action
+    return action_cb_task.result()
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/ext/_updater.py", line 335, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/ext/_extbot.py", line 669, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/_bot.py", line 4601, in get_updates
+    await self._post(
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/_bot.py", line 697, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/ext/_extbot.py", line 369, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/_bot.py", line 726, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/request/_baserequest.py", line 197, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/request/_baserequest.py", line 355, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-06-16 21:50:00,677 - INFO - HTTP Request: POST https://api.telegram.org/bot7743250703:AAFxxZq2ugNAK2Uf3WdPH1ngvFJ2lZKk3_M/getUpdates "HTTP/1.1 409 Conflict"
+2025-06-16 21:50:00,678 - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/ext/_utils/networkloop.py", line 115, in network_retry_loop
+    if not await do_action():
+           ^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/ext/_utils/networkloop.py", line 108, in do_action
+    return action_cb_task.result()
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/ext/_updater.py", line 335, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/ext/_extbot.py", line 669, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/_bot.py", line 4601, in get_updates
+    await self._post(
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/_bot.py", line 697, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/ext/_extbot.py", line 369, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/_bot.py", line 726, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/request/_baserequest.py", line 197, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/request/_baserequest.py", line 355, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-06-16 21:50:07,578 - INFO - HTTP Request: POST https://api.telegram.org/bot7743250703:AAFxxZq2ugNAK2Uf3WdPH1ngvFJ2lZKk3_M/getUpdates "HTTP/1.1 409 Conflict"
+2025-06-16 21:50:07,578 - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/ext/_utils/networkloop.py", line 115, in network_retry_loop
+    if not await do_action():
+           ^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/ext/_utils/networkloop.py", line 108, in do_action
+    return action_cb_task.result()
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/ext/_updater.py", line 335, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/ext/_extbot.py", line 669, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/_bot.py", line 4601, in get_updates
+    await self._post(
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/_bot.py", line 697, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/ext/_extbot.py", line 369, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/_bot.py", line 726, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/request/_baserequest.py", line 197, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/request/_baserequest.py", line 355, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-06-16 21:50:13,374 - INFO - HTTP Request: POST https://api.telegram.org/bot7743250703:AAFxxZq2ugNAK2Uf3WdPH1ngvFJ2lZKk3_M/getUpdates "HTTP/1.1 409 Conflict"
+2025-06-16 21:50:13,375 - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/ext/_utils/networkloop.py", line 115, in network_retry_loop
+    if not await do_action():
+           ^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/ext/_utils/networkloop.py", line 108, in do_action
+    return action_cb_task.result()
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/ext/_updater.py", line 335, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/ext/_extbot.py", line 669, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/_bot.py", line 4601, in get_updates
+    await self._post(
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/_bot.py", line 697, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/ext/_extbot.py", line 369, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/_bot.py", line 726, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/request/_baserequest.py", line 197, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/request/_baserequest.py", line 355, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-06-16 21:50:22,124 - INFO - HTTP Request: POST https://api.telegram.org/bot7743250703:AAFxxZq2ugNAK2Uf3WdPH1ngvFJ2lZKk3_M/getUpdates "HTTP/1.1 409 Conflict"
+2025-06-16 21:50:22,125 - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/ext/_utils/networkloop.py", line 115, in network_retry_loop
+    if not await do_action():
+           ^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/ext/_utils/networkloop.py", line 108, in do_action
+    return action_cb_task.result()
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/ext/_updater.py", line 335, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/ext/_extbot.py", line 669, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/_bot.py", line 4601, in get_updates
+    await self._post(
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/_bot.py", line 697, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/ext/_extbot.py", line 369, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/_bot.py", line 726, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/request/_baserequest.py", line 197, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/request/_baserequest.py", line 355, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-06-16 21:50:35,220 - INFO - HTTP Request: POST https://api.telegram.org/bot7743250703:AAFxxZq2ugNAK2Uf3WdPH1ngvFJ2lZKk3_M/getUpdates "HTTP/1.1 409 Conflict"
+2025-06-16 21:50:35,220 - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/ext/_utils/networkloop.py", line 115, in network_retry_loop
+    if not await do_action():
+           ^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/ext/_utils/networkloop.py", line 108, in do_action
+    return action_cb_task.result()
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/ext/_updater.py", line 335, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/ext/_extbot.py", line 669, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/_bot.py", line 4601, in get_updates
+    await self._post(
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/_bot.py", line 697, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/ext/_extbot.py", line 369, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/_bot.py", line 726, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/request/_baserequest.py", line 197, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/request/_baserequest.py", line 355, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-06-16 21:50:53,065 - INFO - HTTP Request: POST https://api.telegram.org/bot7743250703:AAFxxZq2ugNAK2Uf3WdPH1ngvFJ2lZKk3_M/getUpdates "HTTP/1.1 200 OK"
+2025-06-16 21:50:54,667 - INFO - HTTP Request: POST https://api.telegram.org/bot7743250703:AAFxxZq2ugNAK2Uf3WdPH1ngvFJ2lZKk3_M/getUpdates "HTTP/1.1 409 Conflict"
+2025-06-16 21:50:54,667 - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/ext/_utils/networkloop.py", line 115, in network_retry_loop
+    if not await do_action():
+           ^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/ext/_utils/networkloop.py", line 108, in do_action
+    return action_cb_task.result()
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/ext/_updater.py", line 335, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/ext/_extbot.py", line 669, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/_bot.py", line 4601, in get_updates
+    await self._post(
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/_bot.py", line 697, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/ext/_extbot.py", line 369, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/_bot.py", line 726, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/request/_baserequest.py", line 197, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/request/_baserequest.py", line 355, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-06-16 21:51:05,762 - INFO - HTTP Request: POST https://api.telegram.org/bot7743250703:AAFxxZq2ugNAK2Uf3WdPH1ngvFJ2lZKk3_M/getUpdates "HTTP/1.1 200 OK"
+2025-06-16 21:51:15,900 - INFO - HTTP Request: POST https://api.telegram.org/bot7743250703:AAFxxZq2ugNAK2Uf3WdPH1ngvFJ2lZKk3_M/getUpdates "HTTP/1.1 200 OK"
+2025-06-16 21:51:16,134 - INFO - HTTP Request: POST https://api.telegram.org/bot7743250703:AAFxxZq2ugNAK2Uf3WdPH1ngvFJ2lZKk3_M/getUpdates "HTTP/1.1 409 Conflict"
+2025-06-16 21:51:16,134 - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/ext/_utils/networkloop.py", line 115, in network_retry_loop
+    if not await do_action():
+           ^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/ext/_utils/networkloop.py", line 108, in do_action
+    return action_cb_task.result()
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/ext/_updater.py", line 335, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/ext/_extbot.py", line 669, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/_bot.py", line 4601, in get_updates
+    await self._post(
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/_bot.py", line 697, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/ext/_extbot.py", line 369, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/_bot.py", line 726, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/request/_baserequest.py", line 197, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/request/_baserequest.py", line 355, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-06-16 21:51:27,227 - INFO - HTTP Request: POST https://api.telegram.org/bot7743250703:AAFxxZq2ugNAK2Uf3WdPH1ngvFJ2lZKk3_M/getUpdates "HTTP/1.1 200 OK"
+2025-06-16 21:51:37,404 - INFO - HTTP Request: POST https://api.telegram.org/bot7743250703:AAFxxZq2ugNAK2Uf3WdPH1ngvFJ2lZKk3_M/getUpdates "HTTP/1.1 200 OK"
+2025-06-16 21:51:46,212 - INFO - HTTP Request: POST https://api.telegram.org/bot7743250703:AAFxxZq2ugNAK2Uf3WdPH1ngvFJ2lZKk3_M/getUpdates "HTTP/1.1 409 Conflict"
+2025-06-16 21:51:46,212 - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/ext/_utils/networkloop.py", line 115, in network_retry_loop
+    if not await do_action():
+           ^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/ext/_utils/networkloop.py", line 108, in do_action
+    return action_cb_task.result()
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/ext/_updater.py", line 335, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/ext/_extbot.py", line 669, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/_bot.py", line 4601, in get_updates
+    await self._post(
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/_bot.py", line 697, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/ext/_extbot.py", line 369, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/_bot.py", line 726, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/request/_baserequest.py", line 197, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/request/_baserequest.py", line 355, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-06-16 21:51:57,372 - INFO - HTTP Request: POST https://api.telegram.org/bot7743250703:AAFxxZq2ugNAK2Uf3WdPH1ngvFJ2lZKk3_M/getUpdates "HTTP/1.1 200 OK"
+2025-06-16 21:52:07,510 - INFO - HTTP Request: POST https://api.telegram.org/bot7743250703:AAFxxZq2ugNAK2Uf3WdPH1ngvFJ2lZKk3_M/getUpdates "HTTP/1.1 200 OK"
+2025-06-16 21:52:17,648 - INFO - HTTP Request: POST https://api.telegram.org/bot7743250703:AAFxxZq2ugNAK2Uf3WdPH1ngvFJ2lZKk3_M/getUpdates "HTTP/1.1 200 OK"
+2025-06-16 21:52:20,570 - INFO - HTTP Request: POST https://api.telegram.org/bot7743250703:AAFxxZq2ugNAK2Uf3WdPH1ngvFJ2lZKk3_M/getUpdates "HTTP/1.1 409 Conflict"
+2025-06-16 21:52:20,571 - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/ext/_utils/networkloop.py", line 115, in network_retry_loop
+    if not await do_action():
+           ^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/ext/_utils/networkloop.py", line 108, in do_action
+    return action_cb_task.result()
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/ext/_updater.py", line 335, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/ext/_extbot.py", line 669, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/_bot.py", line 4601, in get_updates
+    await self._post(
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/_bot.py", line 697, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/ext/_extbot.py", line 369, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/_bot.py", line 726, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/request/_baserequest.py", line 197, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/request/_baserequest.py", line 355, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-06-16 21:52:31,677 - INFO - HTTP Request: POST https://api.telegram.org/bot7743250703:AAFxxZq2ugNAK2Uf3WdPH1ngvFJ2lZKk3_M/getUpdates "HTTP/1.1 200 OK"
+2025-06-16 21:52:41,814 - INFO - HTTP Request: POST https://api.telegram.org/bot7743250703:AAFxxZq2ugNAK2Uf3WdPH1ngvFJ2lZKk3_M/getUpdates "HTTP/1.1 200 OK"
+2025-06-16 21:52:51,952 - INFO - HTTP Request: POST https://api.telegram.org/bot7743250703:AAFxxZq2ugNAK2Uf3WdPH1ngvFJ2lZKk3_M/getUpdates "HTTP/1.1 200 OK"
+2025-06-16 21:52:54,980 - INFO - HTTP Request: POST https://api.telegram.org/bot7743250703:AAFxxZq2ugNAK2Uf3WdPH1ngvFJ2lZKk3_M/getUpdates "HTTP/1.1 409 Conflict"
+2025-06-16 21:52:54,980 - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/ext/_utils/networkloop.py", line 115, in network_retry_loop
+    if not await do_action():
+           ^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/ext/_utils/networkloop.py", line 108, in do_action
+    return action_cb_task.result()
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/ext/_updater.py", line 335, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/ext/_extbot.py", line 669, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/_bot.py", line 4601, in get_updates
+    await self._post(
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/_bot.py", line 697, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/ext/_extbot.py", line 369, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/_bot.py", line 726, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/request/_baserequest.py", line 197, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/request/_baserequest.py", line 355, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-06-16 21:53:06,083 - INFO - HTTP Request: POST https://api.telegram.org/bot7743250703:AAFxxZq2ugNAK2Uf3WdPH1ngvFJ2lZKk3_M/getUpdates "HTTP/1.1 200 OK"
+2025-06-16 21:53:16,177 - INFO - HTTP Request: POST https://api.telegram.org/bot7743250703:AAFxxZq2ugNAK2Uf3WdPH1ngvFJ2lZKk3_M/getUpdates "HTTP/1.1 200 OK"
+2025-06-16 21:53:26,359 - INFO - HTTP Request: POST https://api.telegram.org/bot7743250703:AAFxxZq2ugNAK2Uf3WdPH1ngvFJ2lZKk3_M/getUpdates "HTTP/1.1 200 OK"
+2025-06-16 21:53:29,288 - INFO - HTTP Request: POST https://api.telegram.org/bot7743250703:AAFxxZq2ugNAK2Uf3WdPH1ngvFJ2lZKk3_M/getUpdates "HTTP/1.1 409 Conflict"
+2025-06-16 21:53:29,288 - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/ext/_utils/networkloop.py", line 115, in network_retry_loop
+    if not await do_action():
+           ^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/ext/_utils/networkloop.py", line 108, in do_action
+    return action_cb_task.result()
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/ext/_updater.py", line 335, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/ext/_extbot.py", line 669, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/_bot.py", line 4601, in get_updates
+    await self._post(
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/_bot.py", line 697, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/ext/_extbot.py", line 369, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/_bot.py", line 726, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/request/_baserequest.py", line 197, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/request/_baserequest.py", line 355, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-06-16 21:53:40,388 - INFO - HTTP Request: POST https://api.telegram.org/bot7743250703:AAFxxZq2ugNAK2Uf3WdPH1ngvFJ2lZKk3_M/getUpdates "HTTP/1.1 200 OK"
+2025-06-16 21:53:50,473 - INFO - HTTP Request: POST https://api.telegram.org/bot7743250703:AAFxxZq2ugNAK2Uf3WdPH1ngvFJ2lZKk3_M/getUpdates "HTTP/1.1 200 OK"
+2025-06-16 21:54:00,561 - INFO - HTTP Request: POST https://api.telegram.org/bot7743250703:AAFxxZq2ugNAK2Uf3WdPH1ngvFJ2lZKk3_M/getUpdates "HTTP/1.1 200 OK"
+2025-06-16 21:54:03,649 - INFO - HTTP Request: POST https://api.telegram.org/bot7743250703:AAFxxZq2ugNAK2Uf3WdPH1ngvFJ2lZKk3_M/getUpdates "HTTP/1.1 409 Conflict"
+2025-06-16 21:54:03,650 - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/ext/_utils/networkloop.py", line 115, in network_retry_loop
+    if not await do_action():
+           ^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/ext/_utils/networkloop.py", line 108, in do_action
+    return action_cb_task.result()
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/ext/_updater.py", line 335, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/ext/_extbot.py", line 669, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/_bot.py", line 4601, in get_updates
+    await self._post(
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/_bot.py", line 697, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/ext/_extbot.py", line 369, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/_bot.py", line 726, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/request/_baserequest.py", line 197, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/request/_baserequest.py", line 355, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-06-16 21:54:14,795 - INFO - HTTP Request: POST https://api.telegram.org/bot7743250703:AAFxxZq2ugNAK2Uf3WdPH1ngvFJ2lZKk3_M/getUpdates "HTTP/1.1 200 OK"
+2025-06-16 21:54:24,879 - INFO - HTTP Request: POST https://api.telegram.org/bot7743250703:AAFxxZq2ugNAK2Uf3WdPH1ngvFJ2lZKk3_M/getUpdates "HTTP/1.1 200 OK"
+2025-06-16 21:54:35,070 - INFO - HTTP Request: POST https://api.telegram.org/bot7743250703:AAFxxZq2ugNAK2Uf3WdPH1ngvFJ2lZKk3_M/getUpdates "HTTP/1.1 200 OK"
+2025-06-16 21:54:37,976 - INFO - HTTP Request: POST https://api.telegram.org/bot7743250703:AAFxxZq2ugNAK2Uf3WdPH1ngvFJ2lZKk3_M/getUpdates "HTTP/1.1 409 Conflict"
+2025-06-16 21:54:37,977 - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/ext/_utils/networkloop.py", line 115, in network_retry_loop
+    if not await do_action():
+           ^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/ext/_utils/networkloop.py", line 108, in do_action
+    return action_cb_task.result()
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/ext/_updater.py", line 335, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/ext/_extbot.py", line 669, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/_bot.py", line 4601, in get_updates
+    await self._post(
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/_bot.py", line 697, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/ext/_extbot.py", line 369, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/_bot.py", line 726, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/request/_baserequest.py", line 197, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/request/_baserequest.py", line 355, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-06-16 21:54:49,099 - INFO - HTTP Request: POST https://api.telegram.org/bot7743250703:AAFxxZq2ugNAK2Uf3WdPH1ngvFJ2lZKk3_M/getUpdates "HTTP/1.1 200 OK"
+2025-06-16 21:54:59,237 - INFO - HTTP Request: POST https://api.telegram.org/bot7743250703:AAFxxZq2ugNAK2Uf3WdPH1ngvFJ2lZKk3_M/getUpdates "HTTP/1.1 200 OK"
+2025-06-16 21:55:09,374 - INFO - HTTP Request: POST https://api.telegram.org/bot7743250703:AAFxxZq2ugNAK2Uf3WdPH1ngvFJ2lZKk3_M/getUpdates "HTTP/1.1 200 OK"
+2025-06-16 21:55:12,398 - INFO - HTTP Request: POST https://api.telegram.org/bot7743250703:AAFxxZq2ugNAK2Uf3WdPH1ngvFJ2lZKk3_M/getUpdates "HTTP/1.1 409 Conflict"
+2025-06-16 21:55:12,399 - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/ext/_utils/networkloop.py", line 115, in network_retry_loop
+    if not await do_action():
+           ^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/ext/_utils/networkloop.py", line 108, in do_action
+    return action_cb_task.result()
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/ext/_updater.py", line 335, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/ext/_extbot.py", line 669, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/_bot.py", line 4601, in get_updates
+    await self._post(
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/_bot.py", line 697, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/ext/_extbot.py", line 369, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/_bot.py", line 726, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/request/_baserequest.py", line 197, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/request/_baserequest.py", line 355, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-06-16 21:55:23,608 - INFO - HTTP Request: POST https://api.telegram.org/bot7743250703:AAFxxZq2ugNAK2Uf3WdPH1ngvFJ2lZKk3_M/getUpdates "HTTP/1.1 200 OK"
+2025-06-16 21:55:33,746 - INFO - HTTP Request: POST https://api.telegram.org/bot7743250703:AAFxxZq2ugNAK2Uf3WdPH1ngvFJ2lZKk3_M/getUpdates "HTTP/1.1 200 OK"
+2025-06-16 21:55:43,883 - INFO - HTTP Request: POST https://api.telegram.org/bot7743250703:AAFxxZq2ugNAK2Uf3WdPH1ngvFJ2lZKk3_M/getUpdates "HTTP/1.1 200 OK"
+2025-06-16 21:55:46,820 - INFO - HTTP Request: POST https://api.telegram.org/bot7743250703:AAFxxZq2ugNAK2Uf3WdPH1ngvFJ2lZKk3_M/getUpdates "HTTP/1.1 409 Conflict"
+2025-06-16 21:55:46,820 - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/ext/_utils/networkloop.py", line 115, in network_retry_loop
+    if not await do_action():
+           ^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/ext/_utils/networkloop.py", line 108, in do_action
+    return action_cb_task.result()
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/ext/_updater.py", line 335, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/ext/_extbot.py", line 669, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/_bot.py", line 4601, in get_updates
+    await self._post(
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/_bot.py", line 697, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/ext/_extbot.py", line 369, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/_bot.py", line 726, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/request/_baserequest.py", line 197, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/request/_baserequest.py", line 355, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-06-16 21:55:58,015 - INFO - HTTP Request: POST https://api.telegram.org/bot7743250703:AAFxxZq2ugNAK2Uf3WdPH1ngvFJ2lZKk3_M/getUpdates "HTTP/1.1 200 OK"
+2025-06-16 21:56:08,093 - INFO - HTTP Request: POST https://api.telegram.org/bot7743250703:AAFxxZq2ugNAK2Uf3WdPH1ngvFJ2lZKk3_M/getUpdates "HTTP/1.1 200 OK"
+2025-06-16 21:56:18,175 - INFO - HTTP Request: POST https://api.telegram.org/bot7743250703:AAFxxZq2ugNAK2Uf3WdPH1ngvFJ2lZKk3_M/getUpdates "HTTP/1.1 200 OK"
+2025-06-16 21:56:21,178 - INFO - HTTP Request: POST https://api.telegram.org/bot7743250703:AAFxxZq2ugNAK2Uf3WdPH1ngvFJ2lZKk3_M/getUpdates "HTTP/1.1 409 Conflict"
+2025-06-16 21:56:21,178 - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/ext/_utils/networkloop.py", line 115, in network_retry_loop
+    if not await do_action():
+           ^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/ext/_utils/networkloop.py", line 108, in do_action
+    return action_cb_task.result()
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/ext/_updater.py", line 335, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/ext/_extbot.py", line 669, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/_bot.py", line 4601, in get_updates
+    await self._post(
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/_bot.py", line 697, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/ext/_extbot.py", line 369, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/_bot.py", line 726, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/request/_baserequest.py", line 197, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/request/_baserequest.py", line 355, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-06-16 21:56:32,266 - INFO - HTTP Request: POST https://api.telegram.org/bot7743250703:AAFxxZq2ugNAK2Uf3WdPH1ngvFJ2lZKk3_M/getUpdates "HTTP/1.1 200 OK"
+2025-06-16 21:56:42,348 - INFO - HTTP Request: POST https://api.telegram.org/bot7743250703:AAFxxZq2ugNAK2Uf3WdPH1ngvFJ2lZKk3_M/getUpdates "HTTP/1.1 200 OK"
+2025-06-16 21:56:52,448 - INFO - HTTP Request: POST https://api.telegram.org/bot7743250703:AAFxxZq2ugNAK2Uf3WdPH1ngvFJ2lZKk3_M/getUpdates "HTTP/1.1 200 OK"
+2025-06-16 21:56:55,729 - INFO - HTTP Request: POST https://api.telegram.org/bot7743250703:AAFxxZq2ugNAK2Uf3WdPH1ngvFJ2lZKk3_M/getUpdates "HTTP/1.1 409 Conflict"
+2025-06-16 21:56:55,730 - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/ext/_utils/networkloop.py", line 115, in network_retry_loop
+    if not await do_action():
+           ^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/ext/_utils/networkloop.py", line 108, in do_action
+    return action_cb_task.result()
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/ext/_updater.py", line 335, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/ext/_extbot.py", line 669, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/_bot.py", line 4601, in get_updates
+    await self._post(
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/_bot.py", line 697, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/ext/_extbot.py", line 369, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/_bot.py", line 726, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/request/_baserequest.py", line 197, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/request/_baserequest.py", line 355, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-06-16 21:57:06,828 - INFO - HTTP Request: POST https://api.telegram.org/bot7743250703:AAFxxZq2ugNAK2Uf3WdPH1ngvFJ2lZKk3_M/getUpdates "HTTP/1.1 200 OK"
+2025-06-16 21:57:16,966 - INFO - HTTP Request: POST https://api.telegram.org/bot7743250703:AAFxxZq2ugNAK2Uf3WdPH1ngvFJ2lZKk3_M/getUpdates "HTTP/1.1 200 OK"
+2025-06-16 21:57:27,104 - INFO - HTTP Request: POST https://api.telegram.org/bot7743250703:AAFxxZq2ugNAK2Uf3WdPH1ngvFJ2lZKk3_M/getUpdates "HTTP/1.1 200 OK"
+2025-06-16 21:57:30,099 - INFO - HTTP Request: POST https://api.telegram.org/bot7743250703:AAFxxZq2ugNAK2Uf3WdPH1ngvFJ2lZKk3_M/getUpdates "HTTP/1.1 409 Conflict"
+2025-06-16 21:57:30,099 - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/ext/_utils/networkloop.py", line 115, in network_retry_loop
+    if not await do_action():
+           ^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/ext/_utils/networkloop.py", line 108, in do_action
+    return action_cb_task.result()
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/ext/_updater.py", line 335, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/ext/_extbot.py", line 669, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/_bot.py", line 4601, in get_updates
+    await self._post(
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/_bot.py", line 697, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/ext/_extbot.py", line 369, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/_bot.py", line 726, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/request/_baserequest.py", line 197, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/request/_baserequest.py", line 355, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-06-16 21:57:41,235 - INFO - HTTP Request: POST https://api.telegram.org/bot7743250703:AAFxxZq2ugNAK2Uf3WdPH1ngvFJ2lZKk3_M/getUpdates "HTTP/1.1 200 OK"
+2025-06-16 21:57:51,373 - INFO - HTTP Request: POST https://api.telegram.org/bot7743250703:AAFxxZq2ugNAK2Uf3WdPH1ngvFJ2lZKk3_M/getUpdates "HTTP/1.1 200 OK"
+2025-06-16 21:58:01,510 - INFO - HTTP Request: POST https://api.telegram.org/bot7743250703:AAFxxZq2ugNAK2Uf3WdPH1ngvFJ2lZKk3_M/getUpdates "HTTP/1.1 200 OK"
+2025-06-16 21:58:04,531 - INFO - HTTP Request: POST https://api.telegram.org/bot7743250703:AAFxxZq2ugNAK2Uf3WdPH1ngvFJ2lZKk3_M/getUpdates "HTTP/1.1 409 Conflict"
+2025-06-16 21:58:04,531 - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/ext/_utils/networkloop.py", line 115, in network_retry_loop
+    if not await do_action():
+           ^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/ext/_utils/networkloop.py", line 108, in do_action
+    return action_cb_task.result()
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/ext/_updater.py", line 335, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/ext/_extbot.py", line 669, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/_bot.py", line 4601, in get_updates
+    await self._post(
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/_bot.py", line 697, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/ext/_extbot.py", line 369, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/_bot.py", line 726, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/request/_baserequest.py", line 197, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/request/_baserequest.py", line 355, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-06-16 21:58:15,642 - INFO - HTTP Request: POST https://api.telegram.org/bot7743250703:AAFxxZq2ugNAK2Uf3WdPH1ngvFJ2lZKk3_M/getUpdates "HTTP/1.1 200 OK"
+2025-06-16 21:58:25,780 - INFO - HTTP Request: POST https://api.telegram.org/bot7743250703:AAFxxZq2ugNAK2Uf3WdPH1ngvFJ2lZKk3_M/getUpdates "HTTP/1.1 200 OK"
+2025-06-16 21:58:35,917 - INFO - HTTP Request: POST https://api.telegram.org/bot7743250703:AAFxxZq2ugNAK2Uf3WdPH1ngvFJ2lZKk3_M/getUpdates "HTTP/1.1 200 OK"
+2025-06-16 21:58:39,199 - INFO - HTTP Request: POST https://api.telegram.org/bot7743250703:AAFxxZq2ugNAK2Uf3WdPH1ngvFJ2lZKk3_M/getUpdates "HTTP/1.1 409 Conflict"
+2025-06-16 21:58:39,200 - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/ext/_utils/networkloop.py", line 115, in network_retry_loop
+    if not await do_action():
+           ^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/ext/_utils/networkloop.py", line 108, in do_action
+    return action_cb_task.result()
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/ext/_updater.py", line 335, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/ext/_extbot.py", line 669, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/_bot.py", line 4601, in get_updates
+    await self._post(
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/_bot.py", line 697, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/ext/_extbot.py", line 369, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/_bot.py", line 726, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/request/_baserequest.py", line 197, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/request/_baserequest.py", line 355, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-06-16 21:58:50,355 - INFO - HTTP Request: POST https://api.telegram.org/bot7743250703:AAFxxZq2ugNAK2Uf3WdPH1ngvFJ2lZKk3_M/getUpdates "HTTP/1.1 200 OK"
+2025-06-16 21:59:00,493 - INFO - HTTP Request: POST https://api.telegram.org/bot7743250703:AAFxxZq2ugNAK2Uf3WdPH1ngvFJ2lZKk3_M/getUpdates "HTTP/1.1 200 OK"
+2025-06-16 21:59:10,572 - INFO - HTTP Request: POST https://api.telegram.org/bot7743250703:AAFxxZq2ugNAK2Uf3WdPH1ngvFJ2lZKk3_M/getUpdates "HTTP/1.1 200 OK"
+2025-06-16 21:59:13,773 - INFO - HTTP Request: POST https://api.telegram.org/bot7743250703:AAFxxZq2ugNAK2Uf3WdPH1ngvFJ2lZKk3_M/getUpdates "HTTP/1.1 409 Conflict"
+2025-06-16 21:59:13,773 - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/ext/_utils/networkloop.py", line 115, in network_retry_loop
+    if not await do_action():
+           ^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/ext/_utils/networkloop.py", line 108, in do_action
+    return action_cb_task.result()
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/ext/_updater.py", line 335, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/ext/_extbot.py", line 669, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/_bot.py", line 4601, in get_updates
+    await self._post(
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/_bot.py", line 697, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/ext/_extbot.py", line 369, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/_bot.py", line 726, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/request/_baserequest.py", line 197, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/request/_baserequest.py", line 355, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-06-16 21:59:24,967 - INFO - HTTP Request: POST https://api.telegram.org/bot7743250703:AAFxxZq2ugNAK2Uf3WdPH1ngvFJ2lZKk3_M/getUpdates "HTTP/1.1 200 OK"
+2025-06-16 21:59:35,105 - INFO - HTTP Request: POST https://api.telegram.org/bot7743250703:AAFxxZq2ugNAK2Uf3WdPH1ngvFJ2lZKk3_M/getUpdates "HTTP/1.1 200 OK"
+2025-06-16 21:59:45,184 - INFO - HTTP Request: POST https://api.telegram.org/bot7743250703:AAFxxZq2ugNAK2Uf3WdPH1ngvFJ2lZKk3_M/getUpdates "HTTP/1.1 200 OK"
+2025-06-16 21:59:48,181 - INFO - HTTP Request: POST https://api.telegram.org/bot7743250703:AAFxxZq2ugNAK2Uf3WdPH1ngvFJ2lZKk3_M/getUpdates "HTTP/1.1 409 Conflict"
+2025-06-16 21:59:48,181 - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/ext/_utils/networkloop.py", line 115, in network_retry_loop
+    if not await do_action():
+           ^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/ext/_utils/networkloop.py", line 108, in do_action
+    return action_cb_task.result()
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/ext/_updater.py", line 335, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/ext/_extbot.py", line 669, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/_bot.py", line 4601, in get_updates
+    await self._post(
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/_bot.py", line 697, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/ext/_extbot.py", line 369, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/_bot.py", line 726, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/request/_baserequest.py", line 197, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/request/_baserequest.py", line 355, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-06-16 21:59:59,374 - INFO - HTTP Request: POST https://api.telegram.org/bot7743250703:AAFxxZq2ugNAK2Uf3WdPH1ngvFJ2lZKk3_M/getUpdates "HTTP/1.1 200 OK"
+2025-06-16 22:00:09,512 - INFO - HTTP Request: POST https://api.telegram.org/bot7743250703:AAFxxZq2ugNAK2Uf3WdPH1ngvFJ2lZKk3_M/getUpdates "HTTP/1.1 200 OK"
+2025-06-16 22:00:19,649 - INFO - HTTP Request: POST https://api.telegram.org/bot7743250703:AAFxxZq2ugNAK2Uf3WdPH1ngvFJ2lZKk3_M/getUpdates "HTTP/1.1 200 OK"
+2025-06-16 22:00:22,629 - INFO - HTTP Request: POST https://api.telegram.org/bot7743250703:AAFxxZq2ugNAK2Uf3WdPH1ngvFJ2lZKk3_M/getUpdates "HTTP/1.1 409 Conflict"
+2025-06-16 22:00:22,630 - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/ext/_utils/networkloop.py", line 115, in network_retry_loop
+    if not await do_action():
+           ^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/ext/_utils/networkloop.py", line 108, in do_action
+    return action_cb_task.result()
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/ext/_updater.py", line 335, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/ext/_extbot.py", line 669, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/_bot.py", line 4601, in get_updates
+    await self._post(
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/_bot.py", line 697, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/ext/_extbot.py", line 369, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/_bot.py", line 726, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/request/_baserequest.py", line 197, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/anastasia/PycharmProjects/medguides/.venv/lib/python3.12/site-packages/telegram/request/_baserequest.py", line 355, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
