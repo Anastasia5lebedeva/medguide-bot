@@ -1,0 +1,12 @@
+
+__pycache__/
+.env
+*.pyc
+*.pyo
+data/project.db
+*.sqlite
+*.db
+.venv/
+parser/ru-parser/pdf/
+parser/usa-parser/usa_pdf/
+parser/who-parser/clinical_guidelines_WHO/

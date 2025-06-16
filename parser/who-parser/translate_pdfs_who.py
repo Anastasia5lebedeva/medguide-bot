@@ -1,36 +1,44 @@
 import os
-import pdfplumber
-from deep_translator import GoogleTranslator
 
-# Путь к папке с PDF
-folder = "/home/anastasia/PycharmProjects/medguides/parser/who-parser/clinical_guidelines_WHO"
+# Папка с PDF
+folder_path = '/home/anastasia/PycharmProjects/medguides/parser/who-parser/clinical_guidelines_WHO'
 
-# Список всех PDF-файлов
-pdf_files = [f for f in os.listdir(folder) if f.lower().endswith(".pdf")]
+# Путь к списку файлов на удаление
+delete_list_path = '/home/anastasia/PycharmProjects/medguides/translated_filenames.csv'
 
-# Переводчик
-translator = GoogleTranslator(source='auto', target='ru')
+# Функция очистки имени
+def clean_filename(name):
+    # Убираем кавычки, запятые, пробелы в начале и конце
+    return name.replace('"', '').replace("'", '').replace(',', '').strip().lower()
 
-for filename in pdf_files:
-    file_path = os.path.join(folder, filename)
+# Читаем список для удаления
+with open(delete_list_path, encoding='utf-8') as f:
+    delete_files = [clean_filename(line) for line in f if clean_filename(line)]
 
-    # Перевод названия файла
-    name_only = os.path.splitext(filename)[0]
-    translated_name = translator.translate(name_only)
-    print(f"📄 Название: {filename} → 🪄 {translated_name}")
+# Получаем имена всех файлов в папке
+folder_files = os.listdir(folder_path)
 
-    # Попытка прочитать текст из PDF
-    try:
-        with pdfplumber.open(file_path) as pdf:
-            all_text = ""
-            for page in pdf.pages[:3]:  # Ограничимся 3 страницами, чтобы не тормозило
-                all_text += page.extract_text() or ""
-            if all_text.strip():
-                translated_text = translator.translate(all_text[:1000])  # Переведём первые 1000 символов
-                print(f"📝 Перевод текста (начало):\n{translated_text}\n")
-            else:
-                print("⚠️ Текст не найден (возможно, это скан).")
-    except Exception as e:
-        print(f"❌ Ошибка при чтении {filename}: {e}")
+deleted = 0
+not_found = []
 
-    print("─" * 60)
+for target_name in delete_files:
+    found = False
+    for real_file in folder_files:
+        clean_real = clean_filename(real_file)
+        # Совпадение по "концу имени"
+        if clean_real.endswith(target_name):
+            full_path = os.path.join(folder_path, real_file)
+            os.remove(full_path)
+            print(f'Удалено: {real_file}')
+            deleted += 1
+            found = True
+            break
+    if not found:
+        print(f'Не найден: {target_name}')
+        not_found.append(target_name)
+
+print(f'\nГотово! Удалено файлов: {deleted}')
+if not_found:
+    print("\nФайлы, которые не удалось найти:")
+    for nf in not_found:
+        print(nf)

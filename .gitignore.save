@@ -1,0 +1,9 @@
+
+__pycache__/
+.env
+*.pyc
+*.pyo
+data/project.db
+*.sqlite
+*.db
+
