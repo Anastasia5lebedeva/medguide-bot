@@ -11,7 +11,6 @@ EXCEL_FILE = "/home/anastasia/PycharmProjects/medguides/parser/ru-parser/Спи�
 PDF_DIR = "/home/anastasia/PycharmProjects/medguides/parser/ru-parser/pdf"
 JSON_OUTPUT = "/home/anastasia/PycharmProjects/medguides/parser/ru-parser/russian_guidelines.json"
 
-# Создаём папку для JSON
 Path(JSON_OUTPUT).parent.mkdir(parents=True, exist_ok=True)
 
 def clean_text(text):

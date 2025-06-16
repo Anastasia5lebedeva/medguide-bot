@@ -1,32 +1,27 @@
-from telegram import Update, Document
+from telegram import InputFile, Update
 from telegram.ext import Application, CommandHandler, ContextTypes
-import pdfplumber
+from bot.api import extract_text_from_pdf_bytes  # ✅ Путь правильный
+from recommendations_db import search_recommendations_by_icd
 import os
 import asyncio
 import re
+import tempfile
 import logging
-import json
-from pdf2image import convert_from_path
-import pytesseract
+import aiosqlite
 
-# Настройка логирования
 logging.basicConfig(
-    filename="bot_log.txt",
+    filename="bot_error.log",
     level=logging.INFO,
     format="%(asctime)s - %(levelname)s - %(message)s"
 )
 
-JSON_FILE = "/home/anastasia/PycharmProjects/medguides/parser/ru-parser/russian_guidelines.json"
 MAX_TELEGRAM_LENGTH = 4096
-
-
-
+DB_PATH = "/home/anastasia/project.db"
 
 def clean_text(text):
     text = re.sub(r'[^\x00-\x7Fа-яА-ЯёЁ0-9.,!?;:\-\(\)\[\]\{\}\s]', '', text)
     text = re.sub(r'\s+', ' ', text.strip())
     return text
-
 
 def split_text_safely(text, header, max_len=MAX_TELEGRAM_LENGTH):
     chunks = []
@@ -40,108 +35,84 @@ def split_text_safely(text, header, max_len=MAX_TELEGRAM_LENGTH):
         chunks.append(text[i:i+last_dot+1].strip())
         i += last_dot + 1
     return chunks
+async def send_pdf_from_db(rec_id: str, update: Update, context: ContextTypes.DEFAULT_TYPE):
+    async with aiosqlite.connect(DB_PATH) as db:
+        db.row_factory = aiosqlite.Row
+        async with db.execute("SELECT * FROM recommendations WHERE rec_id = ?", (rec_id,)) as cur:
+            row = await cur.fetchone()
+            if not row:
+                await update.message.reply_text("❌ PDF не найден.")
+                return
 
+            pdf_blob = row["pdf_blob"]
+            title = row["title"] or rec_id
 
-def search_icd_in_pdf_ocr(icd_code, pdf_path):
-    try:
-        pages = convert_from_path(pdf_path, dpi=200)
-        full_text = ""
-        for page in pages:
-            text = pytesseract.image_to_string(page, lang='rus+eng')
-            full_text += text + "\n"
-            if icd_code in text:
-                return True, clean_text(full_text)
-        return False, None
-    except Exception as e:
-        logging.error(f"OCR ошибка в {pdf_path}: {e}")
-        return False, None
+            if pdf_blob:
+                extracted_text = extract_text_from_pdf_bytes(pdf_blob)
 
-# Основной обработчик
-async def handle_icd(update: Update, context: ContextTypes.DEFAULT_TYPE):
+                with tempfile.NamedTemporaryFile(delete=False, suffix=".pdf") as tmp:
+                    tmp.write(pdf_blob)
+                    tmp_path = tmp.name
+
+                with open(tmp_path, "rb") as pdf_file:
+                    await context.bot.send_document(
+                        chat_id=update.effective_chat.id,
+                        document=InputFile(pdf_file, filename=f"{title}.pdf"),
+                        caption=f"Клинические рекомендации: {title}"
+                    )
+
+                os.remove(tmp_path)
+
+                if extracted_text:
+                    chunks = split_text_safely(extracted_text, f"{rec_id} — {title}")
+                    for part in chunks:
+                        await update.message.reply_text(part)
+                        await asyncio.sleep(1)
+            else:
+                await update.message.reply_text("PDF-файл отсутствует.")
+
+async def handle_mkb(update: Update, context: ContextTypes.DEFAULT_TYPE):
     if not context.args:
-        await update.message.reply_text("❗ Укажите код МКБ: /icd <код>")
+        await update.message.reply_text("Укажите код МКБ: /mkb <код>")
         return
 
     query_code = context.args[0].strip().upper()
+    recs = await search_recommendations_by_icd(query_code)
 
-    if not os.path.exists(JSON_FILE):
-        await update.message.reply_text("❌ JSON-файл не найден.")
+    if not recs:
+        await update.message.reply_text(f"Нет рекомендаций по коду {query_code}")
         return
 
-    with open(JSON_FILE, "r", encoding="utf-8") as f:
-        data = json.load(f)
+    grouped = {"Россия": [], "США": [], "ВОЗ": []}
+    for rec in recs:
+        country = rec.get("country", "").upper()
+        if "RUS" in country:
+            grouped["Россия"].append(rec)
+        elif "USA" in country:
+            grouped["США"].append(rec)
+        elif "WHO" in country:
+            grouped["ВОЗ"].append(rec)
 
-    matches = []
-    for entry in data:
-        codes = entry.get("mkb_codes") or entry.get("mkb") or []
-        if isinstance(codes, str):
-            codes = [codes]
-        if any(code.strip().upper().startswith(query_code) for code in codes):
-            matches.append(entry)
+    summary_lines = ["Рекомендации найдены:"]
+    for country, recs_list in grouped.items():
+        for rec in recs_list:
+            title = rec.get("title", "Без названия")
+            summary_lines.append(f"- {country}: {title}")
 
-    if not matches:
-        await update.message.reply_text(f"❌ В JSON нет записей по коду {query_code}. Ищу в PDF через OCR...")
+    await update.message.reply_text("\n".join(summary_lines))
 
-        for entry in data:
-            pdf_path = entry.get("pdf_path") or entry.get("pdf")
-            if pdf_path and os.path.exists(pdf_path):
-                found, ocr_text = search_icd_in_pdf_ocr(query_code, pdf_path)
-                if found:
-                    title = entry.get("title", "Без названия")
-                    header = f" {query_code} — {title}"
-                    await update.message.reply_text(f"🔍 Найдено в PDF через OCR: {header}")
-                    chunks = split_text_safely(ocr_text, header)
-                    for i, chunk in enumerate(chunks, 1):
-                        await update.message.reply_text(f"{header} (Часть {i}/{len(chunks)}):\n{chunk}")
-                        await asyncio.sleep(1)
-                    return
+    for country in ["Россия", "США", "ВОЗ"]:
+        for rec in grouped[country]:
+            await send_pdf_from_db(rec["rec_id"], update, context)
+            await asyncio.sleep(2)
 
-        await update.message.reply_text("❌ Даже через OCR ничего не найдено.")
-        return
-
-    # Есть совпадения в JSON
-    match = matches[0]
-    icd = match.get("mkb_codes", [None])[0]
-    title = match.get("title", "Без названия")
-    pdf_path = match.get("pdf_path") or match.get("pdf")
-
-    if not pdf_path or not os.path.exists(pdf_path):
-        await update.message.reply_text(f"⚠️ PDF-файл для {icd} не найден.")
-        return
-
-    try:
-        with open(pdf_path, "rb") as f:
-            await update.message.reply_document(f, filename=os.path.basename(pdf_path))
-    except Exception as e:
-        logging.error(f"Ошибка при отправке PDF {pdf_path}: {e}")
-        await update.message.reply_text("⚠️ Не удалось прикрепить PDF.")
-
-    try:
-        text = ""
-        with pdfplumber.open(pdf_path) as pdf:
-            for page in pdf.pages:
-                page_text = page.extract_text()
-                if page_text:
-                    text += page_text + "\n"
-
-        header = f" {icd} — {title}"
-        chunks = split_text_safely(clean_text(text), header)
-
-        for i, chunk in enumerate(chunks, 1):
-            await update.message.reply_text(f"{header} (Часть {i}/{len(chunks)}):\n{chunk}")
-            await asyncio.sleep(1)
-
-    except Exception as e:
-        logging.error(f"Ошибка при обработке PDF {pdf_path}: {e}")
-        await update.message.reply_text(f"❌ Ошибка при обработке PDF: {e}")
-
-# Запуск
 
 def main():
     app = Application.builder().token("7743250703:AAFxxZq2ugNAK2Uf3WdPH1ngvFJ2lZKk3_M").build()
-    app.add_handler(CommandHandler("mkb", handle_icd))
-    print("Бот запущен...")
+    app.add_handler(CommandHandler("mkb", handle_mkb))
+    print(" Бот запущен...")
     app.run_polling()
+
 
 if __name__ == "__main__":
     main()
