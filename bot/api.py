@@ -8,8 +8,10 @@ import re
 import pdfplumber
 import logging
 
-DB_PATH = "/home/anastasia/project.db"
+DB_PATH = "/app/data/project.db"
 app = FastAPI()
+
+os.makedirs("/bot", exist_ok=True)
 
 logging.basicConfig(
     filename="../bot/api_error.log",

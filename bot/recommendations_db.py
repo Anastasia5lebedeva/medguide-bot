@@ -1,17 +1,16 @@
-import aiosqlite
-import json
+import requests
 
-DB_PATH = "/home/anastasia/project.db"
+API_URL = "http://api:8000"
 
-async def search_recommendations_by_icd(icd_code: str):
-    results = []
-    async with aiosqlite.connect(DB_PATH) as db:
-        async with db.execute("SELECT * FROM recommendations") as cursor:
-            columns = [column[0] for column in cursor.description]
-            async for row in cursor:
-                rec = dict(zip(columns, row))
-                mkb_codes = json.loads(rec["mkb_codes"])
-                if any(icd_code.upper() in code.upper() for code in mkb_codes):
-                    results.append(rec)
-    return results
-
+def search_recommendations_by_icd(icd_code: str):
+    url = f"{API_URL}/recommendations/{icd_code.upper()}"
+    try:
+        response = requests.get(url, timeout=10)
+        if response.status_code == 200:
+            return response.json()
+        else:
+            print(f"❌ Ошибка {response.status_code} при запросе рекомендаций: {response.text}")
+            return []
+    except Exception as e:
+        print(f"❌ Ошибка подключения к API: {e}")
+        return []

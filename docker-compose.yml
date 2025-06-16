@@ -1,0 +1,26 @@
+services:
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: med_api
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./data:/app/data
+    networks:
+      - mednet
+
+  bot:
+    build:
+      context: .
+      dockerfile: Dockerfile.bot
+    container_name: med_bot
+    depends_on:
+      - api
+    networks:
+      - mednet
+
+networks:
+  mednet:
+    driver: bridge

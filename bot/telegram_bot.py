@@ -1,13 +1,15 @@
 from telegram import InputFile, Update
 from telegram.ext import Application, CommandHandler, ContextTypes
-from bot.api import extract_text_from_pdf_bytes
-from recommendations_db import search_recommendations_by_icd
-import os
-import asyncio
-import re
 import tempfile
 import logging
-import aiosqlite
+import re
+import asyncio
+import aiohttp
+import os
+import pdfplumber
+
+API_URL = "http://api:8000"  # URL FastAPI-сервиса
+MAX_TELEGRAM_LENGTH = 4096
 
 logging.basicConfig(
     filename="bot_error.log",
@@ -15,15 +17,11 @@ logging.basicConfig(
     format="%(asctime)s - %(levelname)s - %(message)s"
 )
 
-MAX_TELEGRAM_LENGTH = 4096
-DB_PATH = "/home/anastasia/project.db"
-
-def clean_text(text):
+def clean_text(text: str) -> str:
     text = re.sub(r'[^\x00-\x7Fа-яА-ЯёЁ0-9.,!?;:\-\(\)\[\]\{\}\s]', '', text)
-    text = re.sub(r'\s+', ' ', text.strip())
-    return text
+    return re.sub(r'\s+', ' ', text.strip())
 
-def split_text_safely(text, header, max_len=MAX_TELEGRAM_LENGTH):
+def split_text_safely(text: str, header: str, max_len=MAX_TELEGRAM_LENGTH):
     chunks = []
     chunk_len = max_len - len(header) - 50
     i = 0
@@ -36,52 +34,74 @@ def split_text_safely(text, header, max_len=MAX_TELEGRAM_LENGTH):
         i += last_dot + 1
     return chunks
 
-async def send_pdf_from_db(rec_id: str, update: Update, context: ContextTypes.DEFAULT_TYPE, with_text=True):
-    async with aiosqlite.connect(DB_PATH) as db:
-        db.row_factory = aiosqlite.Row
-        async with db.execute("SELECT * FROM recommendations WHERE rec_id = ?", (rec_id,)) as cur:
-            row = await cur.fetchone()
-            if not row:
-                await update.message.reply_text("❌ PDF не найден.")
-                return
+def extract_text_from_pdf_file(pdf_path: str) -> str:
+    text = ""
+    try:
+        with pdfplumber.open(pdf_path) as pdf:
+            for page in pdf.pages:
+                page_text = page.extract_text()
+                if page_text:
+                    text += page_text + "\n"
+    except Exception as e:
+        logging.error(f"Ошибка при извлечении текста: {e}")
+    return clean_text(text)
 
-            pdf_blob = row["pdf_blob"]
-            title = row["title"] or rec_id
-
-            if pdf_blob:
-                extracted_text = extract_text_from_pdf_bytes(pdf_blob) if with_text else None
-
-                with tempfile.NamedTemporaryFile(delete=False, suffix=".pdf") as tmp:
-                    tmp.write(pdf_blob)
-                    tmp_path = tmp.name
-
-                with open(tmp_path, "rb") as pdf_file:
-                    await context.bot.send_document(
-                        chat_id=update.effective_chat.id,
-                        document=InputFile(pdf_file, filename=f"{title}.pdf"),
-                        caption=f"Клинические рекомендации: {title}"
-                    )
-
-                os.remove(tmp_path)
-
-                if extracted_text:
-                    chunks = split_text_safely(extracted_text, f"{rec_id} — {title}")
-                    for part in chunks:
-                        await update.message.reply_text(part)
-                        await asyncio.sleep(1)
+async def fetch_recommendations(mkb_code: str):
+    async with aiohttp.ClientSession() as session:
+        async with session.get(f"{API_URL}/recommendations/{mkb_code}") as resp:
+            if resp.status == 200:
+                return await resp.json()
             else:
-                await update.message.reply_text("PDF-файл отсутствует.")
+                logging.error(f"Не удалось получить рекомендации. Код ответа: {resp.status}")
+                return []
+
+async def download_pdf(rec_id: str) -> str:
+    async with aiohttp.ClientSession() as session:
+        async with session.get(f"{API_URL}/pdf/{rec_id}") as resp:
+            if resp.status == 200:
+                with tempfile.NamedTemporaryFile(delete=False, suffix=".pdf") as tmp:
+                    tmp.write(await resp.read())
+                    return tmp.name
+            else:
+                logging.warning(f"Не удалось загрузить PDF для {rec_id}")
+                return None
+
+async def send_pdf_from_api(rec: dict, update: Update, context: ContextTypes.DEFAULT_TYPE, with_text=True):
+    pdf_path = await download_pdf(rec["rec_id"])
+    if not pdf_path:
+        await update.message.reply_text(f"❌ Не удалось загрузить PDF: {rec['title']}")
+        return
+
+    try:
+        with open(pdf_path, "rb") as pdf_file:
+            await context.bot.send_document(
+                chat_id=update.effective_chat.id,
+                document=InputFile(pdf_file, filename=f"{rec['title'] or rec['rec_id']}.pdf"),
+                caption=f"📎 Клинические рекомендации: {rec['title']}"
+            )
+    except Exception as e:
+        logging.error(f"Ошибка отправки PDF: {e}")
+        await update.message.reply_text("Ошибка при отправке PDF")
+
+    if with_text:
+        text = extract_text_from_pdf_file(pdf_path)
+        chunks = split_text_safely(text, f"{rec['rec_id']} — {rec['title']}")
+        for chunk in chunks:
+            await update.message.reply_text(chunk)
+            await asyncio.sleep(1)
+
+    os.remove(pdf_path)
 
 async def handle_mkb(update: Update, context: ContextTypes.DEFAULT_TYPE):
     if not context.args:
         await update.message.reply_text("Укажите код МКБ: /mkb <код>")
         return
 
-    query_code = context.args[0].strip().upper()
-    recs = await search_recommendations_by_icd(query_code)
+    mkb_code = context.args[0].strip().upper()
+    recs = await fetch_recommendations(mkb_code)
 
     if not recs:
-        await update.message.reply_text(f"Нет рекомендаций по коду {query_code}")
+        await update.message.reply_text(f"🚫 Рекомендации по коду {mkb_code} не найдены.")
         return
 
     grouped = {"Россия": [], "США": [], "ВОЗ": []}
@@ -94,20 +114,20 @@ async def handle_mkb(update: Update, context: ContextTypes.DEFAULT_TYPE):
         elif "WHO" in country:
             grouped["ВОЗ"].append(rec)
 
-    summary_lines = ["Рекомендации найдены:"]
-    for country, recs_list in grouped.items():
-        for rec in recs_list:
-            title = rec.get("title", "Без названия")
-            summary_lines.append(f"- {country}: {title}")
+    summary_lines = ["📑 Найденные рекомендации:"]
+    for country, rec_list in grouped.items():
+        for rec in rec_list:
+            summary_lines.append(f"- {country}: {rec['title']}")
 
     await update.message.reply_text("\n".join(summary_lines))
 
-    first_country_sent = False
+    first_text_sent = False
     for country in ["Россия", "США", "ВОЗ"]:
         for rec in grouped[country]:
-            await send_pdf_from_db(rec["rec_id"], update, context, with_text=not first_country_sent)
-            first_country_sent = True
+            await send_pdf_from_api(rec, update, context, with_text=not first_text_sent)
+            first_text_sent = True
             await asyncio.sleep(2)
+
 
 def main():
     app = Application.builder().token("7743250703:AAFxxZq2ugNAK2Uf3WdPH1ngvFJ2lZKk3_M").build()
