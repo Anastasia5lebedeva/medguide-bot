@@ -10,11 +10,20 @@ cd medguide-bot
 pip install -r requirements.txt
 ```
 
-## Запуск компонентов
+## Запуск через Docker
+
+```bash
+docker-compose up --build
+```
+
+API будет доступен по адресу:  
+http://localhost:8000/docs
+
+Telegram-бот запустится автоматически. Токен уже встроен в код.
+
+## Запуск компонентов вручную
 
 ### API
-
-Запуск FastAPI-сервера:
 
 ```bash
 uvicorn bot.api:app --reload
@@ -25,11 +34,9 @@ http://127.0.0.1:8000/docs
 
 ### Telegram-бот
 
-Запуск Telegram-бота:
-
 ```bash
 python bot/telegram_bot.py
-```
+``
 
 ## Зависимости
 
@@ -40,5 +47,6 @@ python bot/telegram_bot.py
 - uvicorn
 
 ## Команды бота
+
 - `/mkb <код>` — получить рекомендации по коду заболевания  
   Пример: `/mkb J18`
